@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Flask
+instance/
+.flaskenv
+
+# OS
+.DS_Store
+
+# Billeder (undgå at committe store filer)
+static/images/aus
+static/images/bali
+static/images/thailand
+static/images/vietnam
