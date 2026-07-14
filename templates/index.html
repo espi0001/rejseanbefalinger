@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ t('site_name') }}{% endblock %}
+
+{% block hero %}
+<section class="hero hero--home">
+  <div class="hero__overlay"></div>
+  <div class="wrap hero__content">
+    <span class="eyebrow">{{ t('hero_eyebrow') }}</span>
+    <h1>{{ t('hero_title') }}</h1>
+    <p class="hero__lead">{{ t('hero_subtitle') }}</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section" id="destinations">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">{{ t('explore_destinations') }}</span>
+      <h2>{{ t('nav_destinations') }}</h2>
+      <p>{{ t('destinations_subtitle') }}</p>
+    </div>
+
+    <div class="destination-grid">
+      {% for dest in destinations %}
+      <a class="destination-card {% if not dest.has_content %}destination-card--muted{% endif %}"
+         href="{{ url_for('country', country_slug=dest.slug) if dest.has_content else '#' }}">
+        <div class="destination-card__badge">{{ dest.code }}</div>
+        <div class="destination-card__body">
+          <h3>{{ dest.name }}</h3>
+          <p>
+            {{ dest.city_count }}
+            {% if dest.city_count == 1 %}{{ t('city') }}{% else %}{{ t('cities') }}{% endif %}
+          </p>
+          <span class="btn btn--small">
+            {% if dest.has_content %}{{ t('view_guide') }}{% else %}{{ t('coming_soon') }}{% endif %}
+          </span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

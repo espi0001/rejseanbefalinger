@@ -1,0 +1,83 @@
+{% extends "layout.html" %}
+{% from "_macros.html" import render_list %}
+
+{% block title %}{{ country_name }} — {{ t('site_name') }}{% endblock %}
+
+{% block hero %}
+<section class="hero hero--detail">
+  <div class="hero__overlay"></div>
+  <div class="wrap hero__content">
+    <a class="hero-back" href="{{ url_for('index') }}">{{ t('back_home') }}</a>
+    <span class="eyebrow">{{ country_code }} · {{ cities|length }} {{ t('stops') }}</span>
+    <h1>{{ country_name }}</h1>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<div class="wrap page-layout">
+  <div class="page-main">
+    {% if tips %}
+    <section class="section-card">
+      <span class="eyebrow">{{ t('tips_title') }}</span>
+      <h2>{{ t('tips_heading') }}</h2>
+      {% for tip in tips %}
+      <div class="tip-block">
+        {{ render_list(tip.text) }}
+        {% if tip.downloads %}
+        <div class="app-links">
+          <span class="app-links__label">{{ t('apps_title') }}</span>
+          {% for app in tip.downloads %}
+          <a class="chip chip--link" href="{{ app.url }}" target="_blank" rel="noopener noreferrer">
+            {{ localized(app.name)[0] if localized(app.name) else app.name }}
+          </a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </section>
+    {% endif %}
+
+    {% if food %}
+    <section class="section-card">
+      <span class="eyebrow">{{ t('food_title') }}</span>
+      <h2>{{ t('food_title') }}</h2>
+      <div class="chip-row">
+        {% for item in food %}
+        <span class="chip">{{ item }}</span>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% if drinks %}
+    <section class="section-card">
+      <span class="eyebrow">{{ t('drinks_title') }}</span>
+      <h2>{{ t('drinks_title') }}</h2>
+      <div class="chip-row">
+        {% for item in drinks %}
+        <span class="chip">{{ item }}</span>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    <section class="section-card">
+      <span class="eyebrow">{{ t('route_subtitle') }}</span>
+      <h2>{{ t('route_title') }}</h2>
+      <div class="city-grid">
+        {% for city in cities %}
+        <a class="city-card {% if not city.has_content %}city-card--stub{% endif %}"
+           href="{{ url_for('city', country_slug=country_slug, city_slug=city.slug) if city.has_content else '#' }}">
+          <span class="city-card__name">{{ city.name }}</span>
+          <span class="city-card__tag">
+            {% if city.has_content %}{{ t('view_guide') }}{% else %}{{ t('coming_soon') }}{% endif %}
+          </span>
+        </a>
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+</div>
+{% endblock %}

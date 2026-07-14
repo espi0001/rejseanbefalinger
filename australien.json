@@ -1,0 +1,196 @@
+"bali": {
+    "name": {"da": "Bali", "en": "Bali"},
+    "tips": [
+        {
+            "text": {
+                "da": [
+                    ""
+                ], 
+                "en": [
+                    ""
+                ]
+            },
+            "download": [
+                {
+                    "name": {"da": "", "en": ""},
+                    "url": ""
+                }
+            ]
+        }
+    ],
+    "food": [
+        "",
+        ""
+    ],
+    "cities": {
+        "hanoi": {
+            "name": {"da": "Hanoi", "en": "Hanoi"},
+            "tips": [
+                ""
+            ],
+            "activities": [
+                {
+                    "name": "",
+                    "link": "",
+                    "description": {
+                        "da": [
+                            ""
+                        ],
+                        "en": [
+                            ""
+                        ]
+                    }
+                }
+            ],
+            "byen": [
+                {
+                    "name": "",
+                    "link": "",
+                    "description": {
+                        "da": [
+                            ""
+                        ],
+                        "en": [
+                            ""
+                        ]
+                    }
+                }
+            ],
+            "restaurants": [
+                {
+                    "name": "",
+                    "link": "",
+                    "description": {
+                        "da": [
+                            ""
+                        ],
+                        "en": [
+                            ""
+                        ]
+                    }
+                }
+            ],
+            "accommodation": [
+                {
+                    "name": "",
+                    "time_spent": {"da": " nætter", "en": " nights"},
+                    "link": "",
+                    "pros": {
+                        "da": [
+                            ""
+                        ],
+                        "en": [
+                            ""
+                        ]
+                    },
+                    "cons": {
+                        "da": [
+                            ""
+                        ],
+                        "en": [
+                            ""
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+},
+"australia": {
+    "name": {"da": "Australien", "en": "Australia"},
+    "tips": [
+        {
+            "text": {
+                "da": [
+                    ""
+                ], 
+                "en": [
+                    ""
+                ]
+            },
+            "download": [
+                {
+                    "name": {"da": "", "en": ""},
+                    "url": ""
+                }
+            ]
+        }
+    ],
+    "food": [
+        "",
+        ""
+    ],
+    "cities": {
+        "hanoi": {
+            "name": {"da": "Hanoi", "en": "Hanoi"},
+            "tips": [
+                ""
+            ],
+            "activities": [
+                {
+                    "name": "",
+                    "link": "",
+                    "description": {
+                        "da": [
+                            ""
+                        ],
+                        "en": [
+                            ""
+                        ]
+                    }
+                }
+            ],
+            "byen": [
+                {
+                    "name": "",
+                    "link": "",
+                    "description": {
+                        "da": [
+                            ""
+                        ],
+                        "en": [
+                            ""
+                        ]
+                    }
+                }
+            ],
+            "restaurants": [
+                {
+                    "name": "",
+                    "link": "",
+                    "description": {
+                        "da": [
+                            ""
+                        ],
+                        "en": [
+                            ""
+                        ]
+                    }
+                }
+            ],
+            "accommodation": [
+                {
+                    "name": "",
+                    "time_spent": {"da": " nætter", "en": " nights"},
+                    "link": "",
+                    "pros": {
+                        "da": [
+                            ""
+                        ],
+                        "en": [
+                            ""
+                        ]
+                    },
+                    "cons": {
+                        "da": [
+                            ""
+                        ],
+                        "en": [
+                            ""
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

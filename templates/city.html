@@ -1,0 +1,131 @@
+{% extends "layout.html" %}
+{% from "_macros.html" import render_list, place_card, activity_card with context %}
+
+{% block title %}{{ city_name }} — {{ country_name }} — {{ t('site_name') }}{% endblock %}
+
+{% block hero %}
+<section class="hero hero--detail">
+  <div class="hero__overlay"></div>
+  <div class="wrap hero__content">
+    <a class="hero-back" href="{{ url_for('country', country_slug=country_slug) }}">
+      {{ t('back_country') }} {{ country_name }}
+    </a>
+    <span class="eyebrow">{{ country_code }} · {{ city_name }}</span>
+    <h1>{{ city_name }}</h1>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<div class="wrap page-layout page-layout--with-sidebar">
+  <div class="page-main">
+    {% if city_tips %}
+    <section class="section-card" id="tips">
+      <span class="eyebrow">{{ t('tips_title') }}</span>
+      <h2>{{ t('tips_heading') }}</h2>
+      {% for tip in city_tips %}
+      {{ render_list(tip) }}
+      {% endfor %}
+    </section>
+    {% endif %}
+
+    {% if city.activities %}
+    <section class="section-card" id="activities">
+      <span class="eyebrow">{{ t('see_and_do') }}</span>
+      <h2>{{ t('activities') }}</h2>
+      <div class="activity-grid">
+        {% for item in city.activities %}
+        {{ activity_card(item) }}
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% if city.byen %}
+    <section class="section-card" id="nightlife">
+      <span class="eyebrow">{{ t('nightlife') }}</span>
+      <h2>{{ t('nightlife') }}</h2>
+      <div class="place-list">
+        {% for item in city.byen %}
+        {{ place_card(item) }}
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% if city.restaurants %}
+    <section class="section-card" id="restaurants">
+      <span class="eyebrow">{{ t('restaurants') }}</span>
+      <h2>{{ t('restaurants') }}</h2>
+      <div class="place-list">
+        {% for item in city.restaurants %}
+        {{ place_card(item) }}
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% if city.accommodation %}
+    <section class="section-card" id="accommodation">
+      <span class="eyebrow">{{ t('accommodation') }}</span>
+      <h2>{{ t('accommodation') }}</h2>
+      <div class="hotel-grid">
+        {% for hotel in city.accommodation %}
+        {% if hotel.name %}
+        <article class="hotel-card">
+          <div class="hotel-card__head">
+            <h3>{{ hotel.name }}</h3>
+            {% set nights = localized(hotel.time_spent) %}
+            {% if nights %}
+            <span class="hotel-card__nights">{{ nights[0] }}</span>
+            {% endif %}
+          </div>
+          {% if hotel.link %}
+          <a class="map-link" href="{{ hotel.link }}" target="_blank" rel="noopener noreferrer">
+            <span class="map-link__icon" aria-hidden="true">📍</span>
+            {{ t('view_map') }}
+          </a>
+          {% endif %}
+          <div class="pros-cons">
+            <div>
+              <h4>{{ t('pros') }}</h4>
+              {{ render_list(localized(hotel.pros)) }}
+            </div>
+            <div>
+              <h4>{{ t('cons') }}</h4>
+              {{ render_list(localized(hotel.cons)) }}
+            </div>
+          </div>
+        </article>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-card">
+      <h3>{{ t('quick_nav') }}</h3>
+      <nav class="sidebar-nav">
+        {% if city_tips %}<a href="#tips">{{ t('tips_heading') }}</a>{% endif %}
+        {% if city.activities %}<a href="#activities">{{ t('activities') }}</a>{% endif %}
+        {% if city.byen %}<a href="#nightlife">{{ t('nightlife') }}</a>{% endif %}
+        {% if city.restaurants %}<a href="#restaurants">{{ t('restaurants') }}</a>{% endif %}
+        {% if city.accommodation %}<a href="#accommodation">{{ t('accommodation') }}</a>{% endif %}
+      </nav>
+    </div>
+
+    {% if other_cities %}
+    <div class="sidebar-card">
+      <h3>{{ t('related_cities') }}</h3>
+      <div class="related-list">
+        {% for item in other_cities %}
+        <a href="{{ url_for('city', country_slug=country_slug, city_slug=item.slug) }}">{{ item.name }}</a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+  </aside>
+</div>
+{% endblock %}
