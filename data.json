@@ -4,21 +4,24 @@
       "da": "Thailand",
       "en": "Thailand"
     },
+    "link": "",
     "tips": [
       {
         "text": {
           "da": [
-            "Alt behøves ikke at blive booket i god tid"
+            "Alt behøves ikke at blive booket i god tid",
+            "Spis streetfood og lokal mad, det er ti gange bedre og meget billigere"
           ],
           "en": [
-            "Everything doesn't need to be booked in advance"
+            "Everything doesn't need to be booked in advance",
+            "Eat street food and local food, it's ten times better and much cheaper"
           ]
         },
         "download": [
           {
             "name": {
-              "da": "Grab",
-              "en": "Grab"
+              "da": "Grab (billig transport)",
+              "en": "Grab (cheap transport)"
             },
             "url": "https://grab.com"
           },
@@ -31,76 +34,128 @@
           },
           {
             "name": {
-              "da": "Hostelworld",
-              "en": "Hostelworld"
+              "da": "Hostelworld (hostels)",
+              "en": "Hostelworld (Hostel booking)"
             },
             "url": "https://hostelworld.com"
           },
           {
             "name": {
-              "da": "Agoda",
-              "en": "Agoda"
+              "da": "Agoda (hoteller)",
+              "en": "Agoda (Hotel booking)"
             },
             "url": "https://agoda.com"
           }
         ]
-      },
-      {
-        "text": {
-          "da": [
-            "Spis streetfood og lokal mad",
-            "Det er ti gange bedre og meget billigere"
-          ],
-          "en": [
-            "Eat street food and local food",
-            "It's ten times better and much cheaper"
-          ]
-        },
-        "download": []
       }
     ],
-    "food": {
-      "da": [
-        "Pad Thai",
-        "Grøn karry",
-        "Rød karry",
-        "Kokossuppe",
-        "Pad Thai",
-        "Sushitrekanter i 7/11",
-        "Stegt ris",
-        "Gule nudler",
-        "Stegte nudler",
-        "Mango sticky rice",
-        "Panang karry",
-        "Khao Soi",
-        "Pad Kaprow",
-        "Tom Yum suppe",
-        "Massaman karry"
-      ],
-      "en": [
-        "Pad Thai",
-        "Green curry",
-        "Red curry",
-        "Coconut soup",
-        "Pad Thai",
-        "Sushi triangles at 7/11",
-        "Fried rice",
-        "Yellow noodles",
-        "Fried noodles",
-        "Mango sticky rice",
-        "Panang curry",
-        "Khao Soi",
-        "Pad Kaprow",
-        "Tom Yum Soup",
-        "Massaman curry"
-      ]
-    },
+    "food" [ 
+      {
+        "name": {
+          "da": "Pad Thai",
+          "en": "Pad Thai "
+        },
+        "url": ""
+      },
+      {
+        "name": {
+          "da": "Grøn karry",
+          "en": "Green curry"
+        },
+        "url": ""
+      },
+      {
+        "name": {
+          "da": "Rød karry",
+          "en": "Red curry"
+        },
+        "url": ""
+      },
+      {
+        "name": {
+          "da": "Kokossuppe",
+          "en": "Coconut soup"
+        },
+        "url": ""
+      },
+      {
+        "name": {
+          "da": "Sushitrekanter i 7/11",
+          "en": "Sushi triangles at 7/11"
+        },
+        "url": ""
+      },
+      {
+        "name": {
+          "da": "Stegt ris",
+          "en": "Fried rice"
+        },
+        "url": ""
+      },
+      {
+        "name": {
+          "da": "Gule nudler",
+          "en": "Yellow noodles"
+        },
+        "url": ""
+      },
+      {
+        "name": {
+          "da": "Stegte nudler",
+          "en": "Fried noodles"
+        },
+        "url": ""
+      },
+      {
+        "name": {
+          "da": "Mango sticky rice",
+          "en": "Mango sticky rice"
+        },
+        "url": ""
+      },
+      {
+        "name": {
+          "da": "Panang karry",
+          "en": "Panang curry"
+        },
+        "url": ""
+      },
+      {
+        "name": {
+          "da": "Khao Soi",
+          "en": "Khao Soi"
+        },
+        "url": ""
+      },
+      {
+        "name": {
+          "da": "Pad Kaprow",
+          "en": "Pad Kaprow"
+        },
+        "url": ""
+      },
+      {
+        "name": {
+          "da": "Tom Yum suppe",
+          "en": "Tom Yum Soup"
+        },
+        "url": ""
+      },
+      {
+        "name": {
+          "da": "Massaman karry",
+          "en": "Massaman curry"
+        },
+        "url": ""
+      }
+    ],
     "cities": {
       "bangkok": {
         "name": {
           "da": "Bangkok",
           "en": "Bangkok"
         },
+        "link": "",
         "tips": [
           {
             "da": "Man behøver ikke leje scooter i Bangkok",
@@ -115,6 +170,10 @@
           {
             "name": "The Grand palace",
             "link": "https://maps.app.goo.gl/VKEw79tU3g76xRv7A",
+            "type": {
+              "da": "Tempel",
+              "en": "Temple"
+            },
             "description": {
               "da": [
                 "Mange flotte templer",
@@ -131,6 +190,10 @@
           {
             "name": "The Sleeping Buddha",
             "link": "https://maps.app.goo.gl/7T5JfRdYQWzzFu1V6",
+            "type": {
+              "da": "Tempel",
+              "en": "Temple"
+            },
             "description": {
               "da": [
                 "Meget flot tempel",
@@ -145,6 +208,10 @@
           {
             "name": "Wat Arun",
             "link": "https://maps.app.goo.gl/CfW46tTvMK2kWV4C9",
+            "type": {
+              "da": "Tempel",
+              "en": "Temple"
+            },
             "description": {
               "da": [
                 "Perfekt for solnedgangen",
@@ -163,6 +230,10 @@
           {
             "name": "Corgi in the garden",
             "link": "https://maps.app.goo.gl/iYmDAjxMbMJU4svY8",
+            "type": {
+              "da": "Café",
+              "en": "Café"
+            },
             "description": {
               "da": [
                 "Dyrt, men 100% det værd",
@@ -177,6 +248,10 @@
           {
             "name": "Icon Siam",
             "link": "https://maps.app.goo.gl/sC5o4KqnkcBw3Jbt7",
+            "type": {
+              "da": "Storcenter",
+              "en": "Mall"
+            },
             "description": {
               "da": [
                 "Perfekt for shopping",
@@ -191,6 +266,10 @@
           {
             "name": "Rajadamnern Muay Thai Stadium (Thaiboksning)",
             "link": "https://maps.app.goo.gl/ZzMYaJwUUtac2ypd6",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Lidt dyrt, men mega sjovt og helt klart worth it",
@@ -205,6 +284,10 @@
           {
             "name": "Khao San Road",
             "link": "https://maps.app.goo.gl/JS9BW2KZb8sH6TZ57",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Masser af markeder om dagen",
@@ -219,6 +302,10 @@
           {
             "name": "Bådtur i kanalerne",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Lidt dyrt men worth it",
@@ -233,6 +320,10 @@
           {
             "name": "Chinatown Bangkok (Yaowarat)",
             "link": "https://maps.app.goo.gl/qSNXvLGEQurhtd367",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Masser af street food",
@@ -249,6 +340,10 @@
           {
             "name": "Floating market",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Der er mega mange forskellige",
@@ -265,6 +360,10 @@
           {
             "name": "Khao San Road",
             "link": "https://maps.app.goo.gl/JS9BW2KZb8sH6TZ57",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Tag i byen her om aftenen, men pas på hvad i drikker",
@@ -281,6 +380,10 @@
           {
             "name": "7/11",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Vi spiste mest streetfood eller 7/eleven"
@@ -299,6 +402,10 @@
               "en": "4 nights"
             },
             "link": "https://maps.app.goo.gl/U2beDRunZpmkHdLt9",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
                 "Mega søde medarbejdere",
@@ -327,6 +434,7 @@
           "da": "Koh Samui",
           "en": "Koh Samui"
         },
+        "link": "",
         "tips": [
           {
             "da": "Flyv derhen, det er et helvede at komme hertil med bus osv fra bangkok",
@@ -341,6 +449,10 @@
           {
             "name": "Big Buddha Temple (Wat Phra Yai)",
             "link": "https://maps.app.goo.gl/BFbAk8oejZjE6hLE7",
+            "type": {
+              "da": "Tempel",
+              "en": "Temple"
+            },
             "description": {
               "da": [
                 "Meget flot tempel",
@@ -357,6 +469,10 @@
           {
             "name": "3 templer: Statue of the chinese Laughing buddha",
             "link": "https://maps.app.goo.gl/MeETvNf2QkmRn4uD9",
+            "type": {
+              "da": "Tempel",
+              "en": "Temple"
+            },
             "description": {
               "da": [],
               "en": []
@@ -365,6 +481,10 @@
           {
             "name": "3 templer: Wat Plai Laem",
             "link": "https://maps.app.goo.gl/wzQzJg9SZrm6aqN66",
+            "type": {
+              "da": "Tempel",
+              "en": "Temple"
+            },
             "description": {
               "da": [],
               "en": []
@@ -373,6 +493,10 @@
           {
             "name": "3 templer: Statue of the goddess Guanyin",
             "link": "https://maps.app.goo.gl/yvXAbcobkx1BxaNV9",
+            "type": {
+              "da": "Tempel",
+              "en": "Temple"
+            },
             "description": {
               "da": [],
               "en": []
@@ -381,6 +505,10 @@
           {
             "name": "Chaweng Beach",
             "link": "https://maps.app.goo.gl/pW6AkW9tSRqC8gZLA",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [
                 "Fin nok strand"
@@ -393,6 +521,10 @@
           {
             "name": "Overlap stone",
             "link": "https://maps.app.goo.gl/buGfCzPPjMssD9Kr6",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Must see in Koh Samui.",
@@ -407,6 +539,10 @@
           {
             "name": "Massage",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Bare google efter massagesteder"
@@ -421,6 +557,10 @@
           {
             "name": "Vi gik ikke i byen her",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -430,6 +570,10 @@
         "restaurants": [
           {
             "name": "Vi spiste kun på vores Hostel da det var så billigt",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -444,6 +588,10 @@
               "en": "2 nights"
             },
             "link": "",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
                 "Man kunne få vasket tøj, leje scootere, booke alt hos dem",
@@ -476,6 +624,7 @@
           "da": "Koh Phangan",
           "en": "Koh Phangan"
         },
+        "link": "",
         "tips": [
           {
             "da": "Lej en scooter",
@@ -498,6 +647,10 @@
           {
             "name": "Haad Rin beach",
             "link": "https://maps.app.goo.gl/fzudBhgfVHk9A4ZM7",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [
                 "God strand når den er ren"
@@ -510,6 +663,10 @@
           {
             "name": "Rin Nai Beach",
             "link": "https://maps.app.goo.gl/hNQfBX5VcRiVu8QF7",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [
                 "Sunset spot",
@@ -524,6 +681,10 @@
           {
             "name": "Amsterdam bar",
             "link": "https://maps.app.goo.gl/3oK8aSoFgujcNzPT6",
+            "type": {
+              "da": "Restaurant / Bar",
+              "en": "Restaurant / Bar"
+            },
             "description": {
               "da": [
                 "Solnedgangsspot",
@@ -538,15 +699,19 @@
           {
             "name": "Full moon party",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Køber billet derhenne",
-                "bliver holdt på Haad Rin Beach",
+                "Bliver holdt på Haad Rin Beach",
                 "Sjovt, dog overhyped"
               ],
               "en": [
                 "Buy the ticket there",
-                "held at Haad Rin Beach",
+                "Held at Haad Rin Beach",
                 "Fun, though overhyped"
               ]
             }
@@ -556,6 +721,10 @@
           {
             "name": "Der er massere af barer langs stranden man bare kan tage på",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -565,6 +734,11 @@
         "restaurants": [
           {
             "name": "Sand and Tan",
+            "link": "",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "Lækker restaurant, men ret dyr",
@@ -578,6 +752,11 @@
           },
           {
             "name": "BT Restaurant",
+            "link": "",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "Fråderen og billig thai mad"
@@ -589,6 +768,11 @@
           },
           {
             "name": "The Cabin Bar & Grill",
+            "link": "",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "Ok god mad, men lidt dyrt synes vi",
@@ -609,6 +793,10 @@
               "en": "4 nights"
             },
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "pros": {
               "da": [
                 "Mega sød og venlig mand",
@@ -651,6 +839,7 @@
           "da": "Koh Tao",
           "en": "Koh Tao"
         },
+        "link": "",
         "tips": [
           {
             "da": "Lej en scooter",
@@ -661,6 +850,10 @@
           {
             "name": "Sun Suwan 360 viewpoint",
             "link": "https://maps.app.goo.gl/b2KBnjsSmnNKK4JGA",
+            "type": {
+              "da": "Viewpoint",
+              "en": "Viewpoint"
+            },
             "description": {
               "da": [
                 "Meget flot viewpoint",
@@ -675,6 +868,10 @@
           {
             "name": "Sairee Beach",
             "link": "https://maps.app.goo.gl/HPzWEnovC58dK5QAA",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [
                 "Main beach",
@@ -691,6 +888,10 @@
           {
             "name": "Shark Bay",
             "link": "",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [
                 "Meget flot strand",
@@ -705,6 +906,10 @@
           {
             "name": "Mango Bay",
             "link": "https://maps.app.goo.gl/fFLq2ipTsNRAaNEfA",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [
                 "Svært at komme derhen, men en meget hyggelig strand",
@@ -719,6 +924,10 @@
           {
             "name": "Nang Yuan Island",
             "link": "https://maps.app.goo.gl/eX8dQ81GHLMWSKqSA",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Viewpoint på en nabo ø til Koh Tao",
@@ -737,6 +946,10 @@
           {
             "name": "Minigolf",
             "link": "https://maps.app.goo.gl/4pAFVCamCzZwLUuS6",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Mega hyggeligt, den var dog lidt ødelagt"
@@ -749,17 +962,19 @@
           {
             "name": "Queen's Cabaret",
             "link": "https://maps.app.goo.gl/98gw4rvhjC3qRfH49",
+            "type": {
+              "da": "Dragshow",
+              "en": "Drag show"
+            },
             "description": {
               "da": [
-                "dragshow",
-                "ret billigt og man får en gratis drink med når man køber billet",
-                "mega god energi",
+                "Ret billigt og man får en gratis drink med når man køber billet",
+                "Mega god energi",
                 "Et must på koh tao"
               ],
               "en": [
-                "drag show",
-                "pretty cheap and you get a free drink included when you buy a ticket",
-                "really good energy",
+                "Rretty cheap and you get a free drink included when you buy a ticket",
+                "Really good energy",
                 "A must on Koh Tao"
               ]
             }
@@ -767,15 +982,19 @@
           {
             "name": "La Bondana Diving",
             "link": "https://maps.app.goo.gl/sDyhuiwAx88Z8D9n9",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Bedste sted at tage dykkercertifikat på koh tao",
-                "meget billigt og meget inkluderet",
+                "Meget billigt og meget inkluderet",
                 "super super søde"
               ],
               "en": [
                 "Best place to get your diving certificate on Koh Tao",
-                "very cheap with a lot included",
+                "Very cheap with a lot included",
                 "super super sweet"
               ]
             }
@@ -783,6 +1002,10 @@
           {
             "name": "Massage",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Super billigt her"
@@ -797,6 +1020,10 @@
           {
             "name": "Jungle Party",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Ikke altid der er det, men det et must, hvis der er jungleparty mens man er der",
@@ -811,17 +1038,21 @@
           {
             "name": "Fishbowl",
             "link": "https://maps.app.goo.gl/T3w3ybcJ8G6yQFYM7",
+            "type": {
+              "da": "Restaurant / Klub",
+              "en": "Restaurant / Club"
+            },
             "description": {
               "da": [
-                "restaurant der bliver til en klub kl 22",
-                "main sted man fester",
-                "lukker ret tidligt",
+                "Restaurant der bliver til en klub kl 22",
+                "Main sted man fester",
+                "Lukker ret tidligt",
                 "Vi havde det mega sjovt hver gang vi var der"
               ],
               "en": [
-                "restaurant that turns into a club at 10pm",
-                "the main place to party",
-                "closes pretty early",
+                "Restaurant that turns into a club at 10pm",
+                "The main place to party",
+                "Closes pretty early",
                 "We had a great time every time we were there"
               ]
             }
@@ -831,24 +1062,32 @@
           {
             "name": "995 Roasted Duck",
             "link": "https://maps.app.goo.gl/p5zJjkAenSVHJLKz6",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "Bedste mad på koh tao",
-                "billigste mad (17 kr for en ret og en stor øl)",
-                "vi spiste der heeele tiden",
-                "kom i god tid, da det er super populært"
+                "Billigste mad (17 kr for en ret og en stor øl)",
+                "Vi spiste der heeele tiden",
+                "Kom i god tid, da det er super populært"
               ],
               "en": [
                 "Best food on Koh Tao",
-                "cheapest food (17 kr for a dish and a large beer)",
-                "we ate there aaall the time",
-                "come early since it's super popular"
+                "Cheapest food (17 kr for a dish and a large beer)",
+                "We ate there aaall the time",
+                "Come early since it's super popular"
               ]
             }
           },
           {
             "name": "Johns mad",
             "link": "https://maps.app.goo.gl/qoXzXNFtSPnpMPU6A",
+            "type": {
+              "da": "Street food",
+              "en": "Street food"
+            },
             "description": {
               "da": [
                 "Perfekt sted til natmad.",
@@ -871,15 +1110,19 @@
               "en": "3 nights"
             },
             "link": "https://maps.app.goo.gl/oZ6KpNLBfoyiJ6Ys6",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
-                "gode senge",
+                "Gode senge",
                 "Ok tæt på alting",
                 "Okay sødt personale, de var venlige",
                 "Havde en balkon"
               ],
               "en": [
-                "good beds",
+                "Good beds",
                 "Ok close to everything",
                 "Okay sweet staff, they were friendly",
                 "Had a balcony"
@@ -903,6 +1146,10 @@
               "en": "3 nights"
             },
             "link": "https://maps.app.goo.gl/ZrS3nhf2Y1Dek3qLA",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "pros": {
               "da": [
                 "Mega sødt personale",
@@ -933,6 +1180,7 @@
           "da": "Krabi",
           "en": "Krabi"
         },
+        "link": "",
         "tips": [
           {
             "da": "Lej en scooter",
@@ -943,12 +1191,16 @@
           {
             "name": "Krabi Elephant House Sanctuary",
             "link": "https://maps.app.goo.gl/whrdfUdYbaMXtf8t8",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "virkelig godt elephant sanctuary",
+                "Virkelig godt elephant sanctuary",
                 "Man kan ikke ride på elefanterne",
-                "giver mad til elefanterne, tager billeder med det, giver dem et mudderbad, vasker dem i søen, får selv frugt og vand også er det tilbage til hostel.",
-                "transporten er inkluderet i prisen"
+                "Giver mad til elefanterne, tager billeder med det, giver dem et mudderbad, vasker dem i søen, får selv frugt og vand også er det tilbage til hostel.",
+                "Transporten er inkluderet i prisen"
               ],
               "en": [
                 "Really good elephant sanctuary",
@@ -961,6 +1213,10 @@
           {
             "name": "Emerald pool",
             "link": "https://maps.app.goo.gl/5UVYUUE2oJji4Xjo9",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "turister skal betale indgang",
@@ -975,12 +1231,16 @@
           {
             "name": "Hot springs",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "turister skulle betale indgang",
+                "Turister skulle betale indgang",
                 "Mega dejligt varmt vand",
-                "ikke alt for mange turister",
-                "gør det, hvor det er varmt når i kører hjem, for det er ikke rart at køre i vådt badetøj om aftenen."
+                "Ikke alt for mange turister",
+                "Gør det, hvor det er varmt når i kører hjem, for det er ikke rart at køre i vådt badetøj om aftenen."
               ],
               "en": [
                 "Tourists had to pay entry",
@@ -995,6 +1255,10 @@
           {
             "name": "Pub Crawl",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Sjovt, men overhyped",
@@ -1011,13 +1275,17 @@
           {
             "name": "Boat Party",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Booket på dagen igennem vores hostel",
-                "massere af unge mennesker på en båd.",
+                "Massere af unge mennesker på en båd.",
                 "Vi lavede en masse ø/hop",
-                "transport til og fra hostel var inkluderet",
-                "frokost var inkluderet",
+                "Transport til og fra hostel var inkluderet",
+                "Frokost var inkluderet",
                 "Al drikkevarer skulle købes på båden",
                 "Vores stop: Tub Island (første stop, hvor vi gik til Koh Gai), Koh Gai (gik fra Tub Island til Koh Gai - svømmede en smule og kiggede på søstjerner), Chicken rock (sejlede forbi den), Ko Ma Tang Ming (hvor vi snorklede og så solnedgang), Poda Island (stoppede og købte chips lige inden solnedgang), Secret Beach - Poda Island (hvor vi spiste frokost)"
               ],
@@ -1043,7 +1311,7 @@
               ],
               "en": [
                 "Super varied food",
-                "cheap and very delicious food"
+                "Cheap and very delicious food"
               ]
             }
           }
@@ -1056,6 +1324,10 @@
               "en": "4 nights"
             },
             "link": "",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
                 "Morgenmad var inkluderet",
@@ -1088,6 +1360,7 @@
           "da": "Railey",
           "en": "Railey"
         },
+        "link": "",
         "tips": [
           {
             "da": "Bare tag en dags tur hertil",
@@ -1098,9 +1371,13 @@
           {
             "name": "Railey beach",
             "link": "https://maps.app.goo.gl/v9AkFgKeyebPBPeK7",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [
-                "ikke en særlig flot strand",
+                "Ikke en særlig flot strand",
                 "Dog med en meget flot udsigt"
               ],
               "en": [
@@ -1111,6 +1388,10 @@
           {
             "name": "East Railey viewpoint",
             "link": "https://maps.app.goo.gl/AoZevk5whPs7Mg9PA",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Det en hike så tag sko med/på"
@@ -1123,6 +1404,10 @@
           {
             "name": "East Railey beach",
             "link": "https://maps.app.goo.gl/qBcw34wVrk5JiJGK9",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [
                 "Stor strand, men mange mange turister"
@@ -1135,6 +1420,10 @@
           {
             "name": "Diamond Cave",
             "link": "https://maps.app.goo.gl/fAVNzuse2ZWMJ2hu7",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -1143,6 +1432,10 @@
           {
             "name": "Viewpoint",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "det en hike så tag sko med/på"
@@ -1155,9 +1448,13 @@
           {
             "name": "Tham Phra Beach",
             "link": "",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [
-                "flot strand, men igen mange turister"
+                "Flot strand, men igen mange turister"
               ],
               "en": [
                 "Beautiful beach, but again lots of tourists"
@@ -1167,6 +1464,10 @@
           {
             "name": "Princesse cave",
             "link": "https://maps.app.goo.gl/DyptmtRDiZaMLFfC9",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Lige ved Tham Phra Beach"
@@ -1181,6 +1482,10 @@
           {
             "name": "Vi gik ikke i byen her",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -1190,6 +1495,11 @@
         "restaurants": [
           {
             "name": "Vi spiste her ikke",
+            "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -1204,19 +1514,17 @@
               "en": ""
             },
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "pros": {
               "da": [],
-              "en": [
-                "...",
-                "..."
-              ]
+              "en": []
             },
             "cons": {
               "da": [],
-              "en": [
-                "...",
-                "..."
-              ]
+              "en": []
             }
           }
         ]
@@ -1237,6 +1545,10 @@
           {
             "name": "Strande",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -1245,6 +1557,10 @@
           {
             "name": "Bådtur (privat)",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Monkey bay",
@@ -1267,6 +1583,10 @@
           {
             "name": "Kajaktur",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Monkey Beach",
@@ -1283,6 +1603,10 @@
           {
             "name": "Slinkies Bar",
             "link": "https://maps.app.goo.gl/xXPfNwJ8wJ6cHigQ6",
+            "type": {
+              "da": "Bar",
+              "en": "Bar"
+            },
             "description": {
               "da": [
                 "Helt klart stedet man bliver drugget",
@@ -1299,6 +1623,10 @@
           {
             "name": "Regge bar",
             "link": "https://maps.app.goo.gl/r6KzcK8j5vNgNzHW7",
+            "type": {
+              "da": "Bar",
+              "en": "Bar"
+            },
             "description": {
               "da": [
                 "Her thaibokser turister mod hinanden for at få en gratis bucket",
@@ -1315,6 +1643,10 @@
           {
             "name": "Backpackers Bar",
             "link": "https://maps.app.goo.gl/LrJY8LfDpqmgDQ349",
+            "type": {
+              "da": "Bar",
+              "en": "Bar"
+            },
             "description": {
               "da": [
                 "Underligt sted",
@@ -1331,11 +1663,15 @@
           {
             "name": "Pa-jit",
             "link": "https://maps.app.goo.gl/DnxuGz1iYDT55vxe9",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "Fråderen mad",
                 "Billigt",
-                "underlig service",
+                "Underlig service",
                 "Familien, der ejede stedet, gik i bad på kundetoilettet og gik igennem restauranten iført kun et håndklæde."
               ],
               "en": [
@@ -1349,6 +1685,10 @@
           {
             "name": "Tommy's Bar and Bistro",
             "link": "https://maps.app.goo.gl/q4Y8hLTQt94nVu486",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "Her vi fik vores julemiddag",
@@ -1365,6 +1705,10 @@
           {
             "name": "ACQUA Restaurant Phi Phi",
             "link": "https://maps.app.goo.gl/qgTtCUoDP2auJpis7",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "God mad, men ret dyrt",
@@ -1381,6 +1725,10 @@
           {
             "name": "Patcharee Bakery",
             "link": "https://maps.app.goo.gl/dSQ4ekmyvgN8oG3J6",
+            "type": {
+              "da": "Café / Bageri",
+              "en": "Café / Bakery"
+            },
             "description": {
               "da": [
                 "Her Ingeborg fik sin fødselsdagsmorgenmad",
@@ -1399,6 +1747,10 @@
           {
             "name": "Atom Resto Phi Phi",
             "link": "https://maps.app.goo.gl/fj1rwir3MbTwkU7U8",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "Super dårlig mad",
@@ -1419,6 +1771,10 @@
               "en": "3 nights"
             },
             "link": "https://maps.app.goo.gl/v7GQ7iWqxvomMUXW9",
+            "type": {
+              "da": "Hotel",
+              "en": "Hotel"
+            },
             "pros": {
               "da": [
                 "Der gik en hest rundt frit på hotellet, hvilket var mega sjovt med hesten (den er dog ikke så venlig)",
@@ -1460,6 +1816,10 @@
           {
             "name": "Pham Bok waterfall",
             "link": "https://maps.app.goo.gl/r6ADxgG9arD45WwB9",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Lille vandfald med meget få turister",
@@ -1474,6 +1834,10 @@
           {
             "name": "Bamboo Bridge",
             "link": "https://maps.app.goo.gl/AywC6GPhT1Swars99",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Meget flot bro ved de lokale",
@@ -1490,6 +1854,10 @@
           {
             "name": "Santichon Village ",
             "link": "https://maps.app.goo.gl/Nfb7ZvcEHvE2vsjc6",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Chinatown ish vibe",
@@ -1504,6 +1872,10 @@
           {
             "name": "Pai Canyon",
             "link": "https://maps.app.goo.gl/tjTNadnFoVRVU5oT6",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Virkelig flot til solnedgang",
@@ -1518,6 +1890,10 @@
           {
             "name": "Tipsy tubing",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Sygt mange unge mennesker som flyder ned af floden i baderinge og drikker",
@@ -1536,6 +1912,10 @@
           {
             "name": "Don't Cry ",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Holder åbent efter alle de andre barer lukker",
@@ -1550,6 +1930,10 @@
           {
             "name": "Bros Music Bar and Hostel",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Hyggelig bar med live musik"
@@ -1564,6 +1948,10 @@
           {
             "name": "Night market",
             "link": "https://maps.app.goo.gl/5hDDrg38NuRs8aQMA",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Såååå meget lækkert mad",
@@ -1584,9 +1972,13 @@
               "en": "1 night"
             },
             "link": "https://maps.app.goo.gl/BFy9F6YSjwSjUzmA7",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
-                "mega sødt personale",
+                "Mega sødt personale",
                 "Toiletterne var ok"
               ],
               "en": [
@@ -1614,6 +2006,10 @@
               "en": "1 night"
             },
             "link": "https://maps.app.goo.gl/XmvCWPeJswvaTUyY9",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "pros": {
               "da": [
                 "Vi betalte ikke",
@@ -1657,6 +2053,10 @@
           {
             "name": "Thaiboksning ved Chiang Mai Night Bazar",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Mindre thaiboksning sted",
@@ -1671,6 +2071,10 @@
           {
             "name": "Chiang Mai Cabaret ved Anusarn Market",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "dragshow"
@@ -1683,6 +2087,10 @@
           {
             "name": "Night market",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "masser af små shops"
@@ -1695,6 +2103,10 @@
           {
             "name": "Elefin Farm & Cafe",
             "link": "https://maps.app.goo.gl/khsbWzahWQ1xLqX18",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Elefant cafe ude for Chiang Mai",
@@ -1713,6 +2125,10 @@
           {
             "name": "The Spicy",
             "link": "https://maps.app.goo.gl/GiwVqb2VVhqpBQ5d6",
+            "type": {
+              "da": "Klub",
+              "en": "Club"
+            },
             "description": {
               "da": [
                 "De har åbent når alle de andre steder lukker",
@@ -1728,6 +2144,11 @@
         "restaurants": [
           {
             "name": "Night Market",
+            "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Masser af steder hvor man kunne få fråderen og billig mad"
@@ -1746,9 +2167,13 @@
               "en": "1 night"
             },
             "link": "https://maps.app.goo.gl/W6gJ9A6wm4tMJij47",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
-                "venlig mand i receptionen",
+                "Venlig mand i receptionen",
                 "Vi kunne lade vores tasker ligge da vi tog til Pai"
               ],
               "en": [
@@ -1778,6 +2203,10 @@
               "en": "2 nights"
             },
             "link": "https://maps.app.goo.gl/hzyTm9vDjPwCoVBU8",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "pros": {
               "da": [
                 "Sødt personale",
@@ -1829,50 +2258,77 @@
               "da": "Grab (billig transport)",
               "en": "Grab (cheap transport)"
             },
-            "url": ""
+            "url": "https://grab.com"
           },
           {
             "name": {
               "da": "Hostelworld (hostels)",
               "en": "Hostelworld (Hostel booking)"
             },
-            "url": ""
+            "url": "https://hostelworld.com"
           },
           {
             "name": {
               "da": "Agoda (hoteller)",
               "en": "Agoda (Hotel booking)"
             },
-            "url": ""
+            "url": "https://agoda.com"
           }
         ]
       }
     ],
-    "food": [
-      {
-        "name": "Fresh spring rolls"
+    "food": {
+      "da": [
+          {"name": "Friske forårsruller"},
+          {
+            "name": "Banh Mi"
+          },
+          {
+            "name": "Banh Xeo"
+          },
+          {
+            "name": "Pho"
+          }
+        ],
+      "en": [
+          {
+            "name": "Fresh spring rolls"
+          },
+          {
+            "name": "Banh Mi"
+          },
+          {
+            "name": "Banh Xeo"
+          },
+          {
+            "name": "Pho"
+          }
+        ]
       },
-      {
-        "name": "Banh Mi"
-      },
-      {
-        "name": "Banh Xeo"
-      },
-      {
-        "name": "Pho"
-      }
-    ],
-    "drinks": [
-      {
-        "name": "Happy water (ris vin)"
-      },
-      {
-        "name": "Egg coffee"
-      },
-      {
-        "name": "Coconut milk coffee"
-      }
-    ],
+    "drinks": {
+      "da": [
+        {
+          "name": "Happy water (ris vin)"
+        },
+        {
+          "name": "Egg coffee"
+        },
+        {
+          "name": "Coconut milk coffee"
+        }
+      ],
+      "en": [
+        {
+          "name": "Happy water (rice wine)"
+        },
+        {
+          "name": "Egg coffee"
+        },
+        {
+          "name": "Coconut milk coffee"
+        }
+    ]
+  },
     "cities": {
       "hanoi": {
         "name": {
@@ -1887,22 +2343,12 @@
         ],
         "activities": [
           {
-            "name": "The Note Cafe",
-            "link": "https://maps.app.goo.gl/RDZH7dSWXd697YCv9",
-            "description": {
-              "da": [
-                "Super sød og hyggelig café - et must",
-                "Meget Instagram-venligt"
-              ],
-              "en": [
-                "Super cute and cozy café - a must",
-                "Very Instagram-friendly"
-              ]
-            }
-          },
-          {
             "name": "Hanoi Train street",
             "link": "https://maps.app.goo.gl/6NPrbBCWBrhtcF7F8",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Hyggeligt sted at få en kaffe",
@@ -1915,8 +2361,30 @@
             }
           },
           {
+            "name": "The Note Cafe",
+            "link": "https://maps.app.goo.gl/RDZH7dSWXd697YCv9",
+            "type": {
+              "da": "Café",
+              "en": "Café"
+            },
+            "description": {
+              "da": [
+                "Super sød og hyggelig café - et must",
+                "Meget Instagram-venligt"
+              ],
+              "en": [
+                "Super cute and cozy café - a must",
+                "Very Instagram-friendly"
+              ]
+            }
+          },
+          {
             "name": "Night market",
             "link": "https://maps.app.goo.gl/rCXeaEzWCxgnsS5B7",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Masser af butikker her",
@@ -1931,6 +2399,10 @@
           {
             "name": "Old Quarter",
             "link": "https://maps.app.goo.gl/LkXGdgZeFZPGgVR79",
+            "type": {
+              "da": "Kvater",
+              "en": "Quarter"
+            },
             "description": {
               "da": [
                 "Det gamle kvarter i Hanoi"
@@ -1943,6 +2415,10 @@
           {
             "name": "French Quarter",
             "link": "https://maps.app.goo.gl/E16CZVki4ENBN1mDA",
+            "type": {
+              "da": "Kvater",
+              "en": "Quarter"
+            },
             "description": {
               "da": [
                 "Mange franske bygninger",
@@ -1957,6 +2433,10 @@
           {
             "name": "Hoan Kiem Lake",
             "link": "https://maps.app.goo.gl/G6RDdYRvanVghggEA",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Flot sø i midten af Hanoi"
@@ -1969,6 +2449,10 @@
           {
             "name": "Ngoc Son Temple",
             "link": "https://maps.app.goo.gl/dnXrrK8pYBAeY2Zx8",
+            "type": {
+              "da": "Tempel",
+              "en": "Temple"
+            },
             "description": {
               "da": [
                 "Templet på Hoan Kiem søen"
@@ -1981,6 +2465,10 @@
           {
             "name": "Temple of Literature",
             "link": "https://maps.app.goo.gl/ygJqYCSq5s2EtbhV7",
+            "type": {
+              "da": "Tempel",
+              "en": "Temple"
+            },
             "description": {
               "da": [
                 "Fint historisk tempel"
@@ -1993,6 +2481,10 @@
           {
             "name": "Lenin Park",
             "link": "https://maps.app.goo.gl/GsBSVtqikghKNjLa8",
+            "type": {
+              "da": "Park",
+              "en": "Park"
+            },
             "description": {
               "da": [
                 "Rart sted at chille",
@@ -2009,6 +2501,10 @@
           {
             "name": "Vietnamese Women's museum",
             "link": "https://maps.app.goo.gl/yJ1gnHXfwxCR2j7U8",
+            "type": {
+              "da": "Museum",
+              "en": "Museum"
+            },
             "description": {
               "da": [
                 "Virkelig et godt museum",
@@ -2023,6 +2519,10 @@
           {
             "name": "Hoa Lo Prison Relic museum",
             "link": "https://maps.app.goo.gl/BNtGhJhjjEMVuM1W9",
+            "type": {
+              "da": "Museum",
+              "en": "Museum"
+            },
             "description": {
               "da": [
                 "Endnu et godt museum",
@@ -2037,6 +2537,10 @@
           {
             "name": "Sky Lotte Observation Deck",
             "link": "https://maps.app.goo.gl/z4Bqq3B5FRunk9jC7",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Udsigt over hele Hanoi - meget pænt",
@@ -2053,6 +2557,10 @@
           {
             "name": "Beer street",
             "link": "https://maps.app.goo.gl/HVG8JTh72nR3eUuE8",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "En masse barer nede af gaden"
@@ -2065,6 +2573,10 @@
           {
             "name": "Toms bar",
             "link": "https://maps.app.goo.gl/BNacrAfAJSmsetJc7",
+            "type": {
+              "da": "Bar",
+              "en": "Bar"
+            },
             "description": {
               "da": [
                 "Sjov bar på beer street"
@@ -2077,6 +2589,10 @@
           {
             "name": "Terraco Sky Bar",
             "link": "https://maps.app.goo.gl/hAibBDAEEEghu3GH7",
+            "type": {
+              "da": "Bar",
+              "en": "Bar"
+            },
             "description": {
               "da": [
                 "Flot cocktailbar"
@@ -2091,6 +2607,10 @@
           {
             "name": "Met",
             "link": "https://maps.app.goo.gl/KvAJYg3bxP4AavjG7",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "Rigtig god mad, men det var dyrt for os"
@@ -2103,6 +2623,10 @@
           {
             "name": "Banh Mi 25",
             "link": "https://maps.app.goo.gl/XWMYbCegQ3oa3w5E7",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Det var billigt og det mest anbefalede sted, men det var bare ok",
@@ -2117,6 +2641,10 @@
           {
             "name": "Phở bưng Hàng Trống",
             "link": "https://maps.app.goo.gl/hJziwxy8hnLg4o5M6",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "Virkelig god mad",
@@ -2131,6 +2659,10 @@
           {
             "name": "Nha Hang Mr Bay Mien Tay - BANH XEO",
             "link": "https://maps.app.goo.gl/KSFNJWdpaVMvW4oHA",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "Virkelig lækker mad",
@@ -2147,6 +2679,10 @@
           {
             "name": "Xôi Yến",
             "link": "https://maps.app.goo.gl/zk2g6LTVZw9Bdzn18",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "Virkelig god vietnamesisk mad og meget billigt"
@@ -2165,6 +2701,10 @@
               "en": "3 nights"
             },
             "link": "https://maps.app.goo.gl/gnq5uk4odvbbK4S7A",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
                 "Meget socialt hostel",
@@ -2203,6 +2743,10 @@
               "en": "3 nights"
             },
             "link": "",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
                 "Morgenmaden var inkluderet",
@@ -2243,6 +2787,10 @@
               "en": "1 night"
             },
             "link": "https://maps.app.goo.gl/caTGM94CCyXgcedP8",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
                 "Sindssyg god morgenmad og den var inkluderet",
@@ -2292,6 +2840,10 @@
           {
             "name": "",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -2302,6 +2854,10 @@
           {
             "name": "",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -2312,6 +2868,10 @@
           {
             "name": "",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -2326,6 +2886,10 @@
               "en": "2 nights"
             },
             "link": "https://maps.app.goo.gl/ifVoE7jkKJwfLGHL6",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "pros": {
               "da": [
                 "Seriøst luksus værelser og luksus omgivelser",
@@ -2392,6 +2956,10 @@
           {
             "name": "",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -2402,6 +2970,10 @@
           {
             "name": "",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -2412,6 +2984,10 @@
           {
             "name": "",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -2426,6 +3002,10 @@
               "en": "1 night"
             },
             "link": "https://maps.app.goo.gl/VmKmtCd7JrAFAMCi6",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
                 "Sengene var vanvittig gode",
@@ -2458,6 +3038,10 @@
               "en": "1 night"
             },
             "link": "https://maps.app.goo.gl/vfM4ScJDA13Dku9D6",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
                 "Alt mad var inkluderet",
@@ -2494,6 +3078,10 @@
               "en": "1 night"
             },
             "link": "https://maps.app.goo.gl/yEnNwUdowrfMFPZy7",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
                 "Alt mad var inkluderet",
@@ -2537,6 +3125,10 @@
           {
             "name": "Trang An",
             "link": "https://maps.app.goo.gl/DfGDGSGVeEELRw7y7",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Bådtur - det er sygt flot, men det er en meget lang tur"
@@ -2551,6 +3143,10 @@
           {
             "name": "",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -2561,6 +3157,10 @@
           {
             "name": "Chookie's Hideaway",
             "link": "https://maps.app.goo.gl/iSfEarkEc4YkuVhz7",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "Western mad",
@@ -2581,6 +3181,10 @@
               "en": ""
             },
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "pros": {
               "da": [
                 "Vi var her kun i 11 timer her"
@@ -2612,6 +3216,10 @@
           {
             "name": "Ducks Farm",
             "link": "https://maps.app.goo.gl/izweHBLCqDLikmXL9",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Vi nåede det ikke, men vi ville vildt gerne havde set dem",
@@ -2626,6 +3234,10 @@
           {
             "name": "Paradise Cave",
             "link": "https://maps.app.goo.gl/Djxhw3YV5HUWWU2f9",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Mega flot",
@@ -2642,6 +3254,10 @@
           {
             "name": "",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Alle barerne her var ret underlige.",
@@ -2658,6 +3274,10 @@
           {
             "name": "Vi spiste kun på vores hostel",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Vi spiste kun på vores hostel"
@@ -2676,6 +3296,10 @@
               "en": "2 nights"
             },
             "link": "https://maps.app.goo.gl/cnaU88wrtcpLv16YA",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
                 "Morgenmaden var inkluderet og lækker",
@@ -2731,6 +3355,10 @@
           {
             "name": "Hoi An Handicraft Tours",
             "link": "https://maps.app.goo.gl/BePtTMkXa84ZHxP27",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Lav din egen lanterne",
@@ -2749,6 +3377,10 @@
           {
             "name": "Old Town",
             "link": "https://maps.app.goo.gl/waip7stN99ntxnpU8",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Se solnedgangen her",
@@ -2763,6 +3395,10 @@
           {
             "name": "Thu Bon River",
             "link": "https://maps.app.goo.gl/hYB956JyNcwpLnBNA",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Flod i Hoi An, hvor man kan sejle i både",
@@ -2779,6 +3415,10 @@
           {
             "name": "Night Market",
             "link": "https://maps.app.goo.gl/rSJ52rcYaR3nZeWf6",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Masser af shops"
@@ -2791,6 +3431,10 @@
           {
             "name": "An Bang Beach",
             "link": "https://maps.app.goo.gl/iVwnBJ31zobDenWs8",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [
                 "En ok strand",
@@ -2805,6 +3449,10 @@
           {
             "name": "Skræddersyet tøj",
             "link": "https://share.google/ojz8bbVFPYX6SObzm",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Vi gik til Forty Five skrædderen",
@@ -2821,6 +3469,10 @@
           {
             "name": "Marble Mountains (Da Nang)",
             "link": "https://maps.app.goo.gl/ezGgYHEFcCBX5AR36",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Rigtig flot",
@@ -2837,6 +3489,10 @@
           {
             "name": "King Tiger Tiger Bar",
             "link": "https://share.google/ZTPrKCTQaq0JXIXb0",
+            "type": {
+              "da": "Bar / Klub",
+              "en": "Bar / Club"
+            },
             "description": {
               "da": [
                 "Vi gik der næsten hver aften"
@@ -2849,6 +3505,10 @@
           {
             "name": "Mr Bean bar",
             "link": "https://share.google/512jgfVcG3lwSDHjA",
+            "type": {
+              "da": "Bar",
+              "en": "Bar"
+            },
             "description": {
               "da": [
                 "Mr Bean-tematiseret bar"
@@ -2861,6 +3521,10 @@
           {
             "name": "Mad Monkey (Hostel)",
             "link": "https://share.google/omi3dFJzbFCLiZ2R5",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Et hostel",
@@ -2877,6 +3541,10 @@
           {
             "name": "Quan An Binh Dan Cuong",
             "link": "https://share.google/sf0Fn4eZmOjCttUfB",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Underligt sted",
@@ -2891,6 +3559,10 @@
           {
             "name": "Yummy Hoi Ahn food",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -2899,6 +3571,10 @@
           {
             "name": "Good Eats Hoi An I Restaurant & Bakery",
             "link": "https://share.google/CaXqrZH1vZCMitXPI",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "God mad",
@@ -2913,6 +3589,10 @@
           {
             "name": "nourish eatery",
             "link": "https://share.google/JAGcc7bIrmeAFi1My",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "God vegetarisk mad"
@@ -2925,6 +3605,10 @@
           {
             "name": "Morning Glory Signature",
             "link": "https://maps.app.goo.gl/G4NnS6y5hcr95d3J9",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "Dyrt men lækkert"
@@ -2937,6 +3621,10 @@
           {
             "name": "Banh Mi Phuong",
             "link": "https://maps.app.goo.gl/m41yQuNeQPJqHxfXA",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Virkelig lækkert og billigt",
@@ -2959,6 +3647,10 @@
               "en": "5 nights"
             },
             "link": "https://maps.app.goo.gl/ysmTK8ZP5YTEq3Y76",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
                 "Sødt personale",
@@ -2995,6 +3687,10 @@
               "en": "1 night"
             },
             "link": "",
+            "type": {
+              "da": "Hotel",
+              "en": "Hotel"
+            },
             "pros": {
               "da": [
                 "Luksus senge",
@@ -3048,6 +3744,10 @@
           {
             "name": "Cu Chi-tunnelerne",
             "link": "https://maps.app.goo.gl/o5SGKajuMj3kdGR36",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Book en tour - vi havde en sjov guide",
@@ -3062,6 +3762,10 @@
           {
             "name": "Tân Định Catholic Church",
             "link": "https://share.google/ylGfPZUe75DR1PCdK",
+            "type": {
+              "da": "Kirke",
+              "en": "Church"
+            },
             "description": {
               "da": [
                 "Pæn pink kirke"
@@ -3074,6 +3778,10 @@
           {
             "name": "War Remnants Museum",
             "link": "https://share.google/NZaGJNB1gn7ttvfoA",
+            "type": {
+              "da": "Museum",
+              "en": "Museum"
+            },
             "description": {
               "da": [
                 "Krigsmuseum",
@@ -3090,6 +3798,10 @@
           {
             "name": "",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Masser af steder på gaden"
@@ -3104,6 +3816,10 @@
           {
             "name": "Sushi Sun",
             "link": "https://share.google/vVIn8FdszAieijBUs",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Sushisted",
@@ -3118,6 +3834,10 @@
           {
             "name": "The Hungry Pig",
             "link": "https://share.google/qE86co6gYRv6onN7X",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Det var okay"
@@ -3130,6 +3850,10 @@
           {
             "name": "Banh Mih",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -3138,6 +3862,10 @@
           {
             "name": "Pizza 4P's Ben Thanh",
             "link": "https://share.google/0LTtOIR7elJRi6Upd",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "Pizzasted med god pizza",
@@ -3158,9 +3886,13 @@
               "en": "1 night"
             },
             "link": "",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
-                "Luksus værelse"
+                "Luksus værelse (privat værelse)"
               ],
               "en": [
                 "Luxury room (private room)"
@@ -3184,6 +3916,10 @@
               "en": "4 nights"
             },
             "link": "https://maps.app.goo.gl/n3N8rZsobtvZE1yM7",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
                 "Gardiner i sengene",
@@ -3218,6 +3954,10 @@
               "en": "1 night"
             },
             "link": "https://maps.app.goo.gl/uWCi4FeXLtczGGwU8",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "pros": {
               "da": [
                 "Billigt og gode senge",
@@ -3259,6 +3999,10 @@
           {
             "name": "Sand dunes",
             "link": "https://maps.app.goo.gl/HayNJoafvuDbR7dZ6",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Det er sjovt! Evt. book en tour, det er nemmest"
@@ -3271,6 +4015,10 @@
           {
             "name": "Mui Ne Beach",
             "link": "https://maps.app.goo.gl/WeRGXFhCpjjMnLTG6",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [
                 "Man kan surfe her, men pas på! Der er virkelig mange mennesker"
@@ -3285,6 +4033,10 @@
           {
             "name": "iHome Backpacker Resort",
             "link": "https://maps.app.goo.gl/W89ZbQHty1BeNu3W7",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "description": {
               "da": [
                 "Et meget populært hostel"
@@ -3317,6 +4069,10 @@
               "en": "3 nights"
             },
             "link": "https://maps.app.goo.gl/86CEHhai7P8KBzus7",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
                 "Billigt"
@@ -3349,6 +4105,7 @@
           "da": "Dalat",
           "en": "Dalat"
         },
+        "link": "",
         "tips": [
           {
             "da": "Lej scooter",
@@ -3363,6 +4120,10 @@
           {
             "name": "Crazy house",
             "link": "https://share.google/awP2CtfQjHSf66wQJ",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Et must!!!",
@@ -3381,6 +4142,10 @@
           {
             "name": "Mr Rot Secret Tour",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Det er et must!!!!",
@@ -3401,6 +4166,10 @@
           {
             "name": "Maze bar",
             "link": "https://maps.app.goo.gl/nKciwQaj9wkfvLANA",
+            "type": {
+              "da": "Bar",
+              "en": "Bar"
+            },
             "description": {
               "da": [
                 "Vi nåede aldrig herhen, men den blev anbefalet mange gange"
@@ -3415,6 +4184,10 @@
           {
             "name": "",
             "link": "https://maps.app.goo.gl/Ez5b4XGZoYY1if3x8",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Maden på vores hostel var så lækker, at vi kun spiste der"
@@ -3433,6 +4206,10 @@
               "en": "2 nights"
             },
             "link": "https://maps.app.goo.gl/Ez5b4XGZoYY1if3x8",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
                 "Virkelig søde mennesker der arbejdede der",
@@ -3481,7 +4258,7 @@
             "App til taxa/scooter taxa: gojek, grab",
             "Undgå: friske grøntsager (kan være vasket i urent vand)",
             "Undgå: isterninger",
-            "Pas på hundene – de er ikke altid så søde",
+            "Pas på hundene - de er ikke altid så søde",
             "Husk: Tag mælkesyretabletter!!! Tag dem før afgang og mens. Hjælper med at nedbryde mad som man ikke er vant til.",
             "Husk: Tag solcreme med hjemmefra - og meget! Alle bliver mega solbrændt",
             "Husk: Brug myggespray!!!",
@@ -3493,16 +4270,45 @@
             "Apps for taxis/scooter taxis: Gojek, Grab",
             "Avoid: fresh vegetables (may be washed in unclean water)",
             "Avoid: ice cubes",
-            "Watch out for the dogs – they're not always friendly",
+            "Watch out for the dogs - they're not always friendly",
             "Remember: Take probiotic tablets!!! Take them before departure and while travelling. Helps digest food you're not used to.",
-            "Remember: Bring sunscreen from home – and lots of it! Everyone gets badly sunburned",
+            "Remember: Bring sunscreen from home - and lots of it! Everyone gets badly sunburned",
             "Remember: Use mosquito spray!!!",
             "Remember: Bring more than one card",
-            "Remember to take your card out of the ATM when withdrawing – it keeps the card if you don't.",
-            "Don't withdraw money at the airport or from home – there are extra fees. Withdraw in the cities instead."
+            "Remember to take your card out of the ATM when withdrawing - it keeps the card if you don't.",
+            "Don't withdraw money at the airport or from home - there are extra fees. Withdraw in the cities instead."
           ]
         },
-        "download": []
+        "download": [
+          {
+            "name": {
+              "da": "Grab (billig transport)",
+              "en": "Grab (cheap transport)"
+            },
+            "url": "https://grab.com"
+          },
+          {
+            "name": {
+              "da": "Bolt",
+              "en": "Bolt"
+            },
+            "url": "https://bolt.com"
+          },
+          {
+            "name": {
+              "da": "Hostelworld (hostels)",
+              "en": "Hostelworld (Hostel booking)"
+            },
+            "url": "https://hostelworld.com"
+          },
+          {
+            "name": {
+              "da": "Agoda (hoteller)",
+              "en": "Agoda (Hotel booking)"
+            },
+            "url": "https://agoda.com"
+          }
+        ]
       }
     ],
     "food": [
@@ -3524,7 +4330,7 @@
         "link": "https://www.google.com/search?client=safari&sca_esv=3865a5c24f38e491&hl=da-dk&sxsrf=AE3TifMJsh3wQJL0nTVZo9Q109-aRdEzpw:1749457453486&udm=2&fbs=AIIjpHw2KGh6wpocn18KLjPMw8n57XoVNo77u2wv3yhVkwnmKFnqc3-_BcwmRY_eZ5ST0eqHv2fjuIFC8dYeMQF9cGA2XLv8i4WfdgKEWROx9cYX7xU1xJPkWT7qoP3XmxtvboHTTbP2NIraymCV-1n5wGkXTeQ0BegdgUiqFzVg9Vt6pvbYjZmNsYIijtSmfcxPbJePJyUz3Fgvea_wOlqf1hnSXa0Hfg&q=bintang+radler&sa=X&ved=2ahUKEwjDh8Lw9OONAxU9FBAIHdb5F1MQtKgLegQIIxAB&biw=390&bih=663&dpr=3#vhid=YHmPAxcBlOJtmM&vssid=mosaic",
         "description": {
           "da": [
-            "citron øl uden så meget alkohol",
+            "Citron øl uden så meget alkohol",
             "Mega lækker!"
           ],
           "en": [
@@ -3537,7 +4343,7 @@
         "name": "Pocari Sweat",
         "description": {
           "da": [
-            "det er sådan noget elektrolytter vand"
+            "Det er sådan noget elektrolytter vand"
           ],
           "en": [
             "It's like an electrolyte drink"
@@ -3566,12 +4372,16 @@
           {
             "name": "Love Ancher market",
             "link": "https://maps.app.goo.gl/Ma6fZV7aUGHTzLUW6",
+            "type": {
+              "da": "Marked",
+              "en": "Market"
+            },
             "description": {
               "da": [
                 "Der er masser af flotte ting",
                 "Det er ret dyrt, så man skal virkelig prutte meget om prisen",
-                "Solnedgangen ved the lawn",
-                "Bare få en øl ved en af de lokale warungs ved siden af the lawn"
+                "Solnedgangen ved The Lawn",
+                "Bare få en øl ved en af de lokale warungs ved siden af The Lawn"
               ],
               "en": [
                 "There are lots of beautiful things",
@@ -3584,6 +4394,10 @@
           {
             "name": "Canggu Beach",
             "link": "https://maps.app.goo.gl/bfSRg1VGhujThoxp8",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [
                 "Stranden i Canggu",
@@ -3600,9 +4414,13 @@
           {
             "name": "Therapy Canggu",
             "link": "https://maps.app.goo.gl/zBvb1U6dgnsTyRFM8",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "Mega lækkert spa dog ret dyrt.",
+                "Mega lækkert spa dog ret dyrt",
                 "Man kan få lækker fuld body massage"
               ],
               "en": [
@@ -3614,41 +4432,35 @@
           {
             "name": "Surf",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "hvis i kan, så prøv at få en surf undervisning"
+                "Hvis i kan, så prøv at få en surf undervisning"
               ],
               "en": [
-                "if you can, try to get a surf lesson"
+                "If you can, try to get a surf lesson"
               ]
             }
           }
         ],
         "byen": [
           {
-            "name": "Black Sands Brewery",
-            "link": "https://maps.app.goo.gl/GtwSKT6gfMRN88yZ6",
-            "description": {
-              "da": [
-                "Bar / restaurant",
-                "Meget pænt sted og lækkert mad men lidt dyrt"
-              ],
-              "en": [
-                "Bar / restaurant",
-                "Very pretty place and good food but a bit expensive"
-              ]
-            }
-          },
-          {
             "name": "The Lawn",
             "link": "https://maps.app.goo.gl/YwzL6x4TwzgrMqun6",
+            "type": {
+              "da": "Bar",
+              "en": "Bar"
+            },
             "description": {
               "da": [
-                "Bar",
+                "Bar på stranden",
                 "Flot solnedgang her"
               ],
               "en": [
-                "Bar",
+                "Bar at the beach",
                 "Beautiful sunset here"
               ]
             }
@@ -3656,10 +4468,16 @@
           {
             "name": "Old Man's",
             "link": "https://maps.app.goo.gl/hsKX7K2KuUJ9yszo8",
+            "type": {
+              "da": "Bar / Klub",
+              "en": "Bar / Club"
+            },
             "description": {
               "da": [
                 "Bar tæt på stranden",
-                "Der er ofte beer pong turnering"
+                "Der er ofte beer pong turnering",
+                "Der er også floor om aftenen",
+                "Der er vidst en bestem dag på ugen man bør tage herhen"
               ],
               "en": [
                 "Bar close to the beach",
@@ -3670,20 +4488,30 @@
           {
             "name": "Luigi's Hot Pizza Canggu",
             "link": "https://maps.app.goo.gl/wtyy6KMNrq6kH1EA8",
+            "type": {
+              "da": "Restaurant / Klub",
+              "en": "Restaurant / Club"
+            },
             "description": {
               "da": [
+                "Italiensk pizzeria",
                 "Tag herhen om mandagen",
-                "Mega sjov klub og lækker pizza restaurant"
+                "Mega sjov klub og lækker pizza"
               ],
               "en": [
+                "Italian pizzeria",
                 "Go here on Mondays",
-                "Super fun club and tasty pizza restaurant"
+                "Super fun club and tasty pizza"
               ]
             }
           },
           {
             "name": "Finns Beach Club",
             "link": "https://maps.app.goo.gl/Ce9X4MirZeWrkikW9",
+            "type": {
+              "da": "Beach Club",
+              "en": "Beach Club"
+            },
             "description": {
               "da": [
                 "Nåede det ikke da jeg blev syg",
@@ -3698,6 +4526,10 @@
           {
             "name": "Xbar Canggu",
             "link": "https://maps.app.goo.gl/zW6DAmm9K2hTQ6tF6",
+            "type": {
+              "da": "Bar",
+              "en": "Bar"
+            },
             "description": {
               "da": [
                 "Billigt men kun sjovt i store grupper"
@@ -3710,14 +4542,18 @@
           {
             "name": "Deus Ex Machina",
             "link": "https://maps.app.goo.gl/wjg2jjFDHKMqwm856",
+            "type": {
+              "da": "Restaurant / Bar / Tøjbutik",
+              "en": "Restaurant / Bar / Clothing shop"
+            },
             "description": {
               "da": [
-                "Sjov bar om søndagen i grupper",
-                "Også en tøjbutik / restaurant"
+                "Også en tøjbutik / restaurant",
+                "Sjov bar om søndagen i grupper"
               ],
               "en": [
-                "Fun bar on Sundays in groups",
-                "Also a clothing shop / restaurant"
+                "Also a clothing shop / restaurant",
+                "Fun bar on Sundays in groups"
               ]
             }
           }
@@ -3726,45 +4562,55 @@
           {
             "name": "Copenhagen Cafe",
             "link": "https://maps.app.goo.gl/chHqArZJfAqrTaqt9",
+            "type": {
+              "da": "Café",
+              "en": "Café"
+            },
             "description": {
               "da": [
-                "Café",
                 "Fråderen dansk brunch mad",
-                "Ret dyrt dog 100% worth it"
+                "Ret dyrt dog 100% worth it, hvis man savner lidt dansk mad"
               ],
               "en": [
-                "Café",
-                "Amazing Danish brunch food",
-                "Quite expensive but 100% worth it"
+                "Delicious Danish brunch food",
+                "Quite expensive but 100% worth it, if you miss danish food"
               ]
             }
           },
           {
             "name": "Copenhagen Bakery",
             "link": "https://maps.app.goo.gl/dKQRTzhfDwN1trci9",
+            "type": {
+              "da": "Café / Bageri",
+              "en": "Café / Bakery"
+            },
             "description": {
               "da": [
-                "Igen fråderen dansk mad"
+                "Fråderen dansk mad",
+                "Danske ejere fra København"
               ],
               "en": [
-                "Again, amazing Danish food"
+                "Delicious Danish food",
+                "Danish owners from Copenhagen"
               ]
             }
           },
           {
             "name": "Crate Cafe",
             "link": "https://maps.app.goo.gl/nLAUR3j9RQp97xLo7",
+            "type": {
+              "da": "Café",
+              "en": "Café"
+            },
             "description": {
               "da": [
-                "Café",
                 "Det er et must",
+                "Mega insta friendly",
                 "Såååå fråderen mad og kommer i kæmpe portioner",
                 "Iskaffen er så lækker og overdrevet sej",
-                "Mega insta friendly",
                 "Få deres iskaffe eller en smoothie!"
               ],
               "en": [
-                "Café",
                 "It's a must",
                 "Soooo delicious food and it comes in huge portions",
                 "The iced coffee is so good and ridiculously cool",
@@ -3776,18 +4622,23 @@
           {
             "name": "WOODS PERERENAN",
             "link": "https://maps.app.goo.gl/SqBgtMmaXi8vzYt57",
+            "type": "",
             "description": {
               "da": [
                 "Virkelig pænt sted og lækker morgenmad"
               ],
               "en": [
-                "Really pretty place and lovely breakfast"
+                "Really pretty place and delicious breakfast"
               ]
             }
           },
           {
             "name": "The Shady Shack",
             "link": "https://maps.app.goo.gl/ao6o4huKPfTh6XTr8",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "Vegetar restaurant",
@@ -3802,6 +4653,10 @@
           {
             "name": "I Am Vegan Babe",
             "link": "https://maps.app.goo.gl/vF6ez5GbodqXgHeX9",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "Vegansk restaurant",
@@ -3809,39 +4664,65 @@
               ],
               "en": [
                 "Vegan restaurant",
-                "Amazing vegan food"
+                "Very good vegan food"
+              ]
+            }
+          },
+          {
+            "name": "Black Sands Brewery",
+            "link": "https://maps.app.goo.gl/GtwSKT6gfMRN88yZ6",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
+            "description": {
+              "da": [
+                "Meget pænt sted og lækkert mad men lidt dyrt"
+              ],
+              "en": [
+                "Very pretty place and good food but a bit expensive"
               ]
             }
           },
           {
             "name": "Santorini Greek Restaurant Canggu",
             "link": "https://maps.app.goo.gl/M8RX8JtYsRFQbGy18",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
-                "Græsk restaurant",
-                "Billigt fråderen græsk mad"
+                "Græsk restaurant med billigt fråderen mad"
               ],
               "en": [
-                "Greek restaurant",
-                "Cheap delicious Greek food"
+                "Greek restaurant with cheap delicious food"
               ]
             }
           },
           {
             "name": "La Brisa",
             "link": "https://maps.app.goo.gl/7aeiMZYpw9tBWYbd8",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
-                "Lækker mad med en flot udsigt, men ret dyrt"
+                "Lækker mad med en flot udsigt ud til vandet, men ret dyrt"
               ],
               "en": [
-                "Great food with a beautiful view, but quite expensive"
+                "Good food with a beautiful view of the sea, but quite expensive"
               ]
             }
           },
           {
             "name": "Penny Lane",
             "link": "https://maps.app.goo.gl/TAQDZi3Jocf2Jza17",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "Balinesisk restaurant",
@@ -3858,6 +4739,10 @@
           {
             "name": "Lola's Cantina Mexicana",
             "link": "https://maps.app.goo.gl/ca1kw3UrbeRPjRJr7",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "Mexicansk restaurant",
@@ -3872,6 +4757,10 @@
           {
             "name": "YUKI Sushi",
             "link": "https://maps.app.goo.gl/L2ULZGCuAonBXap87",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "Japansk restaurant",
@@ -3886,15 +4775,17 @@
           {
             "name": "La Baracca",
             "link": "https://maps.app.goo.gl/7W1hnKnWbWV86nSH6",
+            "type": {
+              "da": "Restaurant (pizzeria)",
+              "en": "Restaurant (pizzeria)"
+            },
             "description": {
               "da": [
-                "Italiensk pizzeria",
-                "Fråderen pizza (ish)",
+                "God pizza (ish)",
                 "Samme kæde som i Ubud"
               ],
               "en": [
-                "Italian pizzeria",
-                "Amazing pizza (ish)",
+                "Good pizza (ish)",
                 "Same chain as in Ubud"
               ]
             }
@@ -3902,26 +4793,53 @@
           {
             "name": "Luigi's Hot Pizza Canggu",
             "link": "https://maps.app.goo.gl/wtyy6KMNrq6kH1EA8",
+            "type": {
+              "da": "Restaurant / Klub",
+              "en": "Restaurant / Club"
+            },
             "description": {
               "da": [
-                "Italiensk pizzeria + klub",
-                "Mega sjov klub og lækker pizza restaurant"
+                "Mega sjov klub og lækker pizza restaurant",
+                "Tag herhen om mandagen"
               ],
               "en": [
-                "Italian pizzeria + club",
-                "Super fun club and tasty pizza restaurant"
+                "Super fun club and tasty pizza restaurant",
+                "Go here on Mondays"
               ]
             }
           },
           {
             "name": "Moana Fish Eatery",
             "link": "https://maps.app.goo.gl/aHf391C8EkHDHXhR9",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
-                "Billigt og lækkert"
+                "Billigt og lækkert",
+                "Lækre retter med fisk"
               ],
               "en": [
                 "Cheap and tasty"
+              ]
+            }
+          },
+          {
+            "name": "Deus Ex Machina",
+            "link": "https://maps.app.goo.gl/wjg2jjFDHKMqwm856",
+            "type": {
+              "da": "Restaurant / Bar / Tøjbutik",
+              "en": "Restaurant / Bar / Clothing shop"
+            },
+            "description": {
+              "da": [
+                "Også en tøjbutik / restaurant",
+                "Sjov bar om søndagen i grupper"
+              ],
+              "en": [
+                "Also a clothing shop / restaurant",
+                "Fun bar on Sundays in groups"
               ]
             }
           }
@@ -3934,20 +4852,22 @@
               "en": "2 nights"
             },
             "link": "https://maps.app.goo.gl/674wowjRGgCvGKkC9",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
                 "Mega god stemning",
-                "Gode værelser",
+                "Gode værelser & private toiletter",
                 "To pools",
-                "Sødt personale som var mega chilleren",
-                "Private toiletter"
+                "Sødt personale som var mega chilleren"
               ],
               "en": [
-                "Amazing atmosphere",
-                "Good rooms",
+                "Very good atmosphere",
+                "Good rooms & private bathrooms",
                 "Two pools",
-                "Sweet staff who were super chill",
-                "Private bathrooms"
+                "Sweet staff who were super chill"
               ]
             },
             "cons": {
@@ -3968,6 +4888,10 @@
               "en": "5 nights"
             },
             "link": "",
+            "type": {
+              "da": "Hostel / Surfcamp",
+              "en": "Hostel / Surfcamp"
+            },
             "pros": {
               "da": [
                 "Luksus værelser",
@@ -3976,10 +4900,10 @@
                 "Alt var luksus på kima"
               ],
               "en": [
-                "Luxury rooms",
-                "Luxury breakfast",
+                "Very nice rooms",
+                "Very delicious breakfast",
                 "Everyone was so sweet",
-                "Everything was luxury at Kima"
+                "Everything was very nice and clean at Kima"
               ]
             },
             "cons": {
@@ -3994,12 +4918,49 @@
             }
           },
           {
+            "name": "Lapoint",
+            "time_spent": {
+              "da": "3 uger",
+              "en": "3 weeks"
+            },
+            "link": "",
+            "type": {
+              "da": "Surfcamp",
+              "en": "Surfcamp"
+            },
+            "pros": {
+              "da": [
+                "Mega socialt sted og rigtig hyggeligt",
+                "Rigtig mange unge, danskere, solorejsende",
+                "De laver rigtig mange sociale ting i løbet af ugen",
+                "Ville max blive i to uger"
+              ],
+              "en": [
+                ""
+              ]
+            },
+            "cons": {
+              "da": [
+                "Kan godt blive dyrt i længden",
+                "Det er det samme man laver hver uge",
+                "Er hårdt at stå tidligt op om morgenen for at surfe"
+              ],
+              "en": [
+                ""
+              ]
+            }
+          },
+          {
             "name": "The Commotion",
             "time_spent": {
               "da": "2 nætter",
               "en": "2 nights"
             },
             "link": "",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
                 "Sengene var ret god"
@@ -4042,20 +5003,28 @@
           {
             "name": "Firefly Eco Lodge",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Rigtig lækker pool og overnatningssted",
-                "Pool lige ud til rismarker. Virkelig flot"
+                "Pool lige ud til rismarker. Virkelig flot!"
               ],
               "en": [
                 "Really nice pool and accommodation",
-                "Pool right by the rice fields. Truly beautiful"
+                "Pool right by the rice fields. Very beautiful!"
               ]
             }
           },
           {
             "name": "Healer Prana",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Healeren hedder Prana. Mega sød mand og virkelig en speciel oplevelse!",
@@ -4075,13 +5044,19 @@
           },
           {
             "name": "Tegalalang Rice Terrace",
-            "link": "link",
+            "link": "",
+            "type": {
+              "da": "Rismarker",
+              "en": "Rice fields"
+            },
             "description": {
               "da": [
+                "Et must",
                 "Det er rigtig flot at gå rundt i",
                 "Man behøver ikke at booke noget for at tage herhen"
               ],
               "en": [
+                "A must",
                 "It's really beautiful to walk around",
                 "You don't need to book anything to go here"
               ]
@@ -4089,35 +5064,46 @@
           },
           {
             "name": "Cretya",
-            "link": "link",
+            "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Gratis pool med mega udsigt til rismarkerne",
-                "der er vist en del af dem"
+                "Der er vist ret mange forskellige pools"
               ],
               "en": [
-                "Free pool with an amazing view of the rice fields",
-                "there seem to be quite a few of them"
+                "Free pool with an amazing view of the rice fields"
               ]
             }
           },
           {
             "name": "Krisik waterfall",
-            "link": "link",
+            "link": "",
+            "type": {
+              "da": "Vandfald",
+              "en": "Waterfall"
+            },
             "description": {
               "da": [
-                "Vores favorit pga vores guide",
-                "Plus der var tre forskellige"
+                "Vores favorit vandfald pga vores guide var så sød",
+                "Der er tre forskellige vandfald her"
               ],
               "en": [
-                "Our favourite because of our guide",
-                "Plus there were three different ones"
+                "Our favourite waterfall because our guide was so sweet",
+                "There are three different waterfalls here"
               ]
             }
           },
           {
             "name": "Goa Raja",
-            "link": "link",
+            "link": "",
+            "type": {
+              "da": "Vandfald",
+              "en": "Waterfall"
+            },
             "description": {
               "da": [
                 "To forskellige vandfald her",
@@ -4133,59 +5119,79 @@
           },
           {
             "name": "Tibumana",
-            "link": "link",
+            "link": "",
+            "type": {
+              "da": "Vandfald",
+              "en": "Waterfall"
+            },
             "description": {
               "da": [
-                "Også mega flot vandfald"
+                "Mega flot vandfald"
               ],
               "en": [
-                "Also a very beautiful waterfall"
+                "Very beautiful waterfall"
               ]
             }
           },
           {
             "name": "Kanto lampo",
-            "link": "link",
+            "link": "",
+            "type": {
+              "da": "Vandfald",
+              "en": "Waterfall"
+            },
             "description": {
               "da": [
-                "Flot, men der var så mange turister.",
+                "Flot vandfald, men der var så mange turister.",
                 "Vi kunne snildt havde skippet det"
               ],
               "en": [
-                "Beautiful, but there were so many tourists.",
+                "Beautiful waterfall, but there were so many tourists.",
                 "We could easily have skipped it"
               ]
             }
           },
           {
             "name": "Monkey forest",
-            "link": "link",
+            "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "Lad være med at kigge aberne i øjnene!!!"
+                "En skov fyldt med aber",
+                "Lad være med at kigge aberne i øjnene, de bidder!!!"
               ],
               "en": [
-                "Don't look the monkeys in the eyes!!!"
+                "A forrest with a lot of monkeys",
+                "Don't look the monkeys in the eyes, they bite!!!"
               ]
             }
           },
           {
             "name": "White water rafting",
-            "link": "link",
+            "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "Mega sjovt sagde Ingeborg"
+                "Prøvede det ikke selv men fik at vide at det var mega sjovt"
               ],
               "en": [
-                "Super fun, said Ingeborg"
+                "I didn't try i myself, but was told that it was super fun"
               ]
             }
-          }
-        ],
-        "byen": [
+          },
           {
             "name": "Marked",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Der er sååå mange ting man kan købe, men husk at prutte om prisen"
@@ -4194,17 +5200,21 @@
                 "There are so many things to buy, but remember to haggle on the price"
               ]
             }
-          },
+          }
+        ],
+        "byen": [
           {
             "name": "Melting Pot",
-            "link": "link",
+            "link": "",
+            "type": {
+              "da": "Sportsbar",
+              "en": "Sports bar"
+            },
             "description": {
               "da": [
-                "Bare en sportsbar.",
                 "Fin nok sted men vi tog bare derhen fordi der ikke rigtig var så mange andre steder der var åbne"
               ],
               "en": [
-                "Just a sports bar.",
                 "Fine place but we only went because not many other places were open"
               ]
             }
@@ -4214,6 +5224,10 @@
           {
             "name": "La baracca",
             "link": "",
+            "type": {
+              "da": "Restaurant (pizzeria)",
+              "en": "Restaurant (pizzeria)"
+            },
             "description": {
               "da": [
                 "spiste ikke noget da jeg var her fordi jeg var syg",
@@ -4234,14 +5248,18 @@
               "en": "1 night"
             },
             "link": "",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
-                "gode senge",
+                "Gode senge",
                 "Morgenmad er inkluderet",
                 "Sødt personale"
               ],
               "en": [
-                "good beds",
+                "Good beds",
                 "Breakfast is included",
                 "Sweet staff"
               ]
@@ -4264,18 +5282,24 @@
               "en": "2 nights"
             },
             "link": "",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
                 "Inkluderet morgenmad",
                 "Kæmpe senge og gode senge med gardiner",
                 "Så meget fra gratis",
-                "Sødt personale"
+                "Sødt personale",
+                "Der var hundevalde nogle dage!"
               ],
               "en": [
                 "Breakfast included",
                 "Huge beds and good beds with curtains",
                 "So much included for free",
-                "Sweet staff"
+                "Sweet staff",
+                "There were puppies some days!"
               ]
             },
             "cons": {
@@ -4290,6 +5314,26 @@
                 "The beds creaked a lot",
                 "Small rooms",
                 "Way too expensive for a hostel"
+              ]
+            }
+          },
+          {
+            "name": "Firefly Eco Lodge",
+            "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
+            "description": {
+              "da": [
+                "Rigtig lækker pool og overnatningssted",
+                "Pool lige ud til rismarker. Virkelig flot!",
+                "Jeg overnattede ikke her men har fået det anbefalet meget"
+              ],
+              "en": [
+                "Really nice pool and accommodation",
+                "Pool right by the rice fields. Very beautiful!",
+                "I didn't stay here but got it reccomended a lot"
               ]
             }
           }
@@ -4314,36 +5358,48 @@
           {
             "name": "Kelingking Beach",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "Skal skal skal herhen",
-                "Skal ned på stranden selvom det er en lang tur",
-                "Gratis"
+                "Den er gratis",
+                "Skal skal herhen!",
+                "Man skal ned på stranden selvom det er en lang tur"
               ],
               "en": [
-                "Must must must go here",
+                "It is free",
+                "Must must go here!",
                 "You have to walk down to the beach even though it's a long trip",
-                "Free"
               ]
             }
           },
           {
             "name": "Broken Beach",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "virkelig flot, dog lidt svært at komme herhen",
-                "vi så Manta Rays og havskildpadder i vandet her"
+                "Virkelig flot, dog lidt svært at komme herhen",
+                "Vi så Manta Rays og havskildpadder i vandet her"
               ],
               "en": [
-                "really beautiful, but a bit hard to get to",
-                "we saw manta rays and sea turtles in the water here"
+                "Really beautiful, but a bit hard to get to",
+                "We saw manta rays and sea turtles in the water here"
               ]
             }
           },
           {
             "name": "Diamond Beach",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Vi så den kun oppefra",
@@ -4358,18 +5414,26 @@
           {
             "name": "Tembeling Beach and Forest",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Meget meget meget svært at komme derhen og sygt hårdt, men virkelig flot"
               ],
               "en": [
-                "Very very very hard to get to and extremely tough, but truly beautiful"
+                "Very very very hard to get to and extremely tough, but very beautiful"
               ]
             }
           },
           {
             "name": "Snorkle med Manta Rays",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Vi bookede igennem Harrie: +62 819 1658 3839",
@@ -4384,6 +5448,10 @@
           {
             "name": "Goa Giri Putri Temple",
             "link": "",
+            "type": {
+              "da": "Tempel",
+              "en": "Temple"
+            },
             "description": {
               "da": [
                 "Virkelig flot underjordiske tempel",
@@ -4400,6 +5468,10 @@
           {
             "name": "Beach club",
             "link": "",
+            "type": {
+              "da": "Beach club",
+              "en": "Beach club"
+            },
             "description": {
               "da": [
                 "Der er ikke rigtigt byen her.",
@@ -4414,55 +5486,71 @@
         ],
         "restaurants": [
           {
-            "name": "krusty krab",
+            "name": "Krusty Krab",
             "link": "",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
-                "gode burger og de billige",
-                "plus de er tæt på havnen"
+                "Gode burger og de billige",
+                "De er tæt på havnen"
               ],
               "en": [
-                "good burgers and they're cheap",
-                "plus they're close to the harbour"
+                "Good burgers and they're cheap",
+                "They're close to the harbour"
               ]
             }
           },
           {
             "name": "Sugar daddy",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "virkelig lækkert is",
-                "tæt på krusty krab"
+                "Virkelig lækkert is",
+                "Tæt på krusty krab"
               ],
               "en": [
-                "really tasty ice cream",
-                "close to Krusty Krab"
+                "Really good ice cream",
+                "Close to Krusty Krab"
               ]
             }
           },
           {
             "name": "Sunny cafe Penida",
             "link": "",
+            "type": {
+              "da": "Café",
+              "en": "Café"
+            },
             "description": {
               "da": [
-                "lækker og billig morgenmad"
+                "Lækker og billig morgenmad"
               ],
               "en": [
-                "tasty and cheap breakfast"
+                "Tasty and cheap breakfast"
               ]
             }
           },
           {
             "name": "Amok Sunset",
             "link": "",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
-                "lækker men dyr mad",
+                "Lækker men dyr mad",
                 "Godt sunset spot"
               ],
               "en": [
-                "tasty but expensive food",
+                "Tasty but expensive food",
                 "Good sunset spot"
               ]
             }
@@ -4476,15 +5564,19 @@
               "en": "3 nights"
             },
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "pros": {
               "da": [
-                "ok billigt for meget privat værelse (300.000 IDR pr nat pr værelse)",
+                "Ok billigt for meget privat værelse (300.000 IDR pr nat pr værelse)",
                 "Havde egen pool",
                 "Søde medarbejdere",
                 "Sjovt i grupper"
               ],
               "en": [
-                "okay price for a mostly private room (300,000 IDR per night per room)",
+                "Okay price for a mostly private room (300,000 IDR per night per room)",
                 "Had its own pool",
                 "Sweet staff",
                 "Fun in groups"
@@ -4492,14 +5584,14 @@
             },
             "cons": {
               "da": [
-                "vi fik kun et håndklæde",
+                "Vi fik kun et håndklæde",
                 "Morgenmaden var ikke inkluderet, men billigt",
                 "Så dårligt vandtryk",
                 "Ingen sæbe på toilettet",
                 "Toiletterne var ikke optimale"
               ],
               "en": [
-                "we only got one towel",
+                "We only got one towel",
                 "Breakfast wasn't included, but cheap",
                 "Such bad water pressure",
                 "No soap in the bathroom",
@@ -4528,57 +5620,76 @@
           {
             "name": "Blue Lagoon",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "bare en flot udsigt"
+                "Bare en flot udsigt"
               ],
               "en": [
-                "just a beautiful view"
+                "Just a beautiful view"
               ]
             }
           },
           {
             "name": "The Old tree",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "bare en flot udsigt"
+                "Bare en flot udsigt"
               ],
               "en": [
-                "just a beautiful view"
+                "Just a beautiful view"
               ]
             }
           },
           {
             "name": "Gala Gala underground house",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "vi så det kun oppefra"
+                "Vi så det kun oppefra"
               ],
               "en": [
-                "we only saw it from above"
+                "We only saw it from above"
               ]
             }
           },
           {
             "name": "Devils tear",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "mega sejt faktisk",
+                "Mega sejt faktisk",
                 "Ville klart anbefale det"
               ],
               "en": [
-                "actually super cool",
+                "Actually super cool",
                 "Would definitely recommend it"
               ]
             }
           }
         ],
-        "byen": [
+          "byen": [
           {
-            "name": "",
+            "name": {
+              "da": "Vi tog ikke i byen her",
+              "en": "We didn't go out here"
+            },
             "link": "",
             "description": {
               "da": [
@@ -4599,16 +5710,20 @@
               "en": "1 night"
             },
             "link": "",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
-                "billigt",
+                "Billigt",
                 "Gode senge og stort værelse (kun fire senge pr værelse) 66,5 kr i alt for en nat",
                 "To toiletter og bade for et værelse",
                 "Vi fik håndklæder",
                 "Sødt personale"
               ],
               "en": [
-                "cheap",
+                "Cheap",
                 "Good beds and a big room (only four beds per room) 66.5 DKK total for one night",
                 "Two bathrooms and showers for one room",
                 "We got towels",
@@ -4638,11 +5753,11 @@
         "tips": [
           {
             "da": "Lej cykler da det er mega nice at cykle rundt og gør alting meget nemmere",
-            "en": "Rent bikes – cycling around is amazing and makes everything much easier"
+            "en": "Rent bikes - cycling around is amazing and makes everything much easier"
           },
           {
             "da": "Book et hostel der ligger tæt ved havnen, da det bare gør det nemmere at tage i byen.",
-            "en": "Book a hostel close to the harbour – it makes going out much easier."
+            "en": "Book a hostel close to the harbour - it makes going out much easier."
           }
         ],
         "activities": [
@@ -4673,38 +5788,49 @@
           {
             "name": "Tequila Sunrise",
             "link": "",
+            "type": {
+              "da": "Klub",
+              "en": "Club"
+            },
             "description": {
               "da": [
-                "alle som i alle starter her"
+                "Alle som i alle starter her (I hvertfald alle fra vores hostel)"
               ],
               "en": [
-                "everyone and I mean everyone starts here"
+                "Everyone and I mean everyone starts here"
               ]
             }
           },
           {
             "name": "The Jungle Bar",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "gratis shots hele tiden, men det er et lidt underligt sted"
+                "Gratis shots hele tiden, men det er et lidt underligt sted"
               ],
               "en": [
-                "free shots all the time, but it's a bit of a weird place"
+                "Free shots all the time, but it's a bit of a weird place"
               ]
             }
           }
         ],
         "restaurants": [
           {
-            "name": "",
+            "name": {
+              "da": "Vi spiste kun på hostel",
+              "en": "We only ate at the hostel"
+            },
             "link": "",
             "description": {
               "da": [
-                "Vi spiste kun på hostel"
+                ""
               ],
               "en": [
-                "We only ate at the hostel"
+                ""
               ]
             }
           }
@@ -4717,6 +5843,10 @@
               "en": "3 nights"
             },
             "link": "",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
                 "Meget inkluderet",
@@ -4737,22 +5867,22 @@
             },
             "cons": {
               "da": [
-                "de var lidt ulækre",
+                "De var lidt ulækre",
                 "Der lugtede lidt af mug på værelset",
                 "Føltes ikke som om de rigtigt gjorde rent",
                 "Toiletterne var halv ulækre",
                 "Poolen kunne godt gøres rent noget oftere",
                 "Aftensmaden var ikke det bedste, men ok.",
-                "drinks var sådan liiidt dyre"
+                "Drinks var sådan liiidt dyre"
               ],
               "en": [
-                "they were a bit gross",
+                "They were a bit gross",
                 "The room smelled a bit musty",
                 "Didn't feel like they really cleaned properly",
                 "The toilets were half disgusting",
                 "The pool could be cleaned more often",
                 "Dinner wasn't the best, but okay.",
-                "drinks were just a little bit expensive"
+                "Drinks were just a little bit expensive"
               ]
             }
           }
@@ -4771,43 +5901,46 @@
         ],
         "activities": [
           {
-            "name": "",
+            "name": {
+              "da": "Vi så ikke noget haha",
+              "en": "We didn't see anything haha"
+            },
             "link": "",
             "description": {
               "da": [
-                "vi så ikke noget haha"
+                ""
               ],
               "en": [
-                "we didn't see anything haha"
+                ""
               ]
             }
           }
         ],
         "byen": [
           {
-            "name": "",
+
+            "name": {
+              "da": "Vi var ikke i byen her",
+              "en": "We didn't go out here"
+            },
             "link": "",
             "description": {
-              "da": [
-                "vi var ikke i byen her"
-              ],
-              "en": [
-                "we didn't go out here"
-              ]
+              "da": [""],
+              "en": [""]
             }
           }
         ],
         "restaurants": [
           {
-            "name": "",
+
+            "name": {
+              "da": "Vi lavede selv mad",
+              "en": "We cooked our own food"
+            },
             "link": "",
             "description": {
-              "da": [
-                "vi lavede selv mad"
-              ],
-              "en": [
-                "we cooked our own food"
-              ]
+              "da": [""],
+              "en": [""]
             }
           }
         ],
@@ -4819,9 +5952,13 @@
               "en": "1 night"
             },
             "link": "",
+            "type": {
+              "da": "Villa",
+              "en": "Villa"
+            },
             "pros": {
               "da": [
-                "køkken",
+                "Køkken",
                 "Tre toiletter og tre værelser",
                 "Sødt personale",
                 "Stor villa",
@@ -4829,7 +5966,7 @@
                 "Køkken"
               ],
               "en": [
-                "kitchen",
+                "Kitchen",
                 "Three bathrooms and three bedrooms",
                 "Sweet staff",
                 "Large villa",
@@ -4838,12 +5975,8 @@
               ]
             },
             "cons": {
-              "da": [
-                "ikke rigtigt noget at lave i området"
-              ],
-              "en": [
-                "not much to do in the area"
-              ]
+              "da": ["Ikke rigtigt noget at lave i området"], 
+              "en": ["Not much to do in the area"]
             }
           }
         ]
@@ -4855,8 +5988,8 @@
         },
         "tips": [
           {
-            "da": "Bliv ikke her for længe – der er ikke super meget at lave",
-            "en": "Don't stay too long – there isn't a lot to do"
+            "da": "Bliv ikke her for længe - der er ikke super meget at lave",
+            "en": "Don't stay too long - there isn't a lot to do"
           }
         ],
         "activities": [
@@ -4865,43 +5998,41 @@
             "link": "",
             "description": {
               "da": [
-                "vi bookede igennem Menonton Dolphin Lovina: +62 818 0546 9326",
+                "Vi bookede igennem Menonton Dolphin Lovina: +62 818 0546 9326",
                 "Vi betalte kun 160.000 pr person og fik morgenmad inkluderet",
-                "startede kl 6 og kom tilbage til stranden kl 12"
+                "Startede kl 6 og kom tilbage til stranden kl 12"
               ],
               "en": [
-                "we booked through Menonton Dolphin Lovina: +62 818 0546 9326",
+                "We booked through Menonton Dolphin Lovina: +62 818 0546 9326",
                 "We only paid 160,000 per person with breakfast included",
-                "started at 6 and got back to the beach at 12"
+                "Started at 6 and got back to the beach at 12"
               ]
             }
           }
         ],
         "byen": [
           {
-            "name": "",
+            "name": {
+              "da": "Vi tog ikke i byen her",
+              "en": "We didn't go out here"
+            },
             "link": "",
             "description": {
-              "da": [
-                "vi tog ikke i byen her"
-              ],
-              "en": [
-                "We didn't go out here"
-              ]
+              "da": [""],
+              "en": [""]
             }
           }
         ],
         "restaurants": [
           {
-            "name": "",
+            "name": {
+              "da": "Ingen anbefalinger",
+              "en": "No reccomendations"
+            },
             "link": "",
             "description": {
-              "da": [
-                "ingen anbefalinger"
-              ],
-              "en": [
-                "no recommendations"
-              ]
+              "da": [""],
+              "en": [""]
             }
           }
         ],
@@ -4913,9 +6044,13 @@
               "en": "1 night"
             },
             "link": "",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
-                "morgenmad inkluderet",
+                "Morgenmad inkluderet",
                 "Pool",
                 "Eget toilet",
                 "Private værelser",
@@ -4924,7 +6059,7 @@
                 "Mega chilleren"
               ],
               "en": [
-                "breakfast included",
+                "Breakfast included",
                 "Pool",
                 "Private bathroom",
                 "Private rooms",
@@ -4935,11 +6070,11 @@
             },
             "cons": {
               "da": [
-                "ingen aircon (meget lille minus)",
+                "Ingen aircon (meget lille minus)",
                 "Naboen sang hele natten"
               ],
               "en": [
-                "no aircon (very minor downside)",
+                "No aircon (very minor downside)",
                 "The neighbour sang all night"
               ]
             }
@@ -4953,8 +6088,8 @@
         },
         "tips": [
           {
-            "da": "lej en scooter",
-            "en": "rent a scooter"
+            "da": "Lej en scooter",
+            "en": "Rent a scooter"
           },
           {
             "da": "Der er sygt mange edderkopper her",
@@ -4963,7 +6098,10 @@
         ],
         "activities": [
           {
-            "name": "Rismarker",
+            "name": {
+              "da": "Rismarker",
+              "en": "Rice fields"
+            },
             "link": "",
             "description": {
               "da": [],
@@ -4973,29 +6111,27 @@
         ],
         "byen": [
           {
-            "name": "",
+            "type": {
+              "da": "Vi tog ikke i byen her",
+              "en": "We didn't go out here"
+            },
             "link": "",
             "description": {
-              "da": [
-                "vi tog ikke byen her"
-              ],
-              "en": [
-                "we didn't go out here"
-              ]
+              "da": [""],
+              "en": [""]
             }
           }
         ],
         "restaurants": [
           {
-            "name": "",
+            "name": {
+              "da": "Ingen anbefalinger",
+              "en": "No reccomendations"
+            },
             "link": "",
             "description": {
-              "da": [
-                "ingen anbefalinger"
-              ],
-              "en": [
-                "no recommendations"
-              ]
+              "da": [""],
+              "en": [""]
             }
           }
         ],
@@ -5007,9 +6143,13 @@
               "en": "1 night"
             },
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "pros": {
               "da": [
-                "morgenmad inkluderet",
+                "Morgenmad inkluderet",
                 "Flotte omgivelser",
                 "Ok seng",
                 "Får vand ved check in",
@@ -5017,7 +6157,7 @@
                 "Kæmpe pool"
               ],
               "en": [
-                "breakfast included",
+                "Breakfast included",
                 "Beautiful surroundings",
                 "Okay bed",
                 "Get water at check-in",
@@ -5027,7 +6167,7 @@
             },
             "cons": {
               "da": [
-                "edderkopper",
+                "Der var MANGE edderkopper her",
                 "Ingen aircon",
                 "Kun morgenmad",
                 "Ikke så meget i området",
@@ -5036,7 +6176,7 @@
                 "Lidt klam pool"
               ],
               "en": [
-                "spiders",
+                "There were SO MANY spiders",
                 "No air conditioning",
                 "Breakfast only",
                 "Not much in the area",
@@ -5055,8 +6195,8 @@
         },
         "tips": [
           {
-            "da": "find et bedre hostel end Mbox",
-            "en": "find a better hostel than Mbox"
+            "da": "Find et bedre hostel end Mbox",
+            "en": "Find a better hostel than Mbox"
           }
         ],
         "activities": [
@@ -5077,6 +6217,10 @@
           {
             "name": "La Favela",
             "link": "",
+            "type": {
+              "da": "Klub",
+              "en": "Club"
+            },
             "description": {
               "da": [
                 "Virkelig sjov klub"
@@ -5089,18 +6233,22 @@
           {
             "name": "ShiShi",
             "link": "",
+            "type": {
+              "da": "Klub",
+              "en": "Club"
+            },
             "description": {
               "da": [
-                "også sjov natklub",
-                "lidt mere eksklusive",
-                "piger kommer ind gratis",
-                "man skal have pænt tøj på"
+                "Sjov natklub",
+                "Lidt mere eksklusive",
+                "Piger kommer ind gratis",
+                "Man skal have pænt tøj på"
               ],
               "en": [
-                "also a fun nightclub",
-                "a bit more exclusive",
-                "girls get in free",
-                "you need to wear nice clothes"
+                "A fun nightclub",
+                "A bit more exclusive",
+                "Girls get in free",
+                "You need to wear nice clothes"
               ]
             }
           }
@@ -5109,36 +6257,48 @@
           {
             "name": "The Dusty Cafe",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "fin nok mad"
+                "Fin nok mad"
               ],
               "en": [
-                "decent food"
+                "Decent food"
               ]
             }
           },
           {
             "name": "Dang Cookies",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "fråderen cookies"
+                "Fråderen cookies"
               ],
               "en": [
-                "amazing cookies"
+                "Very good cookies"
               ]
             }
           },
           {
             "name": "Taco Island",
             "link": "",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
                 "virkelig fråderen tacos"
               ],
               "en": [
-                "really delicious tacos"
+                "Really delicious tacos"
               ]
             }
           }
@@ -5151,15 +6311,19 @@
               "en": "2 nights"
             },
             "link": "",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [
-                "gratis aftensmad",
+                "Gratis aftensmad",
                 "Gode senge",
                 "Privatliv ved sengen",
                 "Mange toiletter og bade"
               ],
               "en": [
-                "free dinner",
+                "Free dinner",
                 "Good beds",
                 "Privacy at the bed",
                 "Many bathrooms and showers"
@@ -5167,10 +6331,9 @@
             },
             "cons": {
               "da": [
-                "mega depri sted",
+                "Mega depri sted",
                 "Klamme toiletter",
-                "And i poolen",
-                "Meget klam pool",
+                "Meget klam pool (der var en and i poolen)",
                 "Intet lys",
                 "Ingen relation til personalet og de frivillige var bare lidt som zombier",
                 "Ikke så socialt"
@@ -5178,8 +6341,7 @@
               "en": [
                 "super depressing place",
                 "Disgusting toilets",
-                "Ducks in the pool",
-                "Very gross pool",
+                "Very gross pool (there was a duck in the pool",
                 "No light",
                 "No connection with staff and the volunteers were a bit like zombies",
                 "Not very social"
@@ -5203,54 +6365,70 @@
           {
             "name": "Keckak Fire Dance",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "lidt dyrt, men det hele værd",
-                "to shows om dagen, kom i god tid for at se showet til det ved solnedgangen",
-                "køb billetter derhenne",
-                "tag en sarong med og pas på aberne"
+                "Lidt dyrt, men det hele værd",
+                "To shows om dagen, kom i god tid for at se showet til det ved solnedgangen",
+                "Køb billetter derhenne",
+                "Tag en sarong med og pas på aberne"
               ],
               "en": [
-                "a bit expensive, but worth it all",
-                "two shows a day, come early to see the sunset show",
-                "buy tickets there",
-                "bring a sarong and watch out for the monkeys"
+                "A bit expensive, but worth it all",
+                "Two shows a day, come early to see the sunset show",
+                "Buy tickets there",
+                "Bring a sarong and watch out for the monkeys"
               ]
             }
           },
           {
-            "name": "Uluwatu temple",
+            "name": "Uluwatu Temple",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "meget flot"
+                "Meget flot"
               ],
               "en": [
-                "very beautiful"
+                "Very beautiful"
               ]
             }
           },
           {
             "name": "Uluwatu Beach",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "flot strand, men der er ikke så meget at lave her"
+                "Flot strand, men der er ikke så meget at lave her"
               ],
               "en": [
-                "beautiful beach, but there isn't much to do here"
+                "Beautiful beach, but there isn't much to do here"
               ]
             }
           },
           {
             "name": "Padang Padang Beach",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "såååå mange turister"
+                "Såååå mange turister"
               ],
               "en": [
-                "soooo many tourists"
+                "Soooo many tourists"
               ]
             }
           }
@@ -5259,26 +6437,34 @@
           {
             "name": "Hatch",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "musikken stopper tidligt, ellers meget hyggeligt"
+                "Musikken stopper tidligt, ellers meget hyggeligt"
               ],
               "en": [
-                "music stops early, otherwise very cosy"
+                "Music stops early, otherwise very cosy"
               ]
             }
           },
           {
             "name": "Savaya Bali",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "vi nåede aldrig herhen",
-                "sygt dyrt, men så mega sejt og fedt ud"
+                "Vi nåede aldrig herhen",
+                "Sygt dyrt, men så mega sejt og fedt ud"
               ],
               "en": [
-                "we never made it here",
-                "insanely expensive, but looks so cool and amazing"
+                "We never made it here",
+                "Insanely expensive, but looks so cool and amazing"
               ]
             }
           }
@@ -5287,36 +6473,48 @@
           {
             "name": "Warung Uby Ungasan",
             "link": "",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant / Club"
+            },
             "description": {
               "da": [
-                "virkelig billig og fråderen mad"
+                "Virkelig billig og fråderen mad"
               ],
               "en": [
-                "really cheap and delicious food"
+                "Really cheap and delicious food"
               ]
             }
           },
           {
             "name": "Mana",
             "link": "",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
-                "fin nok mad, men ret dyr og ikke den bedste solnedgang udsigt"
+                "Fin nok mad, men ret dyr og ikke den bedste solnedgang udsigt"
               ],
               "en": [
-                "decent food, but quite expensive and not the best sunset view"
+                "Decent food, but quite expensive and not the best sunset view"
               ]
             }
           },
           {
             "name": "Blue Gelato",
             "link": "",
+            "type": {
+              "da": "Is sted",
+              "en": "Ice cream place"
+            },
             "description": {
               "da": [
                 "10/10 - virkelig god is"
               ],
               "en": [
-                "10/10 – really amazing ice cream"
+                "10/10 - really amazing ice cream"
               ]
             }
           }
@@ -5329,6 +6527,10 @@
               "en": "3 nights"
             },
             "link": "",
+            "type": {
+              "da": "Villa",
+              "en": "Villa"
+            },
             "pros": {
               "da": [
                 "En ikke så dyr Villa",
@@ -5347,11 +6549,11 @@
             },
             "cons": {
               "da": [
-                "meget støv",
+                "Meget støv (fik meget allergi)",
                 "Ikke mega mega rent"
               ],
               "en": [
-                "very dusty",
+                "Very dusty (got a lot of allergy)",
                 "Not super super clean"
               ]
             }
@@ -5374,7 +6576,7 @@
           ],
           "en": [
             "Make friends you can stay with",
-            "Book things well in advance – everything here is genuinely expensive"
+            "Book things well in advance - everything here are very expensive"
           ]
         },
         "download": []
@@ -5391,10 +6593,13 @@
         "name": "Tim tam slam"
       },
       {
-        "name": "shapes"
+        "name": "Shapes"
       },
       {
-        "name": "kangaroo"
+        "name": {
+              "da": "Kænguru",
+              "en": "Kangaroo"
+            }
       },
       {
         "name": "Barbeque"
@@ -5414,16 +6619,24 @@
         "tips": [],
         "activities": [
           {
-            "name": "Street art Laneways",
+            "name": "Street Art Laneways",
             "link": "https://maps.app.goo.gl/dpGRbtEiKSX2Yi8V9",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
             }
           },
           {
-            "name": "Yarra river",
+            "name": "Yarra River",
             "link": "https://maps.app.goo.gl/4qati181qEn2acuh7",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5432,6 +6645,10 @@
           {
             "name": "National Gallery of Victoria",
             "link": "https://maps.app.goo.gl/VrRhki77X98iMA3y5",
+            "type": {
+              "da": "Museum",
+              "en": "Museum"
+            },
             "description": {
               "da": [
                 "Gratis"
@@ -5444,6 +6661,10 @@
           {
             "name": "ACMI museum",
             "link": "https://maps.app.goo.gl/PPV2yM1oFU4RhMet9",
+            "type": {
+              "da": "Museum",
+              "en": "Museum"
+            },
             "description": {
               "da": [
                 "Gratis",
@@ -5458,6 +6679,10 @@
           {
             "name": "Chinatown Melbourne",
             "link": "https://maps.app.goo.gl/W65rZsaXbPjEaxYu5",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5466,20 +6691,28 @@
           {
             "name": "Queen Victoria Night Market",
             "link": "https://maps.app.goo.gl/rRXomrcaCbcjgUxYA",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "kun om onsdagen",
-                "hyggeligt, men lidt dyrt"
+                "Kun om onsdagen",
+                "Hyggeligt, men lidt dyrt"
               ],
               "en": [
-                "only on Wednesdays",
-                "cosy, but a bit expensive"
+                "Only on Wednesdays",
+                "Cosy, but a bit expensive"
               ]
             }
           },
           {
             "name": "Fitzroy Market and area",
             "link": "https://maps.app.goo.gl/1swcZRK5bMnKRRdN6",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5488,6 +6721,10 @@
           {
             "name": "Federation Square",
             "link": "https://maps.app.goo.gl/YpUtazw7kPWRJvGx8",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5496,6 +6733,10 @@
           {
             "name": "St. Paul's Cathedral",
             "link": "https://maps.app.goo.gl/CLyHe5KxpMex7NZF8",
+            "type": {
+              "da": "Kirke",
+              "en": "Catherdral"
+            },
             "description": {
               "da": [
                 "Flot kirke"
@@ -5516,6 +6757,10 @@
           {
             "name": "Healesville Sanctuary (Zoos Victoria)",
             "link": "https://maps.app.goo.gl/7cJGod4t4bS5aWgz7",
+            "type": {
+              "da": "Zoologiskhave",
+              "en": "Zoo"
+            },
             "description": {
               "da": [
                 "Meget nice zoo med alle slags dyr og fulgeshow.",
@@ -5532,6 +6777,10 @@
           {
             "name": "Wurundjeri Spur Lookout",
             "link": "https://maps.app.goo.gl/qnwbw3T44WF7r2Dp6",
+            "type": {
+              "da": "Viewpoint",
+              "en": "Viewpoint"
+            },
             "description": {
               "da": [
                 "Et udkigs-sted med en flot udsigt"
@@ -5546,18 +6795,26 @@
           {
             "name": "Rooftop bar ved Cookie",
             "link": "https://maps.app.goo.gl/mCud1uZ1HqVSGbBy5",
+            "type": {
+              "da": "Bar",
+              "en": "Bar"
+            },
             "description": {
               "da": [
-                "hyggelig bar"
+                "Hyggelig bar"
               ],
               "en": [
-                "cosy bar"
+                "Cosy bar"
               ]
             }
           },
           {
             "name": "Naked For Satan",
             "link": "https://maps.app.goo.gl/Jivcs9zwXqu8CEK86",
+            "type": {
+              "da": "Bar",
+              "en": "Bar"
+            },
             "description": {
               "da": [
                 "Nice bar med et grineren tema."
@@ -5572,12 +6829,16 @@
           {
             "name": "Sushihub",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "bed om at få dem skåret op"
+                "Bed om at få dem skåret op"
               ],
               "en": [
-                "ask to have them cut up"
+                "Ask to have them cut up"
               ]
             }
           }
@@ -5602,7 +6863,7 @@
         ],
         "not_done": [
           "Hidden bars",
-          "sports game",
+          "Sports game",
           "Gazeland",
           "Johnnys green room, Carlton",
           "Sofitel Level 35 toilet",
@@ -5624,6 +6885,10 @@
           {
             "name": "Bondi Beach",
             "link": "",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [],
               "en": []
@@ -5632,6 +6897,10 @@
           {
             "name": "Bondi Icebergs Pool",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5640,18 +6909,26 @@
           {
             "name": "Tamarama Beach",
             "link": "",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [
-                "surfsted"
+                "Surfsted"
               ],
               "en": [
-                "surf spot"
+                "Surf spot"
               ]
             }
           },
           {
             "name": "Bronte Beach",
             "link": "",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [],
               "en": []
@@ -5660,6 +6937,10 @@
           {
             "name": "Bronte Baths",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5668,6 +6949,10 @@
           {
             "name": "Clovelly Beach",
             "link": "",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [],
               "en": []
@@ -5676,6 +6961,10 @@
           {
             "name": "Gordon's Bay",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5684,6 +6973,10 @@
           {
             "name": "Coogee Beach",
             "link": "",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [],
               "en": []
@@ -5692,6 +6985,10 @@
           {
             "name": "Giles Baths",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5700,18 +6997,26 @@
           {
             "name": "Milk Beach",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "sunset spot"
+                "Sunset spot"
               ],
               "en": [
-                "sunset spot"
+                "Sunset spot"
               ]
             }
           },
           {
             "name": "Camp Cove",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5720,42 +7025,58 @@
           {
             "name": "Queens Beach",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "sunset spot"
+                "Sunset spot"
               ],
               "en": [
-                "sunset spot"
+                "Sunset spot"
               ]
             }
           },
           {
             "name": "Dudley Page Reserve",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "sunset spot"
+                "Sunset spot"
               ],
               "en": [
-                "sunset spot"
+                "Sunset spot"
               ]
             }
           },
           {
             "name": "Bondi to Coogee coastal walk",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "god måde at se de forskellige strande"
+                "God måde at se de forskellige strande"
               ],
               "en": [
-                "good way to see the different beaches"
+                "Good way to see the different beaches"
               ]
             }
           },
           {
             "name": "Watsons Bay",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5764,44 +7085,60 @@
           {
             "name": "Sunday Market ved Bondi",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "meget hyggeligt",
-                "maden er dyr her"
+                "Meget hyggeligt",
+                "Maden er dyr her"
               ],
               "en": [
-                "very cosy",
-                "food is expensive here"
+                "Very cosy",
+                "Food is expensive here"
               ]
             }
           },
           {
             "name": "Iceberg ved Bondi Beach",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "meget nice"
+                "Meget nice"
               ],
               "en": [
-                "very nice"
+                "Very nice"
               ]
             }
           },
           {
             "name": "Bondi Junction",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "godt sted at shoppe"
+                "Godt sted at shoppe"
               ],
               "en": [
-                "good place to shop"
+                "Good place to shop"
               ]
             }
           },
           {
             "name": "Darling Habour",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5810,6 +7147,10 @@
           {
             "name": "Darling Quarter",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5818,6 +7159,10 @@
           {
             "name": "Barangaroo",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5826,6 +7171,10 @@
           {
             "name": "The Rocks",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5834,6 +7183,10 @@
           {
             "name": "Circular Quay",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5842,6 +7195,10 @@
           {
             "name": "Opera House",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5850,6 +7207,10 @@
           {
             "name": "Sydney Harbour Bridge",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5858,6 +7219,10 @@
           {
             "name": "Botanic Gardens",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5866,6 +7231,10 @@
           {
             "name": "Hyde Park",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5874,6 +7243,10 @@
           {
             "name": "City Central around Town Hall, George Street, Pitt Street",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5882,30 +7255,42 @@
           {
             "name": "Newtown/Enmore/Erskinville",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "outside the city but cool artsy places with vintage shops, pubs, live music"
+                "Outside the city but cool artsy places with vintage shops, pubs, live music"
               ],
               "en": [
-                "outside the city but cool artsy places with vintage shops, pubs, live music"
+                "Outside the city but cool artsy places with vintage shops, pubs, live music"
               ]
             }
           },
           {
             "name": "The Australian Museum",
             "link": "",
+            "type": {
+              "da": "Muesum",
+              "en": "Museum"
+            },
             "description": {
               "da": [
-                "gratis"
+                "Gratis"
               ],
               "en": [
-                "free"
+                "Free"
               ]
             }
           },
           {
             "name": "Sydney Jewish museum",
             "link": "",
+            "type": {
+              "da": "Museum",
+              "en": "Museum"
+            },
             "description": {
               "da": [
                 "Sig at du er studerende for at få rabat"
@@ -5918,18 +7303,26 @@
           {
             "name": "Art Gallery NSW",
             "link": "",
+            "type": {
+              "da": "Museum",
+              "en": "Museum"
+            },
             "description": {
               "da": [
-                "gratis"
+                "Gratis"
               ],
               "en": [
-                "free"
+                "Free"
               ]
             }
           },
           {
             "name": "Museum of Contemporary Art",
             "link": "",
+            "type": {
+              "da": "Museum",
+              "en": "Museum"
+            },
             "description": {
               "da": [
                 "Gratis"
@@ -5942,18 +7335,26 @@
           {
             "name": "Daytrip til Manley",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
-                "god måde til at se operahuset og broen"
+                "God måde til at se operahuset og broen"
               ],
               "en": [
-                "good way to see the opera house and the bridge"
+                "Good way to see the opera house and the bridge"
               ]
             }
           },
           {
             "name": "Manly to Spit coastal walk",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -5961,31 +7362,39 @@
           }
         ],
         "byen": [
-          "bars",
-          "clubs"
+          "Bars",
+          "Clubs"
         ],
         "restaurants": [
           {
             "name": "Bangkok Bites",
             "link": "",
+            "type": {
+              "da": "Restaurant",
+              "en": "Restaurant"
+            },
             "description": {
               "da": [
-                "god Thai mad"
+                "God Thai mad"
               ],
               "en": [
-                "good Thai food"
+                "Good Thai food"
               ]
             }
           },
           {
             "name": "Messina",
             "link": "",
+            "type": {
+              "da": "Is sted",
+              "en": "Ice cream place"
+            },
             "description": {
               "da": [
-                "fråderen is"
+                "Fråderen is"
               ],
               "en": [
-                "amazing ice cream"
+                "Very good ice cream"
               ]
             }
           }
@@ -6036,22 +7445,30 @@
           {
             "name": "Main Beach",
             "link": "",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [
-                "stranden foran Main Town",
+                "Stranden foran Main Town",
                 "Lig ved græsset",
-                "ofte live musik"
+                "Ofte live musik"
               ],
               "en": [
-                "the beach in front of Main Town",
+                "The beach in front of Main Town",
                 "Right by the grass",
-                "often live music"
+                "Often live music"
               ]
             }
           },
           {
-            "name": "Clark’s Beach",
+            "name": "Clark's Beach",
             "link": "",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [
                 "Meget nive at chille der"
@@ -6064,6 +7481,10 @@
           {
             "name": "The Pass",
             "link": "",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [
                 "Stedet man surfer",
@@ -6080,6 +7501,10 @@
           {
             "name": "Wategos Beach",
             "link": "",
+            "type": {
+              "da": "Strand",
+              "en": "Beach"
+            },
             "description": {
               "da": [
                 "Det er kendt at gå fra centrum til The Lighthouse som skulle være meget smukt"
@@ -6094,6 +7519,10 @@
           {
             "name": "The Railway bar",
             "link": "",
+            "type": {
+              "da": "Bar",
+              "en": "Bar"
+            },
             "description": {
               "da": [
                 "Meget chilleren bar",
@@ -6108,6 +7537,10 @@
           {
             "name": "Beach Hotel",
             "link": "",
+            "type": {
+              "da": "Bar / Klub",
+              "en": "Bar / Club"
+            },
             "description": {
               "da": [
                 "Vanvittigt dyrt",
@@ -6122,12 +7555,16 @@
           {
             "name": "Casa Luna",
             "link": "",
+            "type": {
+              "da": "Bar / Klub",
+              "en": "Bar / Club"
+            },
             "description": {
               "da": [
-                "bliver en club nogle gange"
+                "Bliver en club nogle gange"
               ],
               "en": [
-                "turns into a club sometimes"
+                "Turns into a club sometimes"
               ]
             }
           }
@@ -6136,14 +7573,18 @@
           {
             "name": "Bay Kebab",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Skulle være den bedste kebab i Byron, men vi var ikke så store fans",
-                "meget dyrt"
+                "Meget dyrt"
               ],
               "en": [
                 "Supposed to be the best kebab in Byron, but we weren't big fans",
-                "very expensive"
+                "Very expensive"
               ]
             }
           },
@@ -6162,26 +7603,34 @@
           {
             "name": "In The Pink",
             "link": "",
+            "type": {
+              "da": "Is sted",
+              "en": "Ice cream place"
+            },
             "description": {
               "da": [
                 "Byens bedste is",
-                "kæmpe anbefaling"
+                "Kæmpe anbefaling"
               ],
               "en": [
                 "The best ice cream in town",
-                "highly recommended"
+                "Highly recommended"
               ]
             }
           },
           {
             "name": "Twisted Sistas",
             "link": "",
+            "type": {
+              "da": "Café",
+              "en": "Café"
+            },
             "description": {
               "da": [
-                "den bedste iskaffe og ikke super dyr"
+                "Den bedste iskaffe og ikke super dyr"
               ],
               "en": [
-                "the best iced coffee and not super expensive"
+                "The best iced coffee and not super expensive"
               ]
             }
           }
@@ -6194,6 +7643,10 @@
               "en": ""
             },
             "link": "",
+            "type": {
+              "da": "Camping",
+              "en": "Camping"
+            },
             "pros": {
               "da": [],
               "en": []
@@ -6232,6 +7685,10 @@
           {
             "name": "Great Barrier Reef",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Dykke eller snorkle"
@@ -6244,6 +7701,10 @@
           {
             "name": "Vandfald",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -6252,6 +7713,10 @@
           {
             "name": "Rainforrest",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -6260,6 +7725,10 @@
           {
             "name": "Den der pool",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -6270,6 +7739,10 @@
           {
             "name": "Gilligans",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -6278,6 +7751,10 @@
           {
             "name": "Sand Hotel",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [],
               "en": []
@@ -6288,6 +7765,10 @@
           {
             "name": "",
             "link": "",
+            "type": {
+              "da": "",
+              "en": ""
+            },
             "description": {
               "da": [
                 "Vi spiste kun på vores hostel"
@@ -6306,6 +7787,10 @@
               "en": ""
             },
             "link": "",
+            "type": {
+              "da": "Hostel",
+              "en": "Hostel"
+            },
             "pros": {
               "da": [],
               "en": []
