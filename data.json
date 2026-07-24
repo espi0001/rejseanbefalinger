@@ -4,7 +4,7 @@
       "da": "Thailand",
       "en": "Thailand"
     },
-    "link": "",
+    "link": "https://maps.app.goo.gl/tKHYVqFDHsqfjcLq9",
     "tips": [
       {
         "text": {
@@ -35,74 +35,102 @@
           {
             "name": {
               "da": "Hostelworld (hostels)",
-              "en": "Hostelworld (Hostel booking)"
+              "en": "Hostelworld (hostel booking)"
             },
             "url": "https://hostelworld.com"
           },
           {
             "name": {
               "da": "Agoda (hoteller)",
-              "en": "Agoda (Hotel booking)"
+              "en": "Agoda (hotel booking)"
             },
             "url": "https://agoda.com"
           }
         ]
       }
     ],
-    "food" [ 
+    "food": [
       {
         "name": {
           "da": "Pad Thai",
           "en": "Pad Thai "
         },
-        "url": ""
+        "url": "https://share.google/Kz61KDTuocYPS6E3F"
       },
       {
         "name": {
           "da": "Grøn karry",
           "en": "Green curry"
         },
-        "url": ""
+        "url": "https://share.google/x7mTTDIrkdi5fZEOh"
       },
       {
         "name": {
           "da": "Rød karry",
           "en": "Red curry"
         },
-        "url": ""
+        "url": "https://share.google/OVf2uzpuUwkonPNlo"
+      },
+      {
+        "name": {
+          "da": "Massaman karry",
+          "en": "Massaman curry"
+        },
+        "url": "https://share.google/VBpOVPmVUEJrPHX9s"
+      },
+      {
+        "name": {
+          "da": "Panang karry",
+          "en": "Panang curry"
+        },
+        "url": "https://share.google/RBsvVrAicfxBcm09o"
       },
       {
         "name": {
           "da": "Kokossuppe",
           "en": "Coconut soup"
         },
-        "url": ""
+        "url": "https://share.google/TWFlcnjmoXgcIyQwP"
       },
       {
         "name": {
-          "da": "Sushitrekanter i 7/11",
-          "en": "Sushi triangles at 7/11"
+          "da": "Tom Yum suppe",
+          "en": "Tom Yum Soup"
         },
-        "url": ""
+        "url": "https://share.google/Y48MMCskMF1i6jUEV"
+      },
+      {
+        "name": {
+          "da": "Khao Soi",
+          "en": "Khao Soi"
+        },
+        "url": "https://share.google/dDvkoJqXrRWIYvP4h"
+      },
+      {
+        "name": {
+          "da": "Pad Krapow",
+          "en": "Pad Krapow"
+        },
+        "url": "https://share.google/TUp670vNrNyys4Arh"
+      },
+      {
+        "name": {
+          "da": "Pad See Ew (stegte nudler)",
+          "en": "Pad See Ew (fried noodles)"
+        },
+        "url": "https://share.google/Y5s6abvR8z83bjdsE"
       },
       {
         "name": {
           "da": "Stegt ris",
           "en": "Fried rice"
         },
-        "url": ""
+        "url": "https://share.google/k0S65wQRhDCVc2Lfs"
       },
       {
         "name": {
-          "da": "Gule nudler",
-          "en": "Yellow noodles"
-        },
-        "url": ""
-      },
-      {
-        "name": {
-          "da": "Stegte nudler",
-          "en": "Fried noodles"
+          "da": "Onigiri (sushi trekanter) i 7/11",
+          "en": "Onigiri (sushi triangles) at 7/11"
         },
         "url": ""
       },
@@ -111,42 +139,7 @@
           "da": "Mango sticky rice",
           "en": "Mango sticky rice"
         },
-        "url": ""
-      },
-      {
-        "name": {
-          "da": "Panang karry",
-          "en": "Panang curry"
-        },
-        "url": ""
-      },
-      {
-        "name": {
-          "da": "Khao Soi",
-          "en": "Khao Soi"
-        },
-        "url": ""
-      },
-      {
-        "name": {
-          "da": "Pad Kaprow",
-          "en": "Pad Kaprow"
-        },
-        "url": ""
-      },
-      {
-        "name": {
-          "da": "Tom Yum suppe",
-          "en": "Tom Yum Soup"
-        },
-        "url": ""
-      },
-      {
-        "name": {
-          "da": "Massaman karry",
-          "en": "Massaman curry"
-        },
-        "url": ""
+        "url": "https://share.google/esAGmrteUXXoGpwOR"
       }
     ],
     "cities": {
@@ -155,7 +148,7 @@
           "da": "Bangkok",
           "en": "Bangkok"
         },
-        "link": "",
+        "link": "https://maps.app.goo.gl/u26udSgj2iHr1ZxS6",
         "tips": [
           {
             "da": "Man behøver ikke leje scooter i Bangkok",
@@ -168,11 +161,11 @@
         ],
         "activities": [
           {
-            "name": "The Grand palace",
+            "name": "The Grand Palace",
             "link": "https://maps.app.goo.gl/VKEw79tU3g76xRv7A",
             "type": {
-              "da": "Tempel",
-              "en": "Temple"
+              "da": "Slot",
+              "en": ""
             },
             "description": {
               "da": [
@@ -191,7 +184,7 @@
             "name": "The Sleeping Buddha",
             "link": "https://maps.app.goo.gl/7T5JfRdYQWzzFu1V6",
             "type": {
-              "da": "Tempel",
+              "da": "Buddhisttempel",
               "en": "Temple"
             },
             "description": {
@@ -228,11 +221,11 @@
             }
           },
           {
-            "name": "Corgi in the garden",
+            "name": "CORGI IN THE GARDEN",
             "link": "https://maps.app.goo.gl/iYmDAjxMbMJU4svY8",
             "type": {
-              "da": "Café",
-              "en": "Café"
+              "da": "Hundecafé",
+              "en": "Dog café"
             },
             "description": {
               "da": [
@@ -246,7 +239,7 @@
             }
           },
           {
-            "name": "Icon Siam",
+            "name": "ICONSIAM",
             "link": "https://maps.app.goo.gl/sC5o4KqnkcBw3Jbt7",
             "type": {
               "da": "Storcenter",
@@ -267,8 +260,8 @@
             "name": "Rajadamnern Muay Thai Stadium (Thaiboksning)",
             "link": "https://maps.app.goo.gl/ZzMYaJwUUtac2ypd6",
             "type": {
-              "da": "",
-              "en": ""
+              "da": "Stadion",
+              "en": "Stadium"
             },
             "description": {
               "da": [
@@ -285,7 +278,7 @@
             "name": "Khao San Road",
             "link": "https://maps.app.goo.gl/JS9BW2KZb8sH6TZ57",
             "type": {
-              "da": "",
+              "da": "Berømt gade",
               "en": ""
             },
             "description": {
@@ -321,7 +314,7 @@
             "name": "Chinatown Bangkok (Yaowarat)",
             "link": "https://maps.app.goo.gl/qSNXvLGEQurhtd367",
             "type": {
-              "da": "",
+              "da": "Seværdighed",
               "en": ""
             },
             "description": {
@@ -339,9 +332,9 @@
           },
           {
             "name": "Floating market",
-            "link": "",
+            "link": "https://maps.app.goo.gl/92W8wj8V4Vx68LXj7",
             "type": {
-              "da": "",
+              "da": "Flydende marked",
               "en": ""
             },
             "description": {
@@ -361,7 +354,7 @@
             "name": "Khao San Road",
             "link": "https://maps.app.goo.gl/JS9BW2KZb8sH6TZ57",
             "type": {
-              "da": "",
+              "da": "Berømt gade",
               "en": ""
             },
             "description": {
@@ -396,7 +389,7 @@
         ],
         "accommodation": [
           {
-            "name": "Suneta hostel",
+            "name": "Suneta Hostel Khaosan",
             "time_spent": {
               "da": "4 nætter",
               "en": "4 nights"
@@ -434,7 +427,7 @@
           "da": "Koh Samui",
           "en": "Koh Samui"
         },
-        "link": "",
+        "link": "https://maps.app.goo.gl/YzUpqmzQbtE6aNEv8",
         "tips": [
           {
             "da": "Flyv derhen, det er et helvede at komme hertil med bus osv fra bangkok",
@@ -467,26 +460,26 @@
             }
           },
           {
-            "name": "3 templer: Statue of the chinese Laughing buddha",
+            "name": "Phra Sangkachai Wat Plai Laem (Statue Of The Chinese Laughing Buddha)",
             "link": "https://maps.app.goo.gl/MeETvNf2QkmRn4uD9",
             "type": {
               "da": "Tempel",
               "en": "Temple"
             },
             "description": {
-              "da": [],
+              "da": ["En af de tre templer på søen"],
               "en": []
             }
           },
           {
-            "name": "3 templer: Wat Plai Laem",
+            "name": "Wat Plai Laem",
             "link": "https://maps.app.goo.gl/wzQzJg9SZrm6aqN66",
             "type": {
               "da": "Tempel",
               "en": "Temple"
             },
             "description": {
-              "da": [],
+              "da": ["En af de tre templer på søen"],
               "en": []
             }
           },
@@ -498,7 +491,7 @@
               "en": "Temple"
             },
             "description": {
-              "da": [],
+              "da": ["En af de tre templer på søen"],
               "en": []
             }
           },
@@ -519,10 +512,10 @@
             }
           },
           {
-            "name": "Overlap stone",
+            "name": "Overlap Stone",
             "link": "https://maps.app.goo.gl/buGfCzPPjMssD9Kr6",
             "type": {
-              "da": "",
+              "da": "Seværdighed",
               "en": ""
             },
             "description": {
@@ -582,12 +575,12 @@
         ],
         "accommodation": [
           {
-            "name": "P&T Hostel",
+            "name": "P&T Guesthouse & Restaurant",
             "time_spent": {
               "da": "2 nætter",
               "en": "2 nights"
             },
-            "link": "",
+            "link": "https://maps.app.goo.gl/ALWcQKPGJYGDAbR97",
             "type": {
               "da": "Hostel",
               "en": "Hostel"
@@ -624,7 +617,7 @@
           "da": "Koh Phangan",
           "en": "Koh Phangan"
         },
-        "link": "",
+        "link": "https://maps.app.goo.gl/cfuzZBVTLnbMNvw68",
         "tips": [
           {
             "da": "Lej en scooter",
@@ -645,7 +638,7 @@
         ],
         "activities": [
           {
-            "name": "Haad Rin beach",
+            "name": "Haad Rin",
             "link": "https://maps.app.goo.gl/fzudBhgfVHk9A4ZM7",
             "type": {
               "da": "Strand",
@@ -682,8 +675,8 @@
             "name": "Amsterdam bar",
             "link": "https://maps.app.goo.gl/3oK8aSoFgujcNzPT6",
             "type": {
-              "da": "Restaurant / Bar",
-              "en": "Restaurant / Bar"
+              "da": "Bar",
+              "en": "Bar"
             },
             "description": {
               "da": [
@@ -697,8 +690,8 @@
             }
           },
           {
-            "name": "Full moon party",
-            "link": "",
+            "name": "Full Moon Party",
+            "link": "https://maps.app.goo.gl/7zFx9ewMXEwgr4sLA",
             "type": {
               "da": "",
               "en": ""
@@ -733,8 +726,8 @@
         ],
         "restaurants": [
           {
-            "name": "Sand and Tan",
-            "link": "",
+            "name": "Sand & Tan",
+            "link": "https://maps.app.goo.gl/Ab1KeLewH3nAfRsv9",
             "type": {
               "da": "Restaurant",
               "en": "Restaurant"
@@ -751,8 +744,8 @@
             }
           },
           {
-            "name": "BT Restaurant",
-            "link": "",
+            "name": "Bt. Restaurant koh phangan",
+            "link": "https://maps.app.goo.gl/rg7m25MNpYyJCkgz8",
             "type": {
               "da": "Restaurant",
               "en": "Restaurant"
@@ -768,7 +761,7 @@
           },
           {
             "name": "The Cabin Bar & Grill",
-            "link": "",
+            "link": "https://maps.app.goo.gl/Vno3R8d2P2BJDTbX9",
             "type": {
               "da": "Restaurant",
               "en": "Restaurant"
@@ -839,7 +832,7 @@
           "da": "Koh Tao",
           "en": "Koh Tao"
         },
-        "link": "",
+        "link": "https://maps.app.goo.gl/BAxwYzWSpnbmZhiM9",
         "tips": [
           {
             "da": "Lej en scooter",
@@ -848,11 +841,11 @@
         ],
         "activities": [
           {
-            "name": "Sun Suwan 360 viewpoint",
+            "name": "Sun Suwan 360° View & Sky Bar",
             "link": "https://maps.app.goo.gl/b2KBnjsSmnNKK4JGA",
             "type": {
-              "da": "Viewpoint",
-              "en": "Viewpoint"
+              "da": "Bar / Viewpoint",
+              "en": "Bar / Viewpoint"
             },
             "description": {
               "da": [
@@ -875,7 +868,7 @@
             "description": {
               "da": [
                 "Main beach",
-                "meget lang så masser af steder man kan ligge",
+                "Meget lang så masser af steder man kan ligge",
                 "Gratis"
               ],
               "en": [
@@ -887,7 +880,7 @@
           },
           {
             "name": "Shark Bay",
-            "link": "",
+            "link": "https://maps.app.goo.gl/Qay7jyLEDwiigoQ78",
             "type": {
               "da": "Strand",
               "en": "Beach"
@@ -925,8 +918,8 @@
             "name": "Nang Yuan Island",
             "link": "https://maps.app.goo.gl/eX8dQ81GHLMWSKqSA",
             "type": {
-              "da": "",
-              "en": ""
+              "da": "Ø",
+              "en": "Island"
             },
             "description": {
               "da": [
@@ -944,10 +937,10 @@
             }
           },
           {
-            "name": "Minigolf",
+            "name": "Koh Tao Mini Golf",
             "link": "https://maps.app.goo.gl/4pAFVCamCzZwLUuS6",
             "type": {
-              "da": "",
+              "da": "Minigolfbane",
               "en": ""
             },
             "description": {
@@ -963,8 +956,8 @@
             "name": "Queen's Cabaret",
             "link": "https://maps.app.goo.gl/98gw4rvhjC3qRfH49",
             "type": {
-              "da": "Dragshow",
-              "en": "Drag show"
+              "da": "Kabaret/natklub",
+              "en": ""
             },
             "description": {
               "da": [
@@ -983,19 +976,19 @@
             "name": "La Bondana Diving",
             "link": "https://maps.app.goo.gl/sDyhuiwAx88Z8D9n9",
             "type": {
-              "da": "",
+              "da": "Dykkercenter",
               "en": ""
             },
             "description": {
               "da": [
                 "Bedste sted at tage dykkercertifikat på koh tao",
                 "Meget billigt og meget inkluderet",
-                "super super søde"
+                "Super super søde"
               ],
               "en": [
                 "Best place to get your diving certificate on Koh Tao",
                 "Very cheap with a lot included",
-                "super super sweet"
+                "Super super nice"
               ]
             }
           },
@@ -1019,7 +1012,7 @@
         "byen": [
           {
             "name": "Jungle Party",
-            "link": "",
+            "link": "https://maps.app.goo.gl/t9zdmuMDr4vqsD6k8",
             "type": {
               "da": "",
               "en": ""
@@ -1036,11 +1029,11 @@
             }
           },
           {
-            "name": "Fishbowl",
+            "name": "Fishbowl Beach Bar",
             "link": "https://maps.app.goo.gl/T3w3ybcJ8G6yQFYM7",
             "type": {
-              "da": "Restaurant / Klub",
-              "en": "Restaurant / Club"
+              "da": "Restaurant / Bar",
+              "en": "Restaurant / Bar"
             },
             "description": {
               "da": [
@@ -1104,7 +1097,7 @@
         ],
         "accommodation": [
           {
-            "name": "Lucky House",
+            "name": "Lucky House Koh Tao",
             "time_spent": {
               "da": "3 nætter",
               "en": "3 nights"
@@ -1140,7 +1133,7 @@
             }
           },
           {
-            "name": "LBD",
+            "name": "La Bombona Diving (LBD)",
             "time_spent": {
               "da": "3 nætter",
               "en": "3 nights"
@@ -1180,7 +1173,7 @@
           "da": "Krabi",
           "en": "Krabi"
         },
-        "link": "",
+        "link": "https://maps.app.goo.gl/XVWjJA9kUi7geuWf6",
         "tips": [
           {
             "da": "Lej en scooter",
@@ -1189,10 +1182,10 @@
         ],
         "activities": [
           {
-            "name": "Krabi Elephant House Sanctuary",
+            "name": "Krabi Elephant HOUSE Sanctuary",
             "link": "https://maps.app.goo.gl/whrdfUdYbaMXtf8t8",
             "type": {
-              "da": "",
+              "da": "Dyreinternat",
               "en": ""
             },
             "description": {
@@ -1214,7 +1207,7 @@
             "name": "Emerald pool",
             "link": "https://maps.app.goo.gl/5UVYUUE2oJji4Xjo9",
             "type": {
-              "da": "",
+              "da": "Seværdighed",
               "en": ""
             },
             "description": {
@@ -1229,10 +1222,10 @@
             }
           },
           {
-            "name": "Hot springs",
-            "link": "",
+            "name": "KhongThomNuea Hot Stream Waterfall Krabi (Hot springs)",
+            "link": "https://maps.app.goo.gl/pocJoAreT69EXd9H8",
             "type": {
-              "da": "",
+              "da": "Nationalpark",
               "en": ""
             },
             "description": {
@@ -1304,6 +1297,7 @@
         "restaurants": [
           {
             "name": "Night market (street food)",
+            "link": "https://maps.app.goo.gl/V87focq9iftsuxjKA",
             "description": {
               "da": [
                 "Super meget forskelligt mad",
@@ -1318,12 +1312,12 @@
         ],
         "accommodation": [
           {
-            "name": "Pack up hostel",
+            "name": "Pack-Up Hostel",
             "time_spent": {
               "da": "4 nætter",
               "en": "4 nights"
             },
-            "link": "",
+            "link": "https://maps.app.goo.gl/8tgnpAGQzoM8B63e6",
             "type": {
               "da": "Hostel",
               "en": "Hostel"
@@ -1386,10 +1380,10 @@
             }
           },
           {
-            "name": "East Railey viewpoint",
+            "name": "East Railey Viewpoint",
             "link": "https://maps.app.goo.gl/AoZevk5whPs7Mg9PA",
             "type": {
-              "da": "",
+              "da": "Naturskønt sted",
               "en": ""
             },
             "description": {
@@ -1402,11 +1396,11 @@
             }
           },
           {
-            "name": "East Railey beach",
+            "name": "East Railay Bay Beach",
             "link": "https://maps.app.goo.gl/qBcw34wVrk5JiJGK9",
             "type": {
-              "da": "Strand",
-              "en": "Beach"
+              "da": "Seværdighed",
+              "en": ""
             },
             "description": {
               "da": [
@@ -1418,10 +1412,10 @@
             }
           },
           {
-            "name": "Diamond Cave",
+            "name": "Diamond Cave / Phra Nang Nai Cave",
             "link": "https://maps.app.goo.gl/fAVNzuse2ZWMJ2hu7",
             "type": {
-              "da": "",
+              "da": "Seværdighed",
               "en": ""
             },
             "description": {
@@ -1465,7 +1459,7 @@
             "name": "Princesse cave",
             "link": "https://maps.app.goo.gl/DyptmtRDiZaMLFfC9",
             "type": {
-              "da": "",
+              "da": "Seværdighed",
               "en": ""
             },
             "description": {
@@ -1601,7 +1595,7 @@
         ],
         "byen": [
           {
-            "name": "Slinkies Bar",
+            "name": "Slinky Bar",
             "link": "https://maps.app.goo.gl/xXPfNwJ8wJ6cHigQ6",
             "type": {
               "da": "Bar",
@@ -1621,7 +1615,7 @@
             }
           },
           {
-            "name": "Regge bar",
+            "name": "Reggae Bar",
             "link": "https://maps.app.goo.gl/r6KzcK8j5vNgNzHW7",
             "type": {
               "da": "Bar",
@@ -1641,7 +1635,7 @@
             }
           },
           {
-            "name": "Backpackers Bar",
+            "name": "Backpacker Bar",
             "link": "https://maps.app.goo.gl/LrJY8LfDpqmgDQ349",
             "type": {
               "da": "Bar",
@@ -1661,7 +1655,7 @@
         ],
         "restaurants": [
           {
-            "name": "Pa-jit",
+            "name": "PA-JIT",
             "link": "https://maps.app.goo.gl/DnxuGz1iYDT55vxe9",
             "type": {
               "da": "Restaurant",
@@ -1852,10 +1846,10 @@
             }
           },
           {
-            "name": "Santichon Village ",
+            "name": "Santichon Village",
             "link": "https://maps.app.goo.gl/Nfb7ZvcEHvE2vsjc6",
             "type": {
-              "da": "",
+              "da": "Seværdighed",
               "en": ""
             },
             "description": {
@@ -1873,7 +1867,7 @@
             "name": "Pai Canyon",
             "link": "https://maps.app.goo.gl/tjTNadnFoVRVU5oT6",
             "type": {
-              "da": "",
+              "da": "Seværdighed",
               "en": ""
             },
             "description": {
@@ -1906,11 +1900,23 @@
                 "Perfect place to meet a bunch of other young people"
               ]
             }
+          },
+          {
+            "name": "Night market",
+            "link": "https://maps.app.goo.gl/5hDDrg38NuRs8aQMA",
+            "type": {
+              "da": "",
+              "en": ""
+            },
+            "description": {
+              "da": ["Såååå meget lækkert mad", "Vi fik den bedste grønne karry der på markedet"],
+              "en": ["Sooooo much delicious food", "We got the best green curry there at the market"]
+            }
           }
         ],
         "byen": [
           {
-            "name": "Don't Cry ",
+            "name": "Don't Cry",
             "link": "",
             "type": {
               "da": "",
@@ -1929,7 +1935,7 @@
           },
           {
             "name": "Bros Music Bar and Hostel",
-            "link": "",
+            "link": "https://maps.app.goo.gl/JtsG8MDqPmTPUtAN7",
             "type": {
               "da": "",
               "en": ""
@@ -1949,8 +1955,8 @@
             "name": "Night market",
             "link": "https://maps.app.goo.gl/5hDDrg38NuRs8aQMA",
             "type": {
-              "da": "",
-              "en": ""
+              "da": "Marked",
+              "en": "Market"
             },
             "description": {
               "da": [
@@ -2007,8 +2013,8 @@
             },
             "link": "https://maps.app.goo.gl/XmvCWPeJswvaTUyY9",
             "type": {
-              "da": "",
-              "en": ""
+              "da": "Guesthouse",
+              "en": "Guesthouse"
             },
             "pros": {
               "da": [
@@ -2051,8 +2057,8 @@
         ],
         "activities": [
           {
-            "name": "Thaiboksning ved Chiang Mai Night Bazar",
-            "link": "",
+            "name": "Kalare Boxing Stadium",
+            "link": "https://maps.app.goo.gl/qvzS8XLFBPadENhR7",
             "type": {
               "da": "",
               "en": ""
@@ -2069,10 +2075,10 @@
             }
           },
           {
-            "name": "Chiang Mai Cabaret ved Anusarn Market",
-            "link": "",
+            "name": "Chiang Mai Cabaret Show",
+            "link": "https://maps.app.goo.gl/BwPKDBTjszTixpsY7",
             "type": {
-              "da": "",
+              "da": "Kabaret/natklub",
               "en": ""
             },
             "description": {
@@ -2085,15 +2091,15 @@
             }
           },
           {
-            "name": "Night market",
-            "link": "",
+            "name": "Anusarn Market",
+            "link": "https://maps.app.goo.gl/VBcbhMzJ6yNm7cLR6",
             "type": {
-              "da": "",
-              "en": ""
+              "da": "Natmarked",
+              "en": "Night market"
             },
             "description": {
               "da": [
-                "masser af små shops"
+                "Masser af små shops"
               ],
               "en": [
                 "Lots of small shops"
@@ -2104,7 +2110,7 @@
             "name": "Elefin Farm & Cafe",
             "link": "https://maps.app.goo.gl/khsbWzahWQ1xLqX18",
             "type": {
-              "da": "",
+              "da": "Kaffebar",
               "en": ""
             },
             "description": {
@@ -2126,8 +2132,8 @@
             "name": "The Spicy",
             "link": "https://maps.app.goo.gl/GiwVqb2VVhqpBQ5d6",
             "type": {
-              "da": "Klub",
-              "en": "Club"
+              "da": "Bar / Klub",
+              "en": "Bar / Club"
             },
             "description": {
               "da": [
@@ -2197,7 +2203,7 @@
             }
           },
           {
-            "name": "S.K. House",
+            "name": "S. K. House",
             "time_spent": {
               "da": "2 nætter",
               "en": "2 nights"
@@ -5371,7 +5377,7 @@
               "en": [
                 "It is free",
                 "Must must go here!",
-                "You have to walk down to the beach even though it's a long trip",
+                "You have to walk down to the beach even though it's a long trip"
               ]
             }
           },
