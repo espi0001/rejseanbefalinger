@@ -1,13 +1,26 @@
+<!--
+  NAVBAR.HTML
+  Fælles topmenu, inkluderet i layout.html på alle sider.
+  Indeholder: logo (link til forsiden), hovedmenu og sprogskifter.
+-->
 <header class="site-header">
   <div class="wrap site-header__inner">
+
+    <!-- Logo/sidenavn, linker altid til forsiden -->
     <a class="logo" href="{{ url_for('index') }}">{{ t('site_name') }}</a>
 
+    <!-- Hovedmenu: forside + link ned til destinations-sektionen på forsiden -->
     <nav class="site-nav" aria-label="Main">
       <a href="{{ url_for('index') }}">{{ t('nav_home') }}</a>
       <a href="{{ url_for('index') }}#destinations">{{ t('nav_destinations') }}</a>
     </nav>
 
+    <!-- Højre side: sprogskifter (dansk/engelsk) -->
     <div class="header-actions">
+      <!--
+          Linker til samme funktion "set_lang" med det andet sprog (other_lang), så man kan skifte frem og tilbage mellem sprog. 
+          "lang" og "other_lang" leveres nok globalt via en Flask context processor, så de findes på alle sider uden at skulle sendes med fra hver route.
+      -->
       <a class="lang-switch" href="{{ url_for('set_lang', lang_code=other_lang) }}" aria-label="{{ t('language') }}">
         {{ lang | upper }} / {{ other_lang | upper }}
       </a>

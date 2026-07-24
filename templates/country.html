@@ -1,8 +1,19 @@
+<!-- 
+  COUNTRY.HTML
+    Landeside (fx "Thailand"). Viser generelle rejsetips, mad, drikke og en oversigt over byerne i landet.
+    Arver fra layout.html.
+-->
 {% extends "layout.html" %}
 {% from "_macros.html" import render_list %}
 
 {% block title %}{{ country_name }} — {{ t('site_name') }}{% endblock %}
 
+<!-- 
+  HERO-SEKTION
+    - "Tilbage til forsiden"-link
+    - Landekode + antal byer ("stops")
+    - Overskrift med landenavn
+-->
 {% block hero %}
 <section class="hero hero--detail">
   <div class="hero__overlay"></div>
@@ -17,6 +28,11 @@
 {% block content %}
 <div class="wrap page-layout">
   <div class="page-main">
+    <!-- 
+      SEKTION: Generelle tips til landet
+        Hver "tip" kan have både tekst (tip.text, en liste) og
+        evt. app-anbefalinger (tip.downloads), fx "download Grab".
+    -->
     {% if tips %}
     <section class="section-card">
       <span class="eyebrow">{{ t('tips_title') }}</span>
@@ -25,6 +41,9 @@
       <div class="tip-block">
         {{ render_list(tip.text) }}
         {% if tip.downloads %}
+        <!-- 
+          Viser app-navnet på det aktuelle sprog hvis muligt, ellers falder vi tilbage til det rå app.name
+        -->
         <div class="app-links">
           <span class="app-links__label">{{ t('apps_title') }}</span>
           {% for app in tip.downloads %}
@@ -39,6 +58,10 @@
     </section>
     {% endif %}
 
+    <!-- 
+      SEKTION: Mad
+      Simpel liste af "chips" (piller/badges) med retter/madtyper. 
+    -->
     {% if food %}
     <section class="section-card">
       <span class="eyebrow">{{ t('food_title') }}</span>
@@ -50,7 +73,11 @@
       </div>
     </section>
     {% endif %}
-
+    
+    <!-- 
+      SEKTION: Drikke
+      Samme mønster som mad-sektionen.
+    -->
     {% if drinks %}
     <section class="section-card">
       <span class="eyebrow">{{ t('drinks_title') }}</span>
@@ -63,13 +90,19 @@
     </section>
     {% endif %}
 
+    <!-- 
+      SEKTION: Ruten / byoversigt
+      Viser ALLE byer i landet som kort i et grid.
+      - Hvis byen har indhold (city.has_content), er kortet klikbart og linker til city.html for den by.
+      - Hvis ikke, får kortet class "city-card--stub" (gråtonet/udtonet look) og linker til "#" (ingen destination endnu), med teksten "coming_soon" i stedet for "view_guide".
+    -->
     <section class="section-card">
       <span class="eyebrow">{{ t('route_subtitle') }}</span>
       <h2>{{ t('route_title') }}</h2>
       <div class="city-grid">
         {% for city in cities %}
         <a class="city-card {% if not city.has_content %}city-card--stub{% endif %}"
-           href="{{ url_for('city', country_slug=country_slug, city_slug=city.slug) if city.has_content else '#' }}">
+          href="{{ url_for('city', country_slug=country_slug, city_slug=city.slug) if city.has_content else '#' }}">
           <span class="city-card__name">{{ city.name }}</span>
           <span class="city-card__tag">
             {% if city.has_content %}{{ t('view_guide') }}{% else %}{{ t('coming_soon') }}{% endif %}

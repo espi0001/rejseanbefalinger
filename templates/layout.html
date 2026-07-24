@@ -1,23 +1,40 @@
+<!--
+  LAYOUT.HTML
+  Dette er "base-skabelonen" som alle andre sider (index, country, city) arver fra via {% extends "layout.html" %}.
+  Den indeholder den fælles HTML-struktur: <head>, navbar, footer, fonte og scripts, så vi ikke skal gentage det på hver side.
+
+  De andre skabeloner fylder blot indholdet ud i de "blocks" der er defineret her (title, hero, content).
+-->
 <!DOCTYPE html>
 <html lang="{{ lang }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- title-blokken kan overskrives af child-templates, ellers bruges site_name som fallback -->
   <title>{% block title %}{{ t('site_name') }}{% endblock %}</title>
+  
+  <!-- Preconnect gør at browseren opretter forbindelse til Google Fonts tidligere -> hurtigere loading -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
+  <!-- navbar -->
   {% include "navbar.html" %}
 
+  <!-- hero-blokken: hver side (index/country/city) definerer sit eget banner her -->
   {% block hero %}{% endblock %}
 
   <main class="main">
+    <!-- content-blokken: selve sideindholdet, unikt for hver side -->
     {% block content %}{% endblock %}
   </main>
 
+  <!-- Footer -->
   {% include "footer.html" %}
 
   <script src="{{ url_for('static', filename='js/main.js') }}"></script>
