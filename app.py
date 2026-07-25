@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, session, redirect, url_for
 import json
+import os
 
 from helpers import (
     city_has_content,
@@ -15,9 +16,27 @@ from i18n import t
 app = Flask(__name__)
 app.secret_key = "rejseguide-dev-key"
 
-# Alt rejsedata (lande, byer, tips, mad osv.) hentes én gang ved opstart
-with open("data.json", "r", encoding="utf-8") as f:
-    DATA = json.load(f)
+# Alt rejsedata (lande, byer, tips, mad osv.). Genindlæses automatisk når
+# data.json ændres på disk, så redigeringer ses uden at genstarte serveren
+DATA_PATH = "data.json"
+DATA = {}
+_data_mtime = None
+
+
+def load_data():
+    global DATA, _data_mtime
+    with open(DATA_PATH, "r", encoding="utf-8") as f:
+        DATA = json.load(f)
+    _data_mtime = os.path.getmtime(DATA_PATH)
+
+
+load_data()
+
+
+@app.before_request
+def reload_data_if_changed():
+    if os.path.getmtime(DATA_PATH) != _data_mtime:
+        load_data()
 
 # Landekoder brugt som badges i UI'et
 COUNTRY_CODES = {
@@ -65,6 +84,11 @@ def set_lang(lang_code):
     if lang_code in ("da", "en"):
         session["lang"] = lang_code
     return redirect(request.referrer or url_for("index"))
+
+
+@app.route("/kontakt")
+def contact():
+    return render_template("contact.html")
 
 
 @app.route("/")

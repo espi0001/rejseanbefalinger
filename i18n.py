@@ -63,6 +63,15 @@ UI = {
         "en": "Notes coming soon — check back later.",
     },
     "related_cities": {"da": "Andre byer", "en": "Other cities"},
+    "contact_eyebrow": {"da": "Følg med", "en": "Follow along"},
+    "contact_subtitle": {
+        "da": "Find mig på sociale medier, eller send en mail.",
+        "en": "Find me on social media, or send an email.",
+    },
+    "contact_placeholder_note": {
+        "da": "Husk at rette linkene herunder til dine egne, i templates/contact.html.",
+        "en": "Remember to update the links below to your own, in templates/contact.html.",
+    },
 }
 
 

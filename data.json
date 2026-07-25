@@ -7701,10 +7701,7 @@
         ]
       },
       "sydney": {
-        "name": {
-          "da": "Sydney",
-          "en": "Sydney"
-        },
+        "name": { "da": "Sydney", "en": "Sydney" },
         "link": "https://maps.app.goo.gl/NgVQ35DY2Js1hkARA",
         "when_visited": {
           "da": "4 marts - 2023",
@@ -7849,14 +7846,39 @@
           },
           {
             "name": "Hyde Park",
-            "link": "https://maps.app.goo.gl/MUPbVgmmZomPPx3z5",
+            "link": "https://maps.app.goo.gl/SJPfuMq57GZZ4EJU9",
             "type": {
               "da": "Park",
               "en": "Park"
             },
+            "when_visited": {
+              "da": "7 marts 2023",
+              "en": "Marts 7 2023"
+            },
             "description": {
               "da": [],
               "en": []
+            },
+            "images": []
+          },
+          {
+            "name": "St Mary's Cathedral",
+            "link": "https://maps.app.goo.gl/ELntwPVrtMdQBKdC6",
+            "type": {
+              "da": "Kirke",
+              "en": "Church"
+            },
+            "when_visited": {
+              "da": "7 marts 2023",
+              "en": "Marts 7 2023"
+            },
+            "description": {
+              "da": [
+                "Katolsk katedral"
+              ],
+              "en": [
+                "Catholic Church"
+              ]
             },
             "images": []
           },
@@ -8111,26 +8133,17 @@
           {
             "name": "Bondi Icebergs Club",
             "link": "https://maps.app.goo.gl/ckZHYMxJYDgfH8bQ8",
-            "type": {
-              "da": [
-                "Svømmeklub",
-                "Lige ved Bondi Beach"
-              ],
-              "en": [
-                "Swimming club",
-                "Right next to Bondi Beach"
-              ]
-            },
+            "type": { "da": "Svømmeklub", "en": "Swimming club" },
             "when_visited": {
-              "da": "6 marts - 2023",
-              "en": "Marts 6 - 2023"
+              "da": "6 marts 2023",
+              "en": "Marts 6 2023"
             },
             "description": {
               "da": [
-                "Meget nice"
+                "Meget nice", "Lige ved Bondi Beach"
               ],
               "en": [
-                "Very nice"
+                "Very nice", "Right next to Bondi Beach"
               ]
             },
             "images": []
@@ -8138,10 +8151,7 @@
           {
             "name": "Bondi Icebergs Pool",
             "link": "https://maps.app.goo.gl/9YBsrtBy2BGyz3so6",
-            "type": {
-              "da": "Swimmingpool",
-              "en": "Swimmingpool"
-            },
+            "type": { "da": "Swimmingpool", "en": "Swimmingpool" },
             "description": {
               "da": [],
               "en": []
@@ -8164,12 +8174,13 @@
           {
             "name": "Sydney Opera House",
             "link": "https://maps.app.goo.gl/uK3q6pSLT4NZcP837",
-            "type": {
-              "da": "Teater",
-              "en": "Theater"
+            "type": { "da": "Teater", "en": "Theater" },
+            "when_visited": {
+              "da": "7 marts 2023",
+              "en": "Marts 7 2023"
             },
             "description": {
-              "da": [],
+              "da": ["Operahuset i Sydney", "Designet af en dansker", "Nemt at komme hertil fra Circular Quay"],
               "en": []
             },
             "images": []
@@ -8177,13 +8188,10 @@
           {
             "name": "Queens Beach Viewpoint",
             "link": "https://maps.app.goo.gl/qyRT3Nat24LNAfZm8",
-            "type": {
-              "da": "Viewpoint",
-              "en": "Viewpoint"
-            },
+            "type": { "da": "Viewpoint", "en": "Viewpoint" },
             "when_visited": {
-              "da": "5 marts - 2023",
-              "en": "Marts 5 - 2023"
+              "da": "5 marts 2023",
+              "en": "Marts 5 2023"
             },
             "description": {
               "da": [
@@ -8245,8 +8253,12 @@
               "da": "",
               "en": ""
             },
+            "when_visited": {
+              "da": "7 marts 2023",
+              "en": "Marts 7 2023"
+            },
             "description": {
-              "da": [],
+              "da": ["Flot område med udsigt til vandet i indre Sydney", "Minder lidt om KBH på nogle punkter"],
               "en": []
             },
             "images": []
@@ -8254,12 +8266,13 @@
           {
             "name": "The Rocks",
             "link": "https://maps.app.goo.gl/qNDHFa6rnMzmMyBN9",
-            "type": {
-              "da": "",
-              "en": ""
+            "type": { "da": "Kvater", "en": "Quarter" },
+            "when_visited": {
+              "da": "7 marts 2023",
+              "en": "Marts 7 2023"
             },
             "description": {
-              "da": [],
+              "da": ["Man kan se Sydney Harbour Bridge herfra"],
               "en": []
             },
             "images": []
@@ -8271,8 +8284,12 @@
               "da": "",
               "en": ""
             },
+            "when_visited": {
+              "da": "7 marts 2023",
+              "en": "Marts 7 2023"
+            },
             "description": {
-              "da": [],
+              "da": ["Metroen ligger perfekt her"],
               "en": []
             },
             "images": []
@@ -8299,28 +8316,92 @@
             "images": []
           },
           {
-            "name": "Daytrip til Manley",
-            "link": "https://maps.app.goo.gl/jT6PD5SfVGeoux5w5",
-            "type": {
-              "da": "",
-              "en": ""
+            "name": "Daytrip til Manly",
+            "link": "https://maps.app.goo.gl/JVoj69jSNAEREK3GA",
+            "type": { "da": "", "en": "" },
+            "when_visited": {
+              "da": "8 marts 2023",
+              "en": "Marts 8 2023"
             },
             "description": {
-              "da": [
-                "God måde til at se operahuset og broen"
-              ],
-              "en": [
-                "Good way to see the opera house and the bridge"
-              ]
+              "da": ["God måde til at se operahuset og broen"],
+              "en": ["Good way to see the opera house and the bridge"]
             },
             "images": []
           },
           {
-            "name": "Manly to Spit coastal walk",
+            "name": "Manly To Spit Bridge Coastal Walk",
             "link": "https://maps.app.goo.gl/6tppPeATo3SGuwAn9",
-            "type": {
-              "da": "",
-              "en": ""
+            "type": { "da": "Beskyttet naturområde", "en": "" },
+            "description": {
+              "da": [],
+              "en": []
+            },
+            "images": []
+          },
+          {
+            "name": "Manly Beach",
+            "link": "https://maps.app.goo.gl/dSy26YoHxzkQiYB87",
+            "type": { "da": "Strand", "en": "Beach" },
+            "when_visited": {
+              "da": "8 marts 2023",
+              "en": "Marts 8 2023"
+            },
+            "description": {
+              "da": [],
+              "en": []
+            },
+            "images": []
+          },
+          {
+            "name": "Shelly Beach (Manly)",
+            "link": "https://maps.app.goo.gl/Ju3UhJsKWCHvhercA",
+            "type": { "da": "Strand", "en": "Beach" },
+            "when_visited": {
+              "da": "8 marts 2023",
+              "en": "Marts 8 2023"
+            },
+            "description": {
+              "da": [],
+              "en": []
+            },
+            "images": []
+          },
+          {
+            "name": "Flower Bower Beach (Manly)",
+            "link": "https://maps.app.goo.gl/7sAy9fqREkgnEqZc6",
+            "type": { "da": "Strand", "en": "Beach" },
+            "when_visited": {
+              "da": "8 marts 2023",
+              "en": "Marts 8 2023"
+            },
+            "description": {
+              "da": [],
+              "en": []
+            },
+            "images": []
+          },
+          {
+            "name": "Flower Bower Rockpool (Manly)",
+            "link": "https://maps.app.goo.gl/jfkA5XuYD6DSCM1J6",
+            "type": { "da": "Swimmingpool", "en": "Pool" },
+            "when_visited": {
+              "da": "8 marts 2023",
+              "en": "Marts 8 2023"
+            },
+            "description": {
+              "da": [],
+              "en": []
+            },
+            "images": []
+          },
+          {
+            "name": "Cabbage Tree Bay Aquatic Reserve (Manly)",
+            "link": "https://maps.app.goo.gl/8Q4Ybd96HkNyEKC77",
+            "type": { "da": "Seværdighed", "en": "Attraction" },
+            "when_visited": {
+              "da": "8 marts 2023",
+              "en": "Marts 8 2023"
             },
             "description": {
               "da": [],
@@ -8330,96 +8411,164 @@
           }
         ],
         "byen": [
-          "Bars",
-          "Clubs"
+          {
+            "name": "Old Mate's Place",
+            "link": "https://maps.app.goo.gl/SYxYcQF1qxHDpkmv8",
+            "type": { "da": "Bar", "en": "Bar" },
+            "when_visited": {
+              "da": "7 marts 2023",
+              "en": "Marts 7 2023"
+            },
+            "description": {
+              "da": ["Secret bar"],
+              "en": ["Secret bar"]
+            },
+            "images": []
+          },
+          {
+            "name": "The Baxter Inn",
+            "link": "https://maps.app.goo.gl/UgU1LgT8XEnj5Ev19",
+            "type": { "da": "Bar", "en": "Bar" },
+            "when_visited": {
+              "da": "7 marts 2023",
+              "en": "Marts 7 2023"
+            },
+            "description": {
+              "da": ["Secret bar"],
+              "en": ["Secret bar"]
+            },
+            "images": []
+          },
+          {
+            "name": "Establishment Bar",
+            "link": "https://maps.app.goo.gl/omY2fQ8dhHxFkKbS8",
+            "type": { "da": "Bar", "en": "Bar" },
+            "when_visited": {
+              "da": "7 marts 2023",
+              "en": "Marts 7 2023"
+            },
+            "description": {
+              "da": ["Bliver lidt til en klub om aftenen", "Der er latina dage", "De forskellige dage har forskellige temaer"],
+              "en": [""]
+            },
+            "images": []
+          }
         ],
         "restaurants": [
           {
             "name": "Bangkok Bites",
             "link": "https://maps.app.goo.gl/3ZuvHd4goW2dfw6v5",
-            "type": {
-              "da": "Restaurant",
-              "en": "Restaurant"
+            "type": { "da": "Restaurant", "en": "Restaurant" },
+            "when_visited": {
+              "da": "",
+              "en": ""
             },
             "description": {
-              "da": [
-                "God Thai mad"
-              ],
-              "en": [
-                "Good Thai food"
-              ]
+              "da": ["God Thai mad"],
+              "en": ["Good Thai food"]
             },
             "images": []
           },
           {
             "name": "Gelato Messina Bondi",
             "link": "https://maps.app.goo.gl/P5FjC4otNumzkdhv9",
-            "type": {
-              "da": "Is sted",
-              "en": "Ice cream place"
+            "type": { "da": "Is sted", "en": "Ice cream place" },
+            "when_visited": {
+              "da": "8 marts 2023",
+              "en": "Marts 8 2023"
             },
             "description": {
-              "da": [
-                "Fråderen is"
-              ],
-              "en": [
-                "Very good ice cream"
-              ]
+              "da": ["Fråderen is"],
+              "en": ["Very good ice cream"]
             },
             "images": []
           },
           {
             "name": "The Grumpy Baker",
             "link": "https://maps.app.goo.gl/RLied2bEhuv1oaZh8",
-            "type": {
-              "da": "Bageri",
-              "en": "Bakery"
-            },
+            "type": { "da": "Bageri", "en": "Bakery" },
             "when_visited": {
               "da": "5 marts 2023",
               "en": "Marts 5 2023"
             },
             "description": {
-              "da": [
-                "Det er vidst et ret populært sted",
-                "Spis deres pies med bbq sauce"
-              ],
-              "en": [
-                ""
-              ]
+              "da": ["Det er vidst et ret populært sted", "Spis deres pies med bbq sauce"],
+              "en": [""]
             },
             "images": []
           },
           {
             "name": "My Little Israel",
             "link": "",
-            "type": {
-              "da": "",
-              "en": ""
-            },
+            "type": { "da": "", "en": "" },
             "description": {
-              "da": [
-                ""
-              ],
-              "en": [
-                ""
-              ]
+              "da": [""],
+              "en": [""]
             },
             "images": []
           },
           {
             "name": "Tamarama Beach Kiosk",
             "link": "https://maps.app.goo.gl/YKqt5E9KVSZEa2j36",
-            "type": {
-              "da": "Café",
-              "en": "Café"
+            "type": { "da": "Café", "en": "Café" },
+            "when_visited": {
+              "da": "6 marts 2023",
+              "en": "Marts 6 2023"
+            },
+            "description": {
+              "da": ["Lige ved Tamarama Beach"],
+              "en": ["Right at Tamarama Beach"]
+            },
+            "images": []
+          },
+          {
+            "name": "The Italian Bowl",
+            "link": "https://maps.app.goo.gl/9pPzi9PnUqcKczSv6",
+            "type": { "da": "Restaurant", "en": "Restaurant" },
+            "when_visited": {
+              "da": "6 marts 2023",
+              "en": "Marts 6 2023"
+            },
+            "description": {
+              "da": ["Italiensk restaurant", "Man kan BYO"],
+              "en": ["Italian restaurant", "You can BYO"]
+            },
+            "images": []
+          },
+          {
+            "name": "Min Young To",
+            "link": "https://maps.app.goo.gl/x1ffBSYGEQaVx81Q7",
+            "type": { "da": "Restaurant", "en": "Restaurant" },
+            "when_visited": {
+              "da": "7 marts 2023",
+              "en": "Marts 7 2023"
             },
             "description": {
               "da": [
-                "Lige ved Tamarama Beach"
+                "Asiatisk restaurant",
+                "Man kan BYO"
               ],
               "en": [
-                "Right at Tamarama Beach"
+                "Asian restaurant",
+                "You can BYO"
+              ]
+            },
+            "images": []
+          },
+          {
+            "name": "The Boathouse Shelly Beach (Manly)",
+            "link": "https://maps.app.goo.gl/PnrsFMBSNgJ8ESbM6",
+            "type": { "da": "Café", "en": "Café" },
+            "when_visited": {
+              "da": "8 marts 2023",
+              "en": "Marts 8 2023"
+            },
+            "description": {
+              "da": [
+                "Sød cafe ved Shelly Beach"
+              ],
+              "en": [
+                "Asian restaurant"
               ]
             },
             "images": []
@@ -8427,25 +8576,7 @@
         ],
         "accommodation": [
           {
-            "name": "Hos venner",
-            "time_spent": {
-              "da": "",
-              "en": ""
-            },
-            "link": "",
-            "pros": {
-              "da": [],
-              "en": []
-            },
-            "cons": {
-              "da": [],
-              "en": []
-            },
-            "type": {
-              "da": "",
-              "en": ""
-            },
-            "images": []
+            "name": "Hos venner"
           }
         ],
         "not_done": [
@@ -8467,10 +8598,7 @@
         ]
       },
       "byron_bay": {
-        "name": {
-          "da": "Byron Bay",
-          "en": "Byron Bay"
-        },
+        "name": { "da": "Byron Bay", "en": "Byron Bay" },
         "link": "https://maps.app.goo.gl/nZDivwv2kqLow5jk6",
         "tips": [],
         "activities": [
@@ -8719,10 +8847,7 @@
         ]
       },
       "cairns": {
-        "name": {
-          "da": "Cairns",
-          "en": "Cairns"
-        },
+        "name": { "da": "Cairns", "en": "Cairns" },
         "link": "https://maps.app.goo.gl/Eb5HrRXUoY83LEteA",
         "when_visited": {
           "da": "23-28 marts 2023",
@@ -8945,11 +9070,12 @@
         ]
       },
       "currarong": {
-        "name": {
-          "da": "Currarong",
-          "en": "Currarong"
-        },
+        "name": { "da": "Currarong", "en": "Currarong" },
         "link": "https://maps.app.goo.gl/Qau49FD1A7nGPUDz6",
+        "when_visited": {
+          "da": "11 marts - 2023",
+          "en": "Marts 11 - 2023"
+        },
         "tips": [],
         "activities": [
           {
@@ -8960,14 +9086,8 @@
               "en": "Beach"
             },
             "description": {
-              "da": [
-                "Godt surf spot",
-                "Lidt svært at komme derhen"
-              ],
-              "en": [
-                "Good surf spot",
-                "A bit difficult to get there"
-              ]
+              "da": ["Godt surf spot", "Lidt svært at komme derhen"],
+              "en": ["Good surf spot", "A bit difficult to get there"]
             },
             "images": []
           }
@@ -8996,12 +9116,8 @@
               "en": ""
             },
             "description": {
-              "da": [
-                ""
-              ],
-              "en": [
-                ""
-              ]
+              "da": [""],
+              "en": [""]
             },
             "images": []
           }
@@ -9019,17 +9135,11 @@
               "en": "Holiday home"
             },
             "pros": {
-              "da": [
-                "Meget stort med mange værelser"
-              ],
-              "en": [
-                "Very large with many rooms"
-              ]
+              "da": ["Meget stort med mange værelser"],
+              "en": ["Very large with many rooms"]
             },
             "cons": {
-              "da": [
-                ""
-              ],
+              "da": [""],
               "en": []
             },
             "images": []

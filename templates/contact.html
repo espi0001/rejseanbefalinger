@@ -1,0 +1,47 @@
+
+{% extends "layout.html" %}
+
+{% block title %}{{ t('footer_contact') }} — {{ t('site_name') }}{% endblock %}
+
+
+{% block hero %}
+<section class="hero hero--detail">
+  <div class="hero__overlay"></div>
+  <div class="wrap hero__content">
+    <span class="eyebrow">{{ t('contact_eyebrow') }}</span>
+    <h1>{{ t('footer_contact') }}</h1>
+    <p class="hero__lead">{{ t('contact_subtitle') }}</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="wrap">
+    {# PLACEHOLDER: ret href og synlig tekst til dine egne links/handle/mail herunder #}
+    <div class="social-grid">
+      <a class="social-card" href="https://instagram.com/DIT_BRUGERNAVN" target="_blank" rel="noopener noreferrer">
+        <span class="social-card__icon" aria-hidden="true">📷</span>
+        <span class="social-card__label">Instagram</span>
+        <span class="social-card__handle">@DIT_BRUGERNAVN</span>
+      </a>
+      <a class="social-card" href="https://tiktok.com/@DIT_BRUGERNAVN" target="_blank" rel="noopener noreferrer">
+        <span class="social-card__icon" aria-hidden="true">🎵</span>
+        <span class="social-card__label">TikTok</span>
+        <span class="social-card__handle">@DIT_BRUGERNAVN</span>
+      </a>
+      <a class="social-card" href="https://facebook.com/DIT_BRUGERNAVN" target="_blank" rel="noopener noreferrer">
+        <span class="social-card__icon" aria-hidden="true">👍</span>
+        <span class="social-card__label">Facebook</span>
+        <span class="social-card__handle">DIT_BRUGERNAVN</span>
+      </a>
+      <a class="social-card" href="mailto:din@email.dk">
+        <span class="social-card__icon" aria-hidden="true">✉️</span>
+        <span class="social-card__label">E-mail</span>
+        <span class="social-card__handle">din@email.dk</span>
+      </a>
+    </div>
+    <p class="social-note">{{ t('contact_placeholder_note') }}</p>
+  </div>
+</section>
+{% endblock %}
