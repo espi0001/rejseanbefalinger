@@ -1,24 +1,11 @@
-<!-- 
-  CITY.HTML
-  Dette er by-siden (fx "Bangkok" under "Thailand").
-  Arver fra layout.html (fælles header/footer/struktur).
-  Henter render_list/place_card/activity_card fra _macros.html.
 
-  "with context" betyder at macroerne får adgang til de samme globale funktioner/variabler som denne fil har (fx t() og localized()), uden vi behøver sende dem med som argumenter.
--->
 {% extends "layout.html" %}
 {% from "_macros.html" import render_list, place_card, activity_card with context %}
 
-<!-- Titel i browser-fanen: "Byens navn — Landets navn — Sitenavn" -->
 {% block title %}{{ city_name }} — {{ country_name }} — {{ t('site_name') }}{% endblock %}
 
 
-<!--  
-  HERO-SEKTION (topbillede/banner)
-  - "Tilbage til [land]"-link øverst
-  - Landekode + bynavn som lille "eyebrow"-tekst
-  - Stor overskrift med bynavnet 
--->
+
 {% block hero %}
 <section class="hero hero--detail">
   <div class="hero__overlay"></div>
@@ -35,11 +22,7 @@
 {% block content %}
 <div class="wrap page-layout page-layout--with-sidebar">
   <div class="page-main">
-    <!-- 
-      SEKTION: Tips
-      Vises kun hvis city_tips findes. Looper igennem hver
-      tip-liste og render den som punktliste.
-    -->
+    {# Byens rejsetips #}
     {% if city_tips %}
     <section class="section-card" id="tips">
       <span class="eyebrow">{{ t('tips_title') }}</span>
@@ -50,11 +33,7 @@
     </section>
     {% endif %}
 
-    <!-- 
-      SEKTION: Aktiviteter ("See & Do")
-      Looper igennem city.activities og bruger activity_card
-      macroen til at vise hver aktivitet i et grid.
-    -->
+    {# Aktiviteter/seværdigheder, vist med activity_card-makroen #}
     {% if city.activities %}
     <section class="section-card" id="activities">
       <span class="eyebrow">{{ t('see_and_do') }}</span>
@@ -67,11 +46,7 @@
     </section>
     {% endif %}
 
-    <!-- 
-      SEKTION: Natteliv
-      "byen" = navnet på nøglen i JSON-strukturen for natteliv.
-      Bruger place_card macroen.
-    -->
+    {# Natteliv, vist med place_card-makroen #}
     {% if city.byen %}
     <section class="section-card" id="nightlife">
       <span class="eyebrow">{{ t('nightlife') }}</span>
@@ -84,9 +59,7 @@
     </section>
     {% endif %}
 
-    <!-- 
-      SEKTION: Restauranter
-    -->
+    {# Restauranter, vist med place_card-makroen #}
     {% if city.restaurants %}
     <section class="section-card" id="restaurants">
       <span class="eyebrow">{{ t('restaurants') }}</span>
@@ -99,10 +72,7 @@
     </section>
     {% endif %}
 
-    <!-- 
-      SEKTION: Overnatning
-      Her bygges kortet direkte i stedet for at bruge en macro, fordi hoteller har ekstra felter (pros/cons + antal nætter) som ikke passer ind i place_card-strukturen.
-    -->
+    {# Overnatning med fordele/ulemper for hvert hotel #}
     {% if city.accommodation %}
     <section class="section-card" id="accommodation">
       <span class="eyebrow">{{ t('accommodation') }}</span>
@@ -113,7 +83,6 @@
         <article class="hotel-card">
           <div class="hotel-card__head">
             <h3>{{ hotel.name }}</h3>
-            <!-- time_spent er en liste (localized), vi viser kun første element, fx "3 nætter" -->
             {% set nights = localized(hotel.time_spent) %}
             {% if nights %}
             <span class="hotel-card__nights">{{ nights[0] }}</span>
@@ -125,7 +94,6 @@
             {{ t('view_map') }}
           </a>
           {% endif %}
-          <!-- To kolonner: fordele og ulemper, hver med sin egen liste -->
           <div class="pros-cons">
             <div>
               <h4>{{ t('pros') }}</h4>
@@ -144,11 +112,7 @@
     {% endif %}
   </div>
 
-  <!-- SIDEBAR (højre kolonne)
-    1) Hurtig-navigation med ankerlinks (#tips, #activities osv.)
-      - vises kun for de sektioner der faktisk findes på siden
-    2) "Relaterede byer" - links til andre byer i samme land 
-  -->
+  {# Sidebar: springmenu til sektioner på siden + links til andre byer #}
   <aside class="sidebar">
     <div class="sidebar-card">
       <h3>{{ t('quick_nav') }}</h3>

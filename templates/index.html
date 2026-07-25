@@ -1,15 +1,9 @@
-<!-- 
-  INDEX.HTML
-    Arver fra layout.html og viser en oversigt over alle destinationer (lande).
--->
+
 {% extends "layout.html" %}
 
 {% block title %}{{ t('site_name') }}{% endblock %}
 
-<!-- 
-  HERO-SEKTION (topbanner på forsiden)
-  Simpel: eyebrow-tekst, stor titel og underoverskrift. 
--->
+
 {% block hero %}
 <section class="hero hero--home">
   <div class="hero__overlay"></div>
@@ -22,7 +16,6 @@
 {% endblock %}
 
 {% block content %}
-<!-- id="destinations" bruges som ankerpunkt fra navbar/footer-links (#destinations) -->
 <section class="section" id="destinations">
   <div class="wrap">
     <div class="section-head">
@@ -31,17 +24,10 @@
       <p>{{ t('destinations_subtitle') }}</p>
     </div>
 
-    <!-- 
-      GRID med destinations-kort (ét kort per land).
-      destinations kommer fra Flask-routen (en liste af dicts med slug, code, name, city_count, has_content).
-    -->
+    {# Ét kort pr. land fra app.py's "destinations"-liste #}
     <div class="destination-grid">
       {% for dest in destinations %}
-      <!-- 
-        Hvis landet har indhold (has_content), er kortet klikbart
-        og linker til landesiden. Hvis ikke, er det "dæmpet"
-        (class destination-card--muted) og linker til "#".
-      -->
+      {# Uden indhold peger kortet ingen steder og viser "coming soon" #}
       <a class="destination-card {% if not dest.has_content %}destination-card--muted{% endif %}"
         href="{{ url_for('country', country_slug=dest.slug) if dest.has_content else '#' }}">
         <div class="destination-card__badge">{{ dest.code }}</div>
@@ -49,7 +35,6 @@
           <h3>{{ dest.name }}</h3>
           <p>
             {{ dest.city_count }}
-            <!-- Ental/flertal: "1 by" vs "2 byer" -->
             {% if dest.city_count == 1 %}{{ t('city') }}{% else %}{{ t('cities') }}{% endif %}
           </p>
           <span class="btn btn--small">

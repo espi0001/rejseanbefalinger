@@ -1,9 +1,6 @@
-<!--  
-  MACRO: render_list
-  Tager en liste af tekster (items) og render en <ul> med et
-    <li> per element. Bruges fx til tips, pros/cons osv.
-      Hvis items er tom/None, render vi ingenting (undgår tom <ul>).
--->
+{# Genbrugelige komponenter delt af country.html og city.html #}
+
+{# Viser en liste af tekst-punkter (fx tips eller fordele/ulemper) #}
 {% macro render_list(items) %}
 {% if items %}
 <ul class="tip-list">
@@ -14,13 +11,7 @@
 {% endif %}
 {% endmacro %}
 
-<!-- 
-  MACRO: place_card
-    Render et "kort" for et sted (restaurant, natteliv-spot osv.)
-    - localized(item.description): henter beskrivelsen på det aktuelle sprog (dansk/engelsk) fra JSON-strukturen.
-    - Kortet vises KUN hvis der er et navn OG enten en beskrivelse eller et link (ellers ville kortet være tomt).
-    - Hvis der er et link (Google Maps fx), vises et 📍 map-link.
--->
+{# Kort til restaurant/natteliv med navn, kort-link og beskrivelse #}
 {% macro place_card(item) %}
 {% set desc = localized(item.description) %}
 {% if item.name and (desc or item.link) %}
@@ -28,31 +19,25 @@
   <div class="place-card__head">
     <h3>{{ item.name }}</h3>
     {% if item.link %}
-    <!-- Åbner kortlink i ny fane, med sikkerhed via rel="noopener noreferrer" -->
     <a class="map-link" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
       <span class="map-link__icon" aria-hidden="true">📍</span>
       {{ t('view_map') }}
     </a>
     {% endif %}
   </div>
-  <!-- Genbruger render_list-macroen til at vise beskrivelsen som punktliste -->
   {{ render_list(desc) }}
 </article>
 {% endif %}
 {% endmacro %}
 
 
-<!-- 
-  MACRO: activity_card
-    Ligner place_card, men har ekstra "media"-boks øverst (pladsholder til billede senere - viser bare "photo_soon" teksten indtil billeder er tilføjet).
-    Bemærk: her tjekkes KUN item.name, ikke desc/link som i place_card - så aktivitets-kort vises selvom der ikke er beskrivelse eller link endnu.
--->
+
+{# Kort til aktiviteter, samme som place_card men med en billed-placeholder #}
 {% macro activity_card(item) %}
 {% set desc = localized(item.description) %}
 {% if item.name %}
 <article class="activity-card">
   <div class="activity-card__media">
-    <!-- Pladsholder indtil der er rigtige billeder til aktiviteten -->
     <span>{{ t('photo_soon') }}</span>
   </div>
   <div class="activity-card__body">

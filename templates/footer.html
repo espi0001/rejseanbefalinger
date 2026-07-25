@@ -1,26 +1,17 @@
-<!--
-  FOOTER.HTML
-  inkluderes via layout.html
-  Består af 3 kolonner (brand/om, links, hjælp) + copyright-linje.
--->
+
 <footer class="site-footer">
   <div class="wrap site-footer__grid">
     
-    <!-- Kolonne 1: Logo, kort beskrivelse og sprogskifter -->
     <div class="site-footer__brand">
       <a class="logo logo--light" href="{{ url_for('index') }}">{{ t('site_name') }}</a>
       <p>{{ t('footer_about') }}</p>
 
-      <!--
-          Sprogskifter: linker til den nuværende URL men med det andet sprog (other_lang). 
-          "lang" og "other_lang" kommer sikkert fra en context processor i Flask, så de er tilgængelige på alle sider.
-      -->
+      {# Samme sprogskift som i navbaren #}
       <a class="lang-switch lang-switch--footer" href="{{ url_for('set_lang', lang_code=other_lang) }}">
         {{ lang | upper }} / {{ other_lang | upper }}
       </a>
     </div>
 
-    <!-- Kolonne 2: Links til "virksomheden" (forside + destinationer) -->
     <div>
       <h4>{{ t('footer_company') }}</h4>
       <ul class="footer-links">
@@ -29,7 +20,6 @@
       </ul>
     </div>
 
-    <!-- Kolonne 3: Hjælpe-links (kontakt/FAQ) - pt. bare "#" pladsholdere -->
     <div>
       <h4>{{ t('footer_help') }}</h4>
       <ul class="footer-links">
@@ -39,7 +29,6 @@
     </div>
   </div>
 
-  <!-- Bundlinje med copyright-tekst -->
   <div class="wrap site-footer__bottom">
     <p>{{ t('footer_copyright') }}</p>
   </div>

@@ -15,9 +15,11 @@ from i18n import t
 app = Flask(__name__)
 app.secret_key = "rejseguide-dev-key"
 
+# Alt rejsedata (lande, byer, tips, mad osv.) hentes én gang ved opstart
 with open("data.json", "r", encoding="utf-8") as f:
     DATA = json.load(f)
 
+# Landekoder brugt som badges i UI'et
 COUNTRY_CODES = {
     "thailand": "TH",
     "vietnam": "VN",
@@ -27,12 +29,14 @@ COUNTRY_CODES = {
 
 
 def get_lang():
+    # Læser valgt sprog fra session, falder tilbage til dansk
     lang = session.get("lang", "da")
     return lang if lang in ("da", "en") else "da"
 
 
 @app.context_processor
 def inject_globals():
+    # Gør sprog og oversættelsesfunktionen "t" tilgængelig i alle templates
     lang = get_lang()
     return {
         "lang": lang,
@@ -43,11 +47,13 @@ def inject_globals():
 
 @app.template_global()
 def localized(value):
+    # Henter den sprog-specifikke udgave af et data-felt inde fra templates
     return helpers.localized(value, get_lang())
 
 
 @app.before_request
 def set_language():
+    # Hvis URL'en har ?lang=da/en, gem det i sessionen før requesten behandles
     requested = request.args.get("lang")
     if requested in ("da", "en"):
         session["lang"] = requested
@@ -55,6 +61,7 @@ def set_language():
 
 @app.route("/set-lang/<lang_code>")
 def set_lang(lang_code):
+    # Skifter sprog og sender brugeren tilbage til siden de kom fra
     if lang_code in ("da", "en"):
         session["lang"] = lang_code
     return redirect(request.referrer or url_for("index"))
@@ -62,6 +69,7 @@ def set_lang(lang_code):
 
 @app.route("/")
 def index():
+    # Forsiden: bygger en liste af destinationer med navn, kode og antal byer
     lang = get_lang()
     destinations = []
     for slug, country in DATA.items():
@@ -80,6 +88,7 @@ def index():
 
 @app.route("/destination/<country_slug>")
 def country(country_slug):
+    # Landeside: viser byer, tips, mad og drikke for det valgte land
     lang = get_lang()
     country_data = DATA.get(country_slug)
     if not country_data:
@@ -95,6 +104,7 @@ def country(country_slug):
             }
         )
 
+    # Springer tips uden tekst i det aktuelle sprog over
     tips = []
     for tip in country_data.get("tips") or []:
         text = tip_text(tip, lang)
@@ -117,6 +127,7 @@ def country(country_slug):
 
 @app.route("/destination/<country_slug>/<city_slug>")
 def city(country_slug, city_slug):
+    # Byside: aktiviteter, natteliv, restauranter, overnatning og tips for én by
     lang = get_lang()
     country_data = DATA.get(country_slug)
     if not country_data:
@@ -126,6 +137,7 @@ def city(country_slug, city_slug):
     if not city_data:
         return redirect(url_for("country", country_slug=country_slug))
 
+    # Andre byer i samme land, til "relaterede byer" i sidebaren (kun dem med indhold)
     other_cities = []
     for slug, item in (country_data.get("cities") or {}).items():
         if slug == city_slug:
