@@ -11,13 +11,22 @@
 {% endif %}
 {% endmacro %}
 
-{# Kort til restaurant/natteliv med navn, kort-link og beskrivelse #}
-{% macro place_card(item) %}
+{# Første billede for et item, som en færdig static-URL, eller tomt hvis der ingen er #}
+{% macro thumb_url(item) %}{% if item.images %}{{ url_for('static', filename='images/' ~ item.images[0]) }}{% endif %}{% endmacro %}
+
+{# Kort til restaurant/natteliv: billede + navn linker til single-page, kort-link er separat #}
+{% macro place_card(item, detail_url) %}
 {% set desc = localized(item.description) %}
 {% if item.name and (desc or item.link) %}
 <article class="place-card">
   <div class="place-card__head">
-    <h3>{{ item.name }}</h3>
+    <a class="place-card__title-link" href="{{ detail_url }}">
+      {% set src = thumb_url(item) %}
+      {% if src %}
+      <span class="place-card__thumb"><img src="{{ src }}" alt="{{ item.name }}" loading="lazy"></span>
+      {% endif %}
+      <h3>{{ item.name }}</h3>
+    </a>
     {% if item.link %}
     <a class="map-link" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
       <span class="map-link__icon" aria-hidden="true">📍</span>
@@ -30,19 +39,26 @@
 {% endif %}
 {% endmacro %}
 
-
-
-{# Kort til aktiviteter, samme som place_card men med en billed-placeholder #}
-{% macro activity_card(item) %}
+{# Kort til aktiviteter: rigtigt billede hvis der er ét, ellers samme placeholder som før #}
+{% macro activity_card(item, detail_url) %}
 {% set desc = localized(item.description) %}
 {% if item.name %}
 <article class="activity-card">
-  <div class="activity-card__media">
+  <a class="activity-card__media" href="{{ detail_url }}">
+    {% set src = thumb_url(item) %}
+    {% if src %}
+    <img src="{{ src }}" alt="{{ item.name }}" loading="lazy">
+    {% else %}
     <span>{{ t('photo_soon') }}</span>
-  </div>
+    {% endif %}
+  </a>
   <div class="activity-card__body">
     <div class="place-card__head">
-      <h3>{{ item.name }}</h3>
+      <div class="activity-card__title-wrap">
+        {% set type_label = localized(item.type) %}
+        {% if type_label %}<span class="type-tag">{{ type_label[0] }}</span>{% endif %}
+        <a class="place-card__title-link" href="{{ detail_url }}"><h3>{{ item.name }}</h3></a>
+      </div>
       {% if item.link %}
       <a class="map-link" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
         <span class="map-link__icon" aria-hidden="true">📍</span>
@@ -52,6 +68,28 @@
     </div>
     {{ render_list(desc) }}
   </div>
+</article>
+{% endif %}
+{% endmacro %}
+
+{# Lille kort til mad/drikke: billede + navn linker til single-page #}
+{% macro food_card(item, detail_url) %}
+{% if item.name %}
+<article class="food-card">
+  <a class="food-card__link" href="{{ detail_url }}">
+    <span class="food-card__media">
+      {% set src = thumb_url(item) %}
+      {% if src %}
+      <img src="{{ src }}" alt="{{ item.name }}" loading="lazy">
+      {% else %}
+      <span class="food-card__media-placeholder">{{ t('photo_soon') }}</span>
+      {% endif %}
+    </span>
+    <span class="food-card__name">{{ item.name }}</span>
+  </a>
+  {% if item.link %}
+  <a class="food-card__extra-link" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ t('view_link') }}</a>
+  {% endif %}
 </article>
 {% endif %}
 {% endmacro %}

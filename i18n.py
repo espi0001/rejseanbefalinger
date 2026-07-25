@@ -1,3 +1,4 @@
+# Alle UI-tekster på dansk og engelsk, opslået via nøgle i t()
 UI = {
     "site_name": {"da": "Rejseguide", "en": "Travel Guide"},
     "nav_home": {"da": "Hjem", "en": "Home"},
@@ -37,6 +38,11 @@ UI = {
     "cons": {"da": "Minus", "en": "Cons"},
     "nights": {"da": "nætter", "en": "nights"},
     "view_map": {"da": "Se på kort", "en": "View on map"},
+    "when_visited": {"da": "Besøgt", "en": "Visited"},
+    "view_link": {"da": "Se link", "en": "View link"},
+    "gallery_prev": {"da": "Forrige billede", "en": "Previous image"},
+    "gallery_next": {"da": "Næste billede", "en": "Next image"},
+    "gallery_close": {"da": "Luk", "en": "Close"},
     "photo_soon": {"da": "Billede kommer snart", "en": "Photo coming soon"},
     "quick_nav": {"da": "Hurtig navigation", "en": "Quick navigation"},
     "footer_about": {
@@ -60,5 +66,6 @@ UI = {
 }
 
 
+# Oversætter en nøgle til det valgte sprog; falder tilbage til nøglen selv hvis den mangler
 def t(key, lang):
     return UI.get(key, {}).get(lang, key)

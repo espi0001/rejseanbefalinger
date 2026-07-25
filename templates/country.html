@@ -1,6 +1,6 @@
 
 {% extends "layout.html" %}
-{% from "_macros.html" import render_list %}
+{% from "_macros.html" import render_list, food_card with context %}
 
 {% block title %}{{ country_name }} — {{ t('site_name') }}{% endblock %}
 
@@ -43,27 +43,27 @@
     </section>
     {% endif %}
 
-    {# Mad-chips for landet #}
+    {# Mad-kort for landet, hvert kort linker til en single-page #}
     {% if food %}
     <section class="section-card">
       <span class="eyebrow">{{ t('food_title') }}</span>
       <h2>{{ t('food_title') }}</h2>
-      <div class="chip-row">
+      <div class="food-grid">
         {% for item in food %}
-        <span class="chip">{{ item }}</span>
+        {{ food_card(item, url_for('country_item', country_slug=country_slug, section='food', index=loop.index0)) }}
         {% endfor %}
       </div>
     </section>
     {% endif %}
 
-    {# Drikke-chips for landet #}
+    {# Drikke-kort for landet, hvert kort linker til en single-page #}
     {% if drinks %}
     <section class="section-card">
       <span class="eyebrow">{{ t('drinks_title') }}</span>
       <h2>{{ t('drinks_title') }}</h2>
-      <div class="chip-row">
+      <div class="food-grid">
         {% for item in drinks %}
-        <span class="chip">{{ item }}</span>
+        {{ food_card(item, url_for('country_item', country_slug=country_slug, section='drinks', index=loop.index0)) }}
         {% endfor %}
       </div>
     </section>

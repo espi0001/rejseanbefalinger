@@ -169,5 +169,90 @@ def city(country_slug, city_slug):
     )
 
 
+CITY_SECTIONS = ("activities", "byen", "restaurants", "accommodation")
+COUNTRY_SECTIONS = ("food", "drinks")
+
+# Oversættelsesnøgle for hver sektions overskrift på single-page
+SECTION_LABEL_KEYS = {
+    "activities": "activities",
+    "byen": "nightlife",
+    "restaurants": "restaurants",
+    "accommodation": "accommodation",
+    "food": "food_title",
+    "drinks": "drinks_title",
+}
+
+
+@app.route("/destination/<country_slug>/<city_slug>/<section>/<int:index>")
+def city_item(country_slug, city_slug, section, index):
+    # Single-page for én anbefaling under en by (aktivitet, byen, restaurant, overnatning)
+    if section not in CITY_SECTIONS:
+        return redirect(url_for("index"))
+
+    lang = get_lang()
+    country_data = DATA.get(country_slug)
+    if not country_data:
+        return redirect(url_for("index"))
+
+    city_data = (country_data.get("cities") or {}).get(city_slug)
+    if not city_data:
+        return redirect(url_for("country", country_slug=country_slug))
+
+    item = helpers.get_section_item(city_data.get(section), index)
+    if not item:
+        return redirect(url_for("city", country_slug=country_slug, city_slug=city_slug))
+
+    is_accommodation = section == "accommodation"
+    return render_template(
+        "item.html",
+        back_url=url_for("city", country_slug=country_slug, city_slug=city_slug),
+        back_label=localized_name(city_data.get("name"), lang) or city_slug.replace("-", " ").title(),
+        section=section,
+        section_label=t(SECTION_LABEL_KEYS[section], lang),
+        title=item.get("name") or "",
+        type_label=localized_name(item.get("type"), lang),
+        when_visited=localized_name(item.get("when_visited"), lang),
+        description=helpers.localized(item.get("description"), lang),
+        link=item.get("link"),
+        images=[url_for("static", filename="images/" + path) for path in item.get("images") or []],
+        nights=localized_name(item.get("time_spent"), lang) if is_accommodation else "",
+        pros=helpers.localized(item.get("pros"), lang) if is_accommodation else [],
+        cons=helpers.localized(item.get("cons"), lang) if is_accommodation else [],
+    )
+
+
+@app.route("/destination/<country_slug>/<section>/<int:index>")
+def country_item(country_slug, section, index):
+    # Single-page for én anbefaling under et land (mad eller drikke)
+    if section not in COUNTRY_SECTIONS:
+        return redirect(url_for("index"))
+
+    lang = get_lang()
+    country_data = DATA.get(country_slug)
+    if not country_data:
+        return redirect(url_for("index"))
+
+    item = helpers.get_section_item(country_data.get(section), index)
+    if not item:
+        return redirect(url_for("country", country_slug=country_slug))
+
+    return render_template(
+        "item.html",
+        back_url=url_for("country", country_slug=country_slug),
+        back_label=localized_name(country_data.get("name"), lang),
+        section=section,
+        section_label=t(SECTION_LABEL_KEYS[section], lang),
+        title=localized_name(item.get("name"), lang),
+        type_label="",
+        when_visited=localized_name(item.get("when_visited"), lang),
+        description=helpers.localized(item.get("description"), lang),
+        link=item.get("link"),
+        images=[url_for("static", filename="images/" + path) for path in item.get("images") or []],
+        nights="",
+        pros=[],
+        cons=[],
+    )
+
+
 if __name__ == "__main__":
     app.run(debug=True)

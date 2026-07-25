@@ -1,0 +1,82 @@
+
+{% extends "layout.html" %}
+{% from "_macros.html" import render_list %}
+
+{% block title %}{{ title }} — {{ t('site_name') }}{% endblock %}
+
+
+{% block hero %}
+<section class="hero hero--detail">
+  <div class="hero__overlay"></div>
+  <div class="wrap hero__content">
+    <a class="hero-back" href="{{ back_url }}">{{ t('back_country') }} {{ back_label }}</a>
+    <span class="eyebrow">{{ section_label }}{% if type_label %} · {{ type_label }}{% endif %}</span>
+    <h1>{{ title }}</h1>
+    {% if when_visited %}<p class="hero__meta">{{ t('when_visited') }}: {{ when_visited }}</p>{% endif %}
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<div class="wrap page-layout">
+  <div class="page-main">
+
+    {# Billedgalleri: hovedbillede + thumbnails, klik åbner fuldskærms-lightbox #}
+    {% if images %}
+    <section class="section-card gallery" data-gallery data-images='{{ images | tojson }}'>
+      <button type="button" class="gallery__main-btn" data-gallery-open>
+        <img class="gallery__main" data-gallery-main src="{{ images[0] }}" alt="{{ title }}">
+      </button>
+      {% if images|length > 1 %}
+      <div class="gallery__thumbs">
+        {% for src in images %}
+        <button type="button" class="gallery__thumb {% if loop.first %}gallery__thumb--active{% endif %}" data-gallery-thumb data-index="{{ loop.index0 }}">
+          <img src="{{ src }}" alt="">
+        </button>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </section>
+    {% endif %}
+
+    {% if description %}
+    <section class="section-card">
+      {{ render_list(description) }}
+    </section>
+    {% endif %}
+
+    {% if section == 'accommodation' %}
+    <section class="section-card">
+      {% if nights %}<p class="hotel-card__nights">{{ nights }}</p>{% endif %}
+      <div class="pros-cons">
+        <div>
+          <h4>{{ t('pros') }}</h4>
+          {{ render_list(pros) }}
+        </div>
+        <div>
+          <h4>{{ t('cons') }}</h4>
+          {{ render_list(cons) }}
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
+    {% if link %}
+    <section class="section-card">
+      <a class="map-link" href="{{ link }}" target="_blank" rel="noopener noreferrer">
+        <span class="map-link__icon" aria-hidden="true">📍</span>
+        {% if section in ('food', 'drinks') %}{{ t('view_link') }}{% else %}{{ t('view_map') }}{% endif %}
+      </a>
+    </section>
+    {% endif %}
+  </div>
+</div>
+
+{# Fuldskærms-lightbox, styret af static/js/main.js #}
+<div class="lightbox" data-lightbox hidden>
+  <button type="button" class="lightbox__close" data-lightbox-close aria-label="{{ t('gallery_close') }}">&times;</button>
+  <button type="button" class="lightbox__nav lightbox__nav--prev" data-lightbox-prev aria-label="{{ t('gallery_prev') }}">&#8249;</button>
+  <img class="lightbox__image" data-lightbox-image src="" alt="">
+  <button type="button" class="lightbox__nav lightbox__nav--next" data-lightbox-next aria-label="{{ t('gallery_next') }}">&#8250;</button>
+</div>
+{% endblock %}

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "rejseside",
+      "runtimeExecutable": "venv/bin/python",
+      "runtimeArgs": ["-c", "import app; app.app.run(port=5050, debug=True, use_reloader=False)"],
+      "port": 5050
+    }
+  ]
+}
